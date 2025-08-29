@@ -1,0 +1,59 @@
+{
+  "favorites": [
+    {
+      "stack": "item:kubejs:cobblestone_mortar{Damage:0}"
+    },
+    {
+      "stack": "item:minecraft:cobblestone"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "gtceu:stone_dust",
+        "amount": 2
+      },
+      "recipe": "minecraft:kjs/gtceu_stone_dust"
+    }
+  ],
+  "lookup_history": [
+    "item:kubejs:cobblestone_mortar{Damage:0}",
+    "item:kubejs:crude_cobblestone_hammer{Damage:0}",
+    {
+      "type": "item",
+      "id": "gtceu:stone_dust",
+      "amount": 6
+    },
+    "item:minecraft:cobblestone",
+    "item:gtceu:iron_mortar{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{Damage:0,MaxDamage:255},HideFlags:2}",
+    "item:gtceu:flint_mortar{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{Damage:0,MaxDamage:63},HideFlags:2}",
+    "item:gtceu:invar_mortar{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{Damage:0,MaxDamage:383},HideFlags:2}",
+    "item:gtceu:cobalt_brass_mortar{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{Damage:0,MaxDamage:1023},HideFlags:2}",
+    "item:gtceu:bronze_mortar{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{Damage:0,MaxDamage:191},HideFlags:2}",
+    "item:gtceu:steel_mortar{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{Damage:0,MaxDamage:511},HideFlags:2}",
+    "item:minecraft:crafting_table",
+    "item:constructionwand:core_angel",
+    "item:minecraft:cyan_carpet",
+    "item:gtceu:refined_saltpeter_ore",
+    "item:gtceu:samarium_ingot",
+    "item:gtceu:soapstone_dust",
+    {
+      "type": "item",
+      "id": "gtceu:iron_dust",
+      "amount": 16
+    },
+    "item:minecraft:gold_ingot",
+    "item:gtceu:tiny_rose_gold_dust"
+  ],
+  "craft_history": [
+    "minecraft:kjs/gtceu_stone_dust"
+  ],
+  "recipe_defaults": {
+    "added": [
+      "minecraft:kjs/gtceu_stone_dust"
+    ],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

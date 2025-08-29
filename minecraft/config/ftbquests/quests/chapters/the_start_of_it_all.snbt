@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_start_of_it_all"
+	group: "75DFBC3AD5337DEA"
+	icon: "minecraft:oak_sapling"
+	id: "5FABB3D8611879FD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This pack is a very heavy &4WIP&4."
+				""
+				"This pack is based upon harnessing the power of the ground and earth, all things starting from the rocks around you. "
+				""
+				"Another thing, this pack is meant to be played on peaceful, to avoid progression skips it is reccomended to turn off hostile mob spawning and maybe even all mob spawning in general."
+			]
+			icon: "minecraft:cobblestone"
+			id: "5A3DEEE022F87740"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67707EBA551050B2"
+				table_id: 499393389490512422L
+				type: "choice"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "You like rocks?"
+			tasks: [{
+				id: "1D8E6A866082CFDB"
+				title: "Basic info"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5A3DEEE022F87740"]
+			description: [
+				"Logs dont seem like they will be to hard but organic material as you will learn will be &4&lVERY&r&4 &fdifficult to come by in this pack."
+				""
+				"As im sure you will be learning in the upcoming gameplay."
+			]
+			id: "33F97368B98EFDD0"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Chop Chop Tree Boy"
+			tasks: [{
+				count: 16L
+				id: "243C979678B50E3A"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Chop Chop!"
+			x: 2.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["33F97368B98EFDD0"]
+			hide_until_deps_visible: false
+			id: "0E01A4FFA58C6415"
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "(insert  funny joke here)"
+			tasks: [{
+				id: "31736060E56E6400"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Getting Crafty"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A3DEEE022F87740"]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1DEC7A6BBC49AB03"
+			optional: true
+			rewards: [{
+				command: "/gamerule doMobSpawning false"
+				id: "0B7DBC33F75C85AA"
+				type: "command"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "014482F01E2DB2EF"
+				title: "Turn Of Mob Spawning"
+				type: "checkmark"
+			}]
+			x: 0.625d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5A3DEEE022F87740"]
+			icon: {
+				Count: 1
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5521CA4D28EEF199"
+			optional: true
+			rewards: [{
+				command: "/gamerule doFireTick false"
+				id: "5D04885AB6B79D0D"
+				type: "command"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "07FF5A616DEA381A"
+				title: "Turn Of Fire Tick"
+				type: "checkmark"
+			}]
+			x: 4.375d
+			y: 1.25d
+		}
+	]
+	title: "The Start Of It All"
+}
