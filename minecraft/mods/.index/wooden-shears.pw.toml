@@ -1,0 +1,16 @@
+filename = 'woodenshears-1.20.1-1.5.0.1.jar'
+name = 'Wooden Shears'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ba37b44e2a1f177d934a9085eb7aacdfe0377a91637539268a6ec2a2e6887996c85943ac0cedd7734b358ae3c66ca8f5b487963114d5a204986ccda8f6840c91'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/J3VVx8dO/versions/ilugphHX/woodenshears-1.20.1-1.5.0.1.jar'
+
+[update.modrinth]
+mod-id = 'J3VVx8dO'
+version = 'ilugphHX'

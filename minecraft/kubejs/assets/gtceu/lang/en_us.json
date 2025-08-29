@@ -1,0 +1,14 @@
+{
+  //machines
+  "gtceu.primitive_maceration": "Primitive Maceration",
+  "gtceu.thermal_generator": "Primitive Thermal Generator",
+  "gtceu.primitive_mixer": "Primitive Mixer",
+  "gtceu.primitive_extractor": "Primitive Extractor",
+
+  //fluids
+  "material.gtceu.light_stone_slurry": "Light Stone Slurry",
+  "material.gtceu.light_stone_slurry_waste": "Light Stone Slurry Waste",
+
+  //magnetic
+  "material.gtceu.low_grade_terralite" : "Low Grade Terralite"
+}

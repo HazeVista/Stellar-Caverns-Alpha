@@ -74,6 +74,7 @@
 		}
 		{
 			dependencies: ["5A3DEEE022F87740"]
+			description: ["disables mobs which in turn disables skipping progression due to mob drops."]
 			icon: {
 				Count: 1
 				id: "minecraft:golden_sword"
@@ -90,6 +91,7 @@
 			}]
 			shape: "gear"
 			size: 1.25d
+			subtitle: "The intended way"
 			tasks: [{
 				id: "014482F01E2DB2EF"
 				title: "Turn Of Mob Spawning"
@@ -100,6 +102,7 @@
 		}
 		{
 			dependencies: ["5A3DEEE022F87740"]
+			description: ["if you dont want things to be caught on fire i suppouse? idk"]
 			icon: {
 				Count: 1
 				id: "minecraft:flint_and_steel"
@@ -116,6 +119,7 @@
 			}]
 			shape: "gear"
 			size: 1.25d
+			subtitle: "IM MELTTTINGG"
 			tasks: [{
 				id: "07FF5A616DEA381A"
 				title: "Turn Of Fire Tick"
@@ -123,6 +127,25 @@
 			}]
 			x: 4.375d
 			y: 1.25d
+		}
+		{
+			dependencies: ["0E01A4FFA58C6415"]
+			description: [
+				"Your first of the primitive machines, most of them run on ULV power  excluding the extractor, which can run (some) recipes for free with no EU/t cost."
+				""
+				"This is your first step for power as well as water production."
+			]
+			id: "65AD5D9D0A0D8100"
+			shape: "rsquare"
+			subtitle: "Your first machine!"
+			tasks: [{
+				id: "42D3325047F1BEFE"
+				item: "gtceu:ulv_extractor"
+				type: "item"
+			}]
+			title: "The start of it all.."
+			x: 2.5d
+			y: 6.5d
 		}
 	]
 	title: "The Start Of It All"
