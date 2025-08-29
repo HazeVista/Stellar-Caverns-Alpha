@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/minecraft/local
+/minecraft/saves/New World
+/minecraft/xaero/world-map/New World/null/caves/0/cache_1
