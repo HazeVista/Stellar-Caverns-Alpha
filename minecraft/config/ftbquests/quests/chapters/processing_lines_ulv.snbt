@@ -1,0 +1,147 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "processing_lines_ulv"
+	group: "3F5E1E1DE358ED88"
+	id: "3E000CB487A152F8"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6A9BDB791CD31C30"
+			shape: "rsquare"
+			tasks: [{
+				id: "4A902129B5496A2E"
+				item: "gtceu:stone_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2AD204BB5E7AD30F"]
+			id: "7D1163B5675C3331"
+			shape: "diamond"
+			tasks: [{
+				id: "65291330C8FA5489"
+				item: "gtceu:copper_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AD204BB5E7AD30F"]
+			id: "45F72010116CF74C"
+			shape: "diamond"
+			tasks: [{
+				id: "4E2C18094EEA3068"
+				item: "gtceu:iron_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AD204BB5E7AD30F"]
+			id: "654FBEB4BC7BAF5A"
+			shape: "diamond"
+			tasks: [{
+				id: "3ED62B7661F691C8"
+				item: "gtceu:lead_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["490B840979565848"]
+			icon: "gtceu:concentrated_stone_slurry_bucket"
+			id: "41D293627C25FB38"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4403D2C9FBD4E75F"
+					item: "gtceu:concentrated_stone_slurry_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1B9B1CA4F585511F"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C6DA75EE0531D3F"]
+			id: "2AD204BB5E7AD30F"
+			shape: "rsquare"
+			tasks: [{
+				id: "75D699BB02D12C61"
+				item: "gtceu:concentrated_stone_slurry_residue_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2F48216DDFF172BA"
+				"6A9BDB791CD31C30"
+			]
+			icon: "gtceu:light_stone_slurry_bucket"
+			id: "490B840979565848"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5E5AC603D2DB0E0C"
+					item: "gtceu:light_stone_slurry_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "560A785460D30D79"
+					type: "checkmark"
+				}
+			]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:water_bucket"
+			id: "2F48216DDFF172BA"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "712249EA10205C66"
+					item: "minecraft:water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7334923995EAB0CE"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["41D293627C25FB38"]
+			id: "1C6DA75EE0531D3F"
+			shape: "rsquare"
+			tasks: [{
+				id: "79AFD00A582B7984"
+				item: "kubejs:stone_slurry_residue_cake"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+	]
+	title: "Processing Lines ULV"
+}

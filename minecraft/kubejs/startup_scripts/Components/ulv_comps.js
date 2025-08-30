@@ -4,10 +4,15 @@ StartupEvents.registry('item', event => {
         .tooltip('A very weak motor powered off an unknown foreign element.')
         .texture('kubejs:item/components/ulv_motor')
 
-    event.create('ulv_pump')
+    event.create('ulv_electric_pump')
         .displayName('ULV Pump')
         .tooltip('A very weak pump powered off an unknown foreign element.')
         .tooltip('This pump is not capable of pumping fluids on its own.')
         .texture('kubejs:item/components/ulv_pump')
+
+    event.create('ulv_electric_piston')
+        .displayName('ULV Electric Piston')
+        .tooltip('A very weak piston powered off an unknown foreign element.')
+        .texture('kubejs:item/components/ulv_electric_piston')
 
 });

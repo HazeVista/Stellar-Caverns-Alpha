@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
 
     })
 
-    event.shaped('kubejs:ulv_pump', [
+    event.shaped('kubejs:ulv_electric_pump', [
         ' A ',
         'BCB',
         ' A '
@@ -20,6 +20,18 @@ ServerEvents.recipes(event => {
         B: 'minecraft:deepslate',
         C: 'kubejs:ulv_magnetic_motor'
     })
+
+    event.shaped('kubejs:ulv_electric_piston', [
+        ' A ',
+        'CBC',
+        ' D '
+    ], {
+        A: 'minecraft:stone_bricks',
+        B: 'minecraft:cobblestone_wall',
+        C: 'kubejs:ulv_magnetic_motor',
+        D: 'minecraft:stone_brick_slab'
+    })
+
 });
 
 

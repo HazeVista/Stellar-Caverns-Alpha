@@ -2,13 +2,24 @@
   //machines
   "gtceu.primitive_maceration": "Primitive Maceration",
   "gtceu.thermal_generator": "Primitive Thermal Generator",
-  "gtceu.primitive_mixer": "Primitive Mixer",
+  "gtceu.primitive_mixing": "Primitive Mixer",
   "gtceu.primitive_extractor": "Primitive Extractor",
+  "gtceu.primitive_compressor": "Primitive Compressor",
+  "gtceu.primitive_centrifuge": "Primitive Centrifuge",
+  "gtceu.primitive_sifter": "Primitive Sifter",
+  "gtceu.primitive_kiln": "Primitive Kiln",
 
   //fluids
   "material.gtceu.light_stone_slurry": "Light Stone Slurry",
   "material.gtceu.light_stone_slurry_waste": "Light Stone Slurry Waste",
+  "material.gtceu.concentrated_stone_slurry": "Concentrated Stone Slurry",
 
   //magnetic
-  "material.gtceu.low_grade_terralite" : "Low Grade Terralite"
+  "material.gtceu.low_grade_terralite": "Low Grade Terralite",
+
+  //dusts
+  "material.gtceu.concentrated_stone_slurry_residue": "Concentrated Stone Slurry Residue",
+
+  //tools
+  "material.gtceu.woodest": "Wood"
 }

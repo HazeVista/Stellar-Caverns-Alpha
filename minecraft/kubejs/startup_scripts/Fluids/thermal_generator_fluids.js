@@ -7,4 +7,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 		.fluid()
 		.color(0x808080)
 
+	event.create('concentrated_stone_slurry')
+		.fluid()
+		.color(0x002445)
+
 });
