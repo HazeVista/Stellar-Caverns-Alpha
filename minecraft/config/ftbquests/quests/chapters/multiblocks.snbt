@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "multiblocks"
+	group: "47CAC09395B873F2"
+	icon: "gtceu:wetmill"
+	id: "3E88F16BC32572F6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "644306613E828D87"
+		subtitle: "Used for MV stone refinement"
+		tasks: [{
+			id: "4077B831E843CD0F"
+			item: "gtceu:wetmill"
+			type: "item"
+		}]
+		x: -8.0d
+		y: -3.0d
+	}]
+	title: "Multiblocks"
+}

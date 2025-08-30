@@ -1,0 +1,42 @@
+ServerEvents.recipes(event => {
+    event.recipes.gtceu.primitive_sifter('stone_sifting_to_terralite')
+        .itemInputs(Item.of('4x gtceu:stone_dust'))
+        .itemOutputs('gtceu:low_grade_terralite_dust')
+        .circuit(1)
+        .duration(100)
+        .EUt(4)
+
+    event.recipes.gtceu.primitive_sifter('stone_sifting_to_deepslate')
+        .itemInputs(Item.of('4x gtceu:stone_dust'))
+        .itemOutputs(Item.of('2x gtceu:deepslate_dust'))
+        .circuit(2)
+        .duration(65)
+        .EUt(4)
+
+    event.recipes.gtceu.primitive_sifter('coarse_dirt_to_dirt')
+        .itemInputs('minecraft:coarse_dirt')
+        .itemOutputs('minecraft:dirt')
+        .duration(70)
+        .EUt(4)
+
+    event.recipes.gtceu.primitive_sifter('coarse_dirt_to_saplings1')
+        .itemInputs('minecraft:coarse_dirt')
+        .circuit(1)
+        .chancedOutput('minecraft:oak_sapling', 2500, 0)
+        .chancedOutput('minecraft:spruce_sapling', 2500, 0)
+        .chancedOutput('minecraft:birch_sapling', 2500, 0)
+        .chancedOutput('minecraft:jungle_sapling', 2500, 0)
+        .duration(80)
+        .EUt(4)
+
+    event.recipes.gtceu.primitive_sifter('coarse_dirt_to_saplings2')
+        .itemInputs('minecraft:coarse_dirt')
+        .circuit(2)
+        .chancedOutput('minecraft:dark_oak_sapling', 2500, 0)
+        .chancedOutput('minecraft:acacia_sapling', 2500, 0)
+        .chancedOutput('minecraft:cherry_sapling', 2500, 0)
+        .chancedOutput('gtceu:rubber_sapling', 2500, 0)
+        .duration(80)
+        .EUt(4)
+});
+

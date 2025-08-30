@@ -1,40 +1,180 @@
 {
   "favorites": [
     {
+      "stack": "item:gtceu:ulv_output_bus"
+    },
+    {
+      "stack": "item:gtceu:ulv_input_bus"
+    },
+    {
+      "stack": "item:minecraft:iron_ingot"
+    },
+    {
       "stack": {
-        "type": "item",
-        "id": "gtceu:stone_dust",
+        "type": "tag",
+        "registry": "minecraft:item",
+        "id": "minecraft:logs",
         "amount": 4
       }
     },
     {
       "stack": {
-        "type": "item",
-        "id": "minecraft:sand",
-        "amount": 2
+        "type": "tag",
+        "registry": "minecraft:item",
+        "id": "minecraft:planks",
+        "amount": 4
       }
     },
     {
-      "stack": {
-        "type": "item",
-        "id": "minecraft:oak_planks",
-        "amount": 4
-      }
+      "stack": "item:minecraft:oak_log"
+    },
+    {
+      "stack": "item:minecraft:oak_planks"
     }
   ],
   "lookup_history": [
+    "item:gtceu:dirt_dust",
+    "item:gtceu:limestone_dust",
+    "item:gtceu:hardened_blast_furnace",
+    "item:gtceu:wetmill",
+    "item:gtceu:ulv_kiln",
+    "item:gtceu:ulv_thermal_generator",
+    "item:gtceu:ulv_input_hatch",
+    "item:gtceu:ulv_output_bus",
+    "item:gtceu:ulv_input_bus",
+    "item:gtceu:double_wrought_iron_plate",
+    "item:gtceu:wrought_iron_ingot",
+    {
+      "type": "tag",
+      "registry": "minecraft:item",
+      "id": "minecraft:planks",
+      "amount": 4
+    },
+    "item:minecraft:charcoal",
+    "item:gtceu:charcoal_dust",
+    "item:minecraft:ladder",
+    "item:minecraft:campfire",
+    "item:minecraft:glass",
+    "item:minecraft:stone_brick_wall",
+    "item:gtceu:fireclay_dust",
+    "item:gtceu:compressed_fireclay",
+    "item:gtceu:firebrick",
+    {
+      "type": "item",
+      "id": "gtceu:firebricks",
+      "amount": 32
+    },
+    "item:gtceu:primitive_blast_furnace",
+    "item:gtceu:ulv_machine_hull",
+    "item:gtceu:flint_axe{DisallowContainerItem:0b,GT.Behaviours:{DisableShields:1b,TreeFelling:1b},GT.Tool:{Damage:0,HarvestLevel:1,MaxDamage:63,ToolSpeed:2.0f},HideFlags:2}",
+    "item:gtceu:wrought_iron_plate",
+    "item:gtceu:ulv_machine_casing",
+    "item:gtceu:wood_dust",
+    "item:gtceu:wood_plate",
+    "item:minecraft:oak_log",
+    {
+      "type": "item",
+      "id": "gtceu:raw_rubber_dust",
+      "amount": 3
+    },
+    "item:gtceu:red_alloy_dust",
+    "item:gtceu:red_alloy_ingot",
+    "item:gtceu:red_alloy_plate",
+    "item:gtceu:tiny_red_alloy_dust",
+    {
+      "type": "item",
+      "id": "gtceu:rubber_ingot",
+      "amount": 64
+    },
+    "item:gtceu:iron_hammer{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{Damage:0,HarvestLevel:2,MaxDamage:255,ToolSpeed:6.0f},HideFlags:2}",
+    "item:gtceu:rubber_plate",
+    "item:gtceu:red_alloy_single_wire",
+    "item:minecraft:redstone",
+    {
+      "type": "item",
+      "id": "gtceu:concentrated_tuffaceous_slurry_residue_dust",
+      "amount": 10
+    },
+    "item:kubejs:tuffaceous_slurry_residue_cake",
+    {
+      "type": "fluid",
+      "id": "gtceu:concentrated_tuffaceous_slurry",
+      "amount": 1500
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:light_tuffaceous_slurry",
+      "amount": 2000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:concentrated_stone_slurry",
+      "amount": 0
+    },
+    "item:gtceu:ulv_centrifuge",
+    "item:gtceu:concentrated_stone_slurry_residue_dust",
+    "item:gtceu:ptfe_pipe_casing",
+    "item:gtceu:titanium_pipe_casing",
+    "item:gtceu:uhv_machine_casing",
+    "item:gtceu:steam_machine_casing",
+    "item:gtceu:ulv_sifter",
+    "item:gtceu:ulv_forge_hammer",
+    "item:gtceu:ulv_compressor",
+    "item:gtceu:ulv_extractor",
+    "item:gtceu:ulv_mixer",
+    "item:gtceu:ulv_macerator",
+    "item:gtceu:ev_air_scrubber",
+    "item:gtceu:hv_air_scrubber",
+    "item:gtceu:mv_air_scrubber",
+    "item:gtceu:lv_air_scrubber",
+    "item:gtceu:styrene_butadiene_rubber_ingot",
+    "item:gtceu:sticky_resin",
+    "item:gtceu:reinforced_epoxy_resin_dust",
+    "item:gtceu:basalt_dust",
+    "item:gtceu:blackstone_dust",
+    "item:gtceu:raw_redstone",
+    "item:gtceu:stone_dust",
+    "item:gtceu:lv_centrifuge",
+    "item:gtceu:olivine_dust",
+    "item:gtceu:sand_olivine_ore",
+    {
+      "type": "fluid",
+      "id": "gtceu:sodium_persulfate",
+      "amount": 1000
+    },
+    {
+      "type": "item",
+      "id": "gtceu:rubber_sapling",
+      "chance": 0.25
+    },
+    "item:minecraft:coarse_dirt",
+    {
+      "type": "item",
+      "id": "gtceu:programmed_circuit",
+      "nbt": "{Configuration:1}",
+      "chance": 0.0
+    },
+    "item:minecraft:oak_sapling",
+    "item:minecraft:birch_sapling",
+    "item:minecraft:spruce_sapling",
+    "item:gtceu:red_alloy_single_cable",
+    "item:gtceu:wrought_iron_dust",
+    "item:gtceu:auto_maintenance_hatch",
+    {
+      "type": "item",
+      "id": "gtceu:tempered_glass",
+      "amount": 5
+    },
+    "item:gtceu:large_material_press",
+    "item:minecraft:deepslate",
+    "item:minecraft:cobbled_deepslate",
+    "item:gtceu:mv_fluid_drilling_rig",
+    "item:gtceu:steel_frame",
     "item:kubejs:wood_prospecting_sieve{Damage:0}",
     "item:gtceu:carbon_fiber_mesh",
     "item:gtceu:low_grade_terralite_dust",
-    "item:gtceu:ulv_kiln",
     "item:angelring:leadstone_angel_ring",
-    "item:gtceu:ulv_mixer",
     "item:minecraft:dark_oak_log",
-    {
-      "type": "item",
-      "id": "minecraft:oak_log",
-      "amount": 64
-    },
     "#item:minecraft:logs",
     {
       "type": "item",
@@ -45,7 +185,6 @@
     "item:gtceu:gravel_neodymium_ore",
     "item:gtceu:hp_steam_forge_hammer",
     "item:gtceu:lp_steam_forge_hammer",
-    "item:gtceu:ulv_centrifuge",
     "item:gtceu:redrock_dust",
     "item:gtceu:granite_dust",
     "item:gtceu:small_platinum_sludge_residue_dust",
@@ -62,13 +201,6 @@
       "id": "gtceu:deepslate_dust",
       "amount": 4
     },
-    {
-      "type": "item",
-      "id": "gtceu:stone_dust",
-      "amount": 16
-    },
-    "item:gtceu:ulv_sifter",
-    "item:gtceu:ulv_thermal_generator",
     "item:gtceu:lv_sifter",
     {
       "type": "fluid",
@@ -80,10 +212,6 @@
       "id": "gtceu:oxygen_plasma",
       "amount": 0
     },
-    "item:gtceu:ulv_forge_hammer",
-    "item:gtceu:ulv_compressor",
-    "item:gtceu:ulv_extractor",
-    "item:gtceu:ulv_macerator",
     "item:gtceu:calcite_dust",
     {
       "type": "fluid",
@@ -91,23 +219,15 @@
       "amount": 8000
     },
     "item:kubejs:stone_slurry_residue_cake",
-    {
-      "type": "fluid",
-      "id": "gtceu:concentrated_stone_slurry",
-      "amount": 1500
-    },
-    "item:minecraft:deepslate",
     "item:kubejs:ulv_magnetic_motor",
     "item:kubejs:ulv_electric_pump",
     "item:minecraft:stone_bricks",
-    "item:gtceu:concentrated_stone_slurry_residue_dust",
     {
       "type": "fluid",
       "id": "gtceu:light_stone_slurry_waste",
       "amount": 0
     },
     "item:gtceu:iridium_metal_residue_dust",
-    "item:minecraft:charcoal",
     "item:gtceu:coke_oven",
     "item:minecraft:comparator",
     "item:toms_storage:ts.storage_terminal",
@@ -155,8 +275,6 @@
     "item:gtceu:cassiterite_dust",
     "item:gtceu:cassiterite_sand_dust",
     "item:gtceu:yttrium_barium_cuprate_ingot",
-    "item:gtceu:wrought_iron_ingot",
-    "item:gtceu:styrene_butadiene_rubber_ingot",
     "item:gtceu:black_steel_ingot",
     "item:gtceu:magnetic_steel_ingot",
     "item:gtceu:vanadium_steel_ingot",
@@ -183,19 +301,14 @@
     "item:gtceu:lv_combustion",
     "item:gtceu:lv_steam_turbine",
     "item:gtceu:lead_single_wire",
-    "item:gtceu:rubber_plate",
-    "item:gtceu:red_alloy_single_wire",
     "item:minecraft:stone_slab",
     "item:minecraft:stone_brick_slab",
     "item:minecraft:cobblestone_wall",
     "item:gtceu:primitive_pump",
     "#item:minecraft:saplings",
     "item:gtceu:ulv_voltage_coil",
-    "item:minecraft:cobbled_deepslate",
-    "item:gtceu:primitive_blast_furnace",
     "#item:minecraft:wooden_pressure_plates",
     "item:minecraft:oak_pressure_plate",
-    "item:gtceu:iron_hammer{GT.Tool:{Damage:0}}",
     "#item:forge:tools/hammers",
     "item:gtceu:iron_plate",
     "item:gtceu:iron_mining_hammer{DisallowContainerItem:0b,GT.Behaviours:{AoEColumn:1,AoELayer:0,AoERow:1,MaxAoEColumn:1,MaxAoELayer:0,MaxAoERow:1,TorchPlacing:1b},GT.Tool:{Damage:0,HarvestLevel:2,MaxDamage:767,ToolSpeed:4.8f},HideFlags:2}",
@@ -213,11 +326,6 @@
     "item:gtceu:lv_electric_motor",
     "item:minecraft:red_dye",
     "#item:forge:dyes/red",
-    {
-      "type": "item",
-      "id": "minecraft:oak_sapling",
-      "amount": 19
-    },
     "item:minecraft:crafting_table",
     "item:ae2:1k_crafting_storage",
     "item:constructionwand:core_angel",
@@ -248,8 +356,6 @@
     "item:gtceu:light_stone_slurry_bucket",
     "fluid:gtceu:darmstadtium",
     "item:gtceu:steel_brick_casing",
-    "item:gtceu:ulv_machine_casing",
-    "item:gtceu:ulv_machine_hull",
     "item:gtceu:vacuum_tube",
     "item:gtceu:large_maceration_tower",
     "item:gtceu:lv_macerator",
@@ -272,6 +378,7 @@
     "item:gtceu:tiny_rose_gold_dust"
   ],
   "craft_history": [
+    "minecraft:kjs/gtceu_rubber_plate",
     "kubejs:kjs/gtceu_stone_dust",
     "kubejs:kjs/gtceu_low_grade_terralite_dust",
     "woodenbucket:wooden_bucket",
@@ -297,21 +404,21 @@
   ],
   "recipe_defaults": {
     "added": [
-      "gtceu:thermal_generator/light_stone_slurry_burning",
       "minecraft:stone_slab",
+      "minecraft:kjs/gtceu_ulv_extractor",
+      "kubejs:kjs/gtceu_deepslate_dust",
       "minecraft:kjs/ulv_electric_piston",
-      "minecraft:kjs/gtceu_ulv_thermal_generator",
-      "minecraft:stone_bricks",
+      "minecraft:stone_brick_slab",
       "minecraft:kjs/ulv_electric_pump",
-      "minecraft:kjs/gtceu_ulv_mixer",
-      "kubejs:kjs/gtceu_low_grade_terralite_dust",
       "woodenbucket:wooden_bucket",
+      "gtceu:primitive_sifter/tuffaceous_residue_sifting",
+      "kubejs:kjs/gtceu_low_grade_terralite_dust",
+      "minecraft:kjs/gtceu_ulv_forge_hammer",
+      "minecraft:kjs/gtceu_ulv_mixer",
+      "minecraft:stone_bricks",
       "minecraft:cobblestone_wall",
       "minecraft:kjs/ulv_magnetic_motor",
-      "minecraft:kjs/gtceu_ulv_forge_hammer",
-      "kubejs:kjs/gtceu_deepslate_dust",
-      "minecraft:kjs/gtceu_ulv_extractor",
-      "minecraft:stone_brick_slab"
+      "minecraft:kjs/gtceu_ulv_thermal_generator"
     ],
     "tags": {},
     "resolutions": {},

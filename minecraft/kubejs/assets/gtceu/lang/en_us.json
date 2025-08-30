@@ -2,7 +2,7 @@
   //machines
   "gtceu.primitive_maceration": "Primitive Maceration",
   "gtceu.thermal_generator": "Primitive Thermal Generator",
-  "gtceu.primitive_mixing": "Primitive Mixer",
+  "gtceu.primitive_mixer": "Primitive Mixer",
   "gtceu.primitive_extractor": "Primitive Extractor",
   "gtceu.primitive_compressor": "Primitive Compressor",
   "gtceu.primitive_centrifuge": "Primitive Centrifuge",
@@ -12,14 +12,28 @@
   //fluids
   "material.gtceu.light_stone_slurry": "Light Stone Slurry",
   "material.gtceu.light_stone_slurry_waste": "Light Stone Slurry Waste",
+  "material.gtceu.light_tuffaceous_slurry": "Light Tuffaceous Slurry",
   "material.gtceu.concentrated_stone_slurry": "Concentrated Stone Slurry",
+  "material.gtceu.concentrated_tuffaceous_slurry": "Concentrated Tuffaceous Slurry",
 
   //magnetic
   "material.gtceu.low_grade_terralite": "Low Grade Terralite",
 
   //dusts
   "material.gtceu.concentrated_stone_slurry_residue": "Concentrated Stone Slurry Residue",
+  "material.gtceu.concentrated_tuffaceous_slurry_residue": "Concentrated Tuffaceous Slurry Residue",
+  "material.gtceu.tuff": "Tuff",
+  "material.gtceu.dirt": "Dirt",
+  "material.gtceu.limestone": "Limestone",
 
   //tools
-  "material.gtceu.woodest": "Wood"
+  "material.gtceu.woodest": "Wood",
+
+  //multiblocks
+  "block.gtceu.wetmill": "Hardened Wetmill", 
+  "gtceu.wetmill": "Hardened Wetmill",
+  "block.gtceu.hardened_blast_furnace": "Hardened Blast Furnace",
+  "gtceu.hardened_blast_furnace": "Hardened Blast Furnace"
+
+
 }

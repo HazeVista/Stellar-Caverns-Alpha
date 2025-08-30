@@ -15,7 +15,7 @@
 				item: "gtceu:stone_dust"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.5d
 			y: -2.5d
 		}
 		{
@@ -27,7 +27,7 @@
 				item: "gtceu:copper_dust"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: -4.0d
 		}
 		{
@@ -39,7 +39,7 @@
 				item: "gtceu:iron_dust"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: -2.0d
 		}
 		{
@@ -51,7 +51,7 @@
 				item: "gtceu:lead_dust"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: -3.0d
 		}
 		{
@@ -72,7 +72,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.0d
+			x: -0.5d
 			y: -3.0d
 		}
 		{
@@ -84,7 +84,7 @@
 				item: "gtceu:concentrated_stone_slurry_residue_dust"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -3.0d
 		}
 		{
@@ -107,7 +107,7 @@
 					type: "checkmark"
 				}
 			]
-			x: -0.5d
+			x: -2.0d
 			y: -3.0d
 		}
 		{
@@ -127,7 +127,7 @@
 					type: "checkmark"
 				}
 			]
-			x: -2.0d
+			x: -3.5d
 			y: -3.5d
 		}
 		{
@@ -139,8 +139,182 @@
 				item: "kubejs:stone_slurry_residue_cake"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.0d
 			y: -3.0d
+		}
+		{
+			id: "59D4266FCFB116F6"
+			shape: "rsquare"
+			tasks: [{
+				id: "15CBA5CD33CBAD5B"
+				item: "gtceu:stone_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["76CF57FD0BCAA70C"]
+			id: "3E07D77C93EBE32C"
+			shape: "diamond"
+			tasks: [{
+				id: "2F22EA504205490B"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["76CF57FD0BCAA70C"]
+			id: "350781641BD81F19"
+			shape: "diamond"
+			tasks: [{
+				id: "2EE1F9BBF509C3A3"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["76CF57FD0BCAA70C"]
+			id: "3747C200199B222B"
+			shape: "diamond"
+			tasks: [{
+				id: "106346EDE671170C"
+				item: "gtceu:obsidian_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "33DDDC4D857C6D77"
+			shape: "rsquare"
+			tasks: [{
+				id: "50CCD1D85BD195E6"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["33DDDC4D857C6D77"]
+			id: "5B3F22A8FEBAD781"
+			shape: "rsquare"
+			tasks: [{
+				id: "3CA7684AD4F78EEA"
+				item: "gtceu:raw_rubber_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "7582C8C16C827205"
+			shape: "rsquare"
+			tasks: [{
+				id: "5206573C966F20F3"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5B3F22A8FEBAD781"
+				"7582C8C16C827205"
+			]
+			id: "4C256C66B99EBEAD"
+			shape: "diamond"
+			tasks: [{
+				id: "31FAECC5ECD0CFEF"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["59D4266FCFB116F6"]
+			id: "6135689FB32484C9"
+			shape: "rsquare"
+			tasks: [{
+				id: "4B0C4BB373734017"
+				item: "gtceu:tuff_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6135689FB32484C9"]
+			icon: "gtceu:light_tuffaceous_slurry_bucket"
+			id: "116683475D6C91C0"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "49AF705D6B8DDD5C"
+					item: "gtceu:light_tuffaceous_slurry_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28530A0D22F55E19"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["116683475D6C91C0"]
+			icon: "gtceu:concentrated_tuffaceous_slurry_bucket"
+			id: "35AC18832BC40284"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "0DF7615A5A4A6223"
+					item: "gtceu:concentrated_tuffaceous_slurry_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "45CA40D4E9772705"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["35AC18832BC40284"]
+			id: "1753DB4CB3C5BD86"
+			shape: "rsquare"
+			tasks: [{
+				id: "3114858B95B4622B"
+				item: "kubejs:tuffaceous_slurry_residue_cake"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1753DB4CB3C5BD86"]
+			id: "76CF57FD0BCAA70C"
+			shape: "rsquare"
+			tasks: [{
+				id: "444FC7018379B198"
+				item: "gtceu:concentrated_tuffaceous_slurry_residue_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
 		}
 	]
 	title: "Processing Lines ULV"

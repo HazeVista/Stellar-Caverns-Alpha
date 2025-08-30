@@ -31,4 +31,21 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:lead_ingot')
         .duration(100)
         .EUt(4)
+
+    event.recipes.gtceu.primitive_kiln('iron_to_wrought_iron')
+        .itemInputs('minecraft:iron_ingot','minecraft:charcoal')
+        .itemOutputs('gtceu:wrought_iron_ingot')
+        .duration(60)
+        .EUt(4)
+
+    event.recipes.gtceu.primitive_kiln('raw_rubber_ingot')
+        .itemInputs('3x gtceu:raw_rubber_dust', "gtceu:sulfur_dust")
+        .itemOutputs('gtceu:rubber_ingot')
+        .duration(160)
+        .EUt(8)
+
+    event.recipes.gtceu.primitive_kiln('charcoal')
+        .itemInputs('#minecraft:logs','#minecraft:planks')
+        .itemOutputs('minecraft:charcoal')
+        .duration(160)
 });       

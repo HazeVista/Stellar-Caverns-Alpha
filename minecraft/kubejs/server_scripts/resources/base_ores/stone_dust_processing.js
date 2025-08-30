@@ -10,12 +10,12 @@ ServerEvents.recipes(event => {
         .itemOutputs('minecraft:deepslate')
         .duration(120)
 
-    event.recipes.gtceu.primitive_mixing('light_stone_slurry_synthesis')
+    event.recipes.gtceu.primitive_mixer('light_stone_slurry_synthesis')
         .itemInputs(Item.of('16x gtceu:stone_dust'))
         .inputFluids('minecraft:water')
         .outputFluids(Fluid.of('gtceu:light_stone_slurry', 2000))
         .duration(20)
-        .EUt(4);
+        .EUt(4)
 
     event.recipes.gtceu.primitive_centrifuge('concentrated_stone_slurry')
         .inputFluids(Fluid.of('gtceu:light_stone_slurry', 2000))
@@ -43,5 +43,6 @@ ServerEvents.recipes(event => {
         .itemOutputs(Item.of('4x gtceu:stone_dust'))
         .duration(100)
         .EUt(4)
+
 });
 

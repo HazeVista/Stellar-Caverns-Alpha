@@ -8,10 +8,10 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
          .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
 		 .setSound(GTSoundEntries.MACERATOR);
 
-	event.create('primitive_mixing')
+	event.create('primitive_mixer')
 		.category('simple')
 		.setEUIO('in')
-		.setMaxIOSize(2, 0, 1, 1)
+		.setMaxIOSize(2, 2, 1, 1)
 		.setSlotOverlay(false, false, GuiTextures.CENTRIFUGE_OVERLAY)
 		.setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
 		.setSound(GTSoundEntries.MIXER);
@@ -98,7 +98,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 		.tiers(GTValues.ULV)
 		.definition((tier, builder) => (
 			builder
-				.recipeType('primitive_mixing')
+				.recipeType('primitive_mixer')
 				.workableCasingModel('minecraft:block/cobblestone', 'gtceu:block/machines/mixer')
 		))
 
