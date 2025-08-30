@@ -23,6 +23,9 @@
     }
   ],
   "lookup_history": [
+    "item:kubejs:wood_prospecting_sieve{Damage:0}",
+    "item:gtceu:carbon_fiber_mesh",
+    "item:gtceu:low_grade_terralite_dust",
     "item:gtceu:ulv_kiln",
     "item:angelring:leadstone_angel_ring",
     "item:gtceu:ulv_mixer",
@@ -38,7 +41,6 @@
       "id": "minecraft:oak_planks",
       "amount": 4
     },
-    "item:gtceu:low_grade_terralite_dust",
     "item:minecraft:gravel",
     "item:gtceu:gravel_neodymium_ore",
     "item:gtceu:hp_steam_forge_hammer",
@@ -78,7 +80,6 @@
       "id": "gtceu:oxygen_plasma",
       "amount": 0
     },
-    "item:kubejs:wood_prospecting_sieve{Damage:0}",
     "item:gtceu:ulv_forge_hammer",
     "item:gtceu:ulv_compressor",
     "item:gtceu:ulv_extractor",
@@ -296,21 +297,21 @@
   ],
   "recipe_defaults": {
     "added": [
-      "minecraft:kjs/ulv_electric_pump",
-      "minecraft:kjs/gtceu_ulv_extractor",
-      "minecraft:kjs/ulv_magnetic_motor",
-      "minecraft:cobblestone_wall",
-      "kubejs:kjs/gtceu_low_grade_terralite_dust",
-      "minecraft:kjs/gtceu_ulv_forge_hammer",
-      "minecraft:stone_brick_slab",
-      "kubejs:kjs/gtceu_deepslate_dust",
-      "minecraft:stone_slab",
-      "minecraft:kjs/gtceu_ulv_mixer",
-      "woodenbucket:wooden_bucket",
-      "minecraft:kjs/gtceu_ulv_thermal_generator",
       "gtceu:thermal_generator/light_stone_slurry_burning",
+      "minecraft:stone_slab",
       "minecraft:kjs/ulv_electric_piston",
-      "minecraft:stone_bricks"
+      "minecraft:kjs/gtceu_ulv_thermal_generator",
+      "minecraft:stone_bricks",
+      "minecraft:kjs/ulv_electric_pump",
+      "minecraft:kjs/gtceu_ulv_mixer",
+      "kubejs:kjs/gtceu_low_grade_terralite_dust",
+      "woodenbucket:wooden_bucket",
+      "minecraft:cobblestone_wall",
+      "minecraft:kjs/ulv_magnetic_motor",
+      "minecraft:kjs/gtceu_ulv_forge_hammer",
+      "kubejs:kjs/gtceu_deepslate_dust",
+      "minecraft:kjs/gtceu_ulv_extractor",
+      "minecraft:stone_brick_slab"
     ],
     "tags": {},
     "resolutions": {},

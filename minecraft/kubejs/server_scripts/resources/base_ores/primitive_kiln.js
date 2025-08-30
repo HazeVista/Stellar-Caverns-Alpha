@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
         .duration(100)
         .EUt(4)
 
-    event.recipes.gtceu.primit+ive_kiln('copper_dust_to_ingot')
+    event.recipes.gtceu.primitive_kiln('copper_dust_to_ingot')
         .itemInputs('gtceu:copper_dust')
         .itemOutputs('minecraft:copper_ingot')
         .duration(100)
