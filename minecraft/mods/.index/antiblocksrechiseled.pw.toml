@@ -1,0 +1,16 @@
+filename = 'antiblocksrechiseled-0.4.7.jar'
+name = 'AntiBlocksReChiseled'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '28c88871c8f23414d2b759d729ce975cbb9f5503c8342b95aff743c0f55684520a0d8fcf0e61320573f2aa0fc138cb2de7d1441fec067bc3129d63f5b275f4e3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uLWeFJiL/versions/fn7ZVmRS/antiblocksrechiseled-0.4.7.jar'
+
+[update.modrinth]
+mod-id = 'uLWeFJiL'
+version = 'fn7ZVmRS'

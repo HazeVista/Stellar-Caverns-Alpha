@@ -30,9 +30,55 @@
     },
     {
       "stack": "item:minecraft:oak_planks"
+    },
+    {
+      "stack": "item:minecraft:cobblestone"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "gtceu:plutonium_241_ingot",
+        "amount": 3
+      }
     }
   ],
   "lookup_history": [
+    {
+      "type": "fluid",
+      "id": "minecraft:lava",
+      "amount": 0
+    },
+    "item:gtceu:high_pressure_compressor",
+    {
+      "type": "item",
+      "id": "gtceu:plutonium_241_ingot",
+      "amount": 64
+    },
+    "item:gtceu:ulv_forge_hammer",
+    "item:minecraft:cobblestone",
+    "item:gtceu:lv_input_bus",
+    "item:gtceu:ulv_input_bus",
+    "item:gtmthings:lv_huge_item_export_bus",
+    "item:gtmthings:lv_huge_item_import_bus",
+    "item:gtceu:maintenance_hatch",
+    "item:gtceu:lv_machine_casing",
+    "item:gtceu:lv_machine_hull",
+    "#item:forge:tools/crowbars",
+    "item:gtceu:lv_forge_hammer",
+    "item:gtceu:large_material_press",
+    "item:minecraft:sand",
+    "item:minecraft:sandstone",
+    "item:minecraft:sandstone_stairs",
+    "item:ae2:spatial_storage_cell_128",
+    "item:ae2:spatial_storage_cell_2",
+    "item:ae2:spatial_storage_cell_16",
+    "item:gtceu:tin_ingot",
+    "item:gtceu:tin_alloy_ingot",
+    "item:gtceu:tin_single_wire",
+    "item:gtceu:tin_single_cable",
+    "item:gtceu:lv_electric_motor",
+    "item:gtceu:lv_conveyor_module",
+    "item:minecraft:cauldron",
     "item:minecraft:redstone",
     {
       "type": "item",
@@ -47,7 +93,6 @@
     "item:gtceu:ulv_thermal_generator",
     "item:gtceu:ulv_input_hatch",
     "item:gtceu:ulv_output_bus",
-    "item:gtceu:ulv_input_bus",
     "item:gtceu:double_wrought_iron_plate",
     "item:gtceu:wrought_iron_ingot",
     {
@@ -123,7 +168,6 @@
     "item:gtceu:uhv_machine_casing",
     "item:gtceu:steam_machine_casing",
     "item:gtceu:ulv_sifter",
-    "item:gtceu:ulv_forge_hammer",
     "item:gtceu:ulv_compressor",
     "item:gtceu:ulv_extractor",
     "item:gtceu:ulv_mixer",
@@ -169,7 +213,6 @@
       "id": "gtceu:tempered_glass",
       "amount": 5
     },
-    "item:gtceu:large_material_press",
     "item:minecraft:deepslate",
     "item:minecraft:cobbled_deepslate",
     "item:gtceu:mv_fluid_drilling_rig",
@@ -290,11 +333,6 @@
     "item:gtceu:americium_ingot",
     "item:woodenbucket:wooden_bucket{Damage:0,Fluid:{Amount:1000,FluidName:\"gtceu:indium_concentrate\"}}",
     "item:gtceu:woodest_wrench{GT.Behaviours:{},GT.Tool:{AttackDamage:2.0f,AttackSpeed:-2.8f,Damage:6,HarvestLevel:1,MaxDamage:32,ToolSpeed:5.0f}}",
-    {
-      "type": "item",
-      "id": "minecraft:cobblestone",
-      "amount": 35
-    },
     "item:gtceu:hv_aluminium_wrench{Charge:2147483647L,DisallowContainerItem:0b,GT.Behaviours:{Mode:2b},GT.Tool:{Damage:0,HarvestLevel:2,MaxDamage:767,ToolSpeed:22.0f},HideFlags:2,MaxCharge:2147483647L}",
     "item:kubejs:ulv_electric_piston",
     "item:gtceu:diamond_wrench{DisallowContainerItem:0b,GT.Behaviours:{Mode:2b},GT.Tool:{Damage:0,HarvestLevel:3,MaxDamage:767,ToolSpeed:10.0f},HideFlags:2}",
@@ -327,7 +365,6 @@
     "item:ae2:crank",
     "item:gtceu:wood_crate",
     "item:minecraft:stone",
-    "item:gtceu:lv_electric_motor",
     "item:minecraft:red_dye",
     "#item:forge:dyes/red",
     "item:minecraft:crafting_table",
@@ -408,21 +445,21 @@
   ],
   "recipe_defaults": {
     "added": [
-      "minecraft:kjs/gtceu_ulv_forge_hammer",
-      "minecraft:kjs/ulv_electric_pump",
       "woodenbucket:wooden_bucket",
       "kubejs:kjs/gtceu_low_grade_terralite_dust",
-      "minecraft:stone_bricks",
-      "kubejs:kjs/gtceu_deepslate_dust",
-      "minecraft:stone_brick_slab",
-      "gtceu:primitive_sifter/tuffaceous_residue_sifting",
-      "minecraft:stone_slab",
-      "minecraft:cobblestone_wall",
-      "minecraft:kjs/gtceu_ulv_thermal_generator",
       "minecraft:kjs/ulv_electric_piston",
-      "minecraft:kjs/ulv_magnetic_motor",
+      "kubejs:kjs/gtceu_deepslate_dust",
+      "gtceu:primitive_sifter/tuffaceous_residue_sifting",
+      "minecraft:kjs/gtceu_ulv_thermal_generator",
+      "minecraft:stone_brick_slab",
+      "minecraft:cobblestone_wall",
       "minecraft:kjs/gtceu_ulv_extractor",
-      "minecraft:kjs/gtceu_ulv_mixer"
+      "minecraft:kjs/ulv_magnetic_motor",
+      "minecraft:kjs/gtceu_ulv_forge_hammer",
+      "minecraft:kjs/ulv_electric_pump",
+      "minecraft:kjs/gtceu_ulv_mixer",
+      "minecraft:stone_slab",
+      "minecraft:stone_bricks"
     ],
     "tags": {},
     "resolutions": {},

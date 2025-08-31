@@ -2,10 +2,10 @@
     
     event.create('wetmill')
         .category('simple')
+        .setEUIO('in')
         .setMaxIOSize(2, 2, 1, 1)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.FURNACE);
-
 });
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
