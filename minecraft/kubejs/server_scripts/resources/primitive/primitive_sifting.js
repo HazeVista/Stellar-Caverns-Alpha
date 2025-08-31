@@ -16,6 +16,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.primitive_sifter('coarse_dirt_to_dirt')
         .itemInputs('minecraft:coarse_dirt')
         .itemOutputs('minecraft:dirt')
+        .circuit(3)
         .duration(70)
         .EUt(4)
 

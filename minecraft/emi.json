@@ -33,6 +33,12 @@
     }
   ],
   "lookup_history": [
+    "item:minecraft:redstone",
+    {
+      "type": "item",
+      "id": "minecraft:coarse_dirt",
+      "amount": 62
+    },
     "item:gtceu:dirt_dust",
     "item:gtceu:limestone_dust",
     "item:gtceu:hardened_blast_furnace",
@@ -89,7 +95,6 @@
     "item:gtceu:iron_hammer{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{Damage:0,HarvestLevel:2,MaxDamage:255,ToolSpeed:6.0f},HideFlags:2}",
     "item:gtceu:rubber_plate",
     "item:gtceu:red_alloy_single_wire",
-    "item:minecraft:redstone",
     {
       "type": "item",
       "id": "gtceu:concentrated_tuffaceous_slurry_residue_dust",
@@ -147,7 +152,6 @@
       "id": "gtceu:rubber_sapling",
       "chance": 0.25
     },
-    "item:minecraft:coarse_dirt",
     {
       "type": "item",
       "id": "gtceu:programmed_circuit",
@@ -404,21 +408,21 @@
   ],
   "recipe_defaults": {
     "added": [
-      "minecraft:stone_slab",
-      "minecraft:kjs/gtceu_ulv_extractor",
-      "kubejs:kjs/gtceu_deepslate_dust",
-      "minecraft:kjs/ulv_electric_piston",
-      "minecraft:stone_brick_slab",
+      "minecraft:kjs/gtceu_ulv_forge_hammer",
       "minecraft:kjs/ulv_electric_pump",
       "woodenbucket:wooden_bucket",
-      "gtceu:primitive_sifter/tuffaceous_residue_sifting",
       "kubejs:kjs/gtceu_low_grade_terralite_dust",
-      "minecraft:kjs/gtceu_ulv_forge_hammer",
-      "minecraft:kjs/gtceu_ulv_mixer",
       "minecraft:stone_bricks",
+      "kubejs:kjs/gtceu_deepslate_dust",
+      "minecraft:stone_brick_slab",
+      "gtceu:primitive_sifter/tuffaceous_residue_sifting",
+      "minecraft:stone_slab",
       "minecraft:cobblestone_wall",
+      "minecraft:kjs/gtceu_ulv_thermal_generator",
+      "minecraft:kjs/ulv_electric_piston",
       "minecraft:kjs/ulv_magnetic_motor",
-      "minecraft:kjs/gtceu_ulv_thermal_generator"
+      "minecraft:kjs/gtceu_ulv_extractor",
+      "minecraft:kjs/gtceu_ulv_mixer"
     ],
     "tags": {},
     "resolutions": {},

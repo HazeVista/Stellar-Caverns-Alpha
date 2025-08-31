@@ -11,7 +11,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 	event.create('primitive_mixer')
 		.category('simple')
 		.setEUIO('in')
-		.setMaxIOSize(2, 2, 1, 1)
+		.setMaxIOSize(3, 2, 1, 1)
 		.setSlotOverlay(false, false, GuiTextures.CENTRIFUGE_OVERLAY)
 		.setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
 		.setSound(GTSoundEntries.MIXER);
