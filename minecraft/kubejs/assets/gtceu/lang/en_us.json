@@ -37,7 +37,9 @@
   "block.gtceu.hardened_blast_furnace": "Hardened Blast Furnace",
   "gtceu.hardened_blast_furnace": "Hardened Blast Furnace",
   "block.gtceu.high_pressure_compressor": "High Pressure Compressor",
-  "gtceu.high_pressure_compression": "High Pressure"
+  "gtceu.high_pressure_compression": "High Pressure",
+
+  "material.gtceu.low_grade_terralite_superconductor": "Low Grade Terralite Superconductor"
 
 
 }

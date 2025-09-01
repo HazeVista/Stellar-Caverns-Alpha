@@ -22,7 +22,12 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('concentrated_tuffaceous_slurry_residue')
         .dust()
         .color(0x506756)
+    
+    
+
+   
 });
+
 
 StartupEvents.registry('item', event => {
     event.create('calcareous_slurry_residue_cake')

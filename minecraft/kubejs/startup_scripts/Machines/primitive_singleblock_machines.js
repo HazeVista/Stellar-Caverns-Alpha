@@ -151,7 +151,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 			builder
 				.recipeType('thermal_generator')
 				.regressWhenWaiting(false)
-				.workableCasingModel('minecraft:block/stone_bricks', 'gtceu:block/generators/steam_turbine')
+				.workableCasingModel('minecraft:block/stone_bricks', 'kubejs:block/singleblock/thermal_generator')
 		))
 });
 
