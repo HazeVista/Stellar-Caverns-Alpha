@@ -55,13 +55,13 @@
 				"04C4E1DEFF789196"
 			]
 			description: ["combine with low grade terralite in a geothermal generator to get 1 full amp of ULV for 32 seconds!"]
-			icon: "gtceu:light_stone_slurry_bucket"
+			icon: "gtceu:light_calcareous_slurry_bucket"
 			id: "285DBB47C26CEEA0"
 			subtitle: "first \"decent\" power"
 			tasks: [
 				{
 					id: "5D4637F94099E9F8"
-					item: "gtceu:light_stone_slurry_bucket"
+					item: "gtceu:light_calcareous_slurry_bucket"
 					optional_task: true
 					type: "item"
 				}
@@ -84,7 +84,7 @@
 			subtitle: "yummers"
 			tasks: [{
 				id: "47198140B7D06911"
-				item: "gtceu:light_stone_slurry_waste_bucket"
+				item: "gtceu:light_calcareous_slurry_waste_bucket"
 				type: "item"
 			}]
 			x: 0.5d

@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
         .EUt(2)
 
     event.recipes.gtceu.primitive_sifter('tuffaceous_residue_sifting')
-        .itemInputs('gtceu:concentrated_tuffaceous_slurry_residue_dust')
+        .itemInputs('5x gtceu:concentrated_tuffaceous_slurry_residue_dust')
         .itemOutputs(Item.of('3x gtceu:sulfur_dust'))
         .itemOutputs(Item.of('4x gtceu:tin_dust'))
         .itemOutputs(Item.of('8x minecraft:redstone'))

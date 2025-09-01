@@ -4,4 +4,10 @@ ServerEvents.recipes(event => {
         .outputFluids('minecraft:lava 500',)
         .duration(800)
         .EUt(32)
+
+    event.recipes.gtceu.high_pressure_compression('carbon_to_diamond')
+        .itemInputs('64x gtceu:carbon_dust')
+        .itemOutputs('1x minecraft:diamond')
+        .duration(600)
+        .EUt(64)
 });

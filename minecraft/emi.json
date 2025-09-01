@@ -1,54 +1,117 @@
 {
   "favorites": [
     {
-      "stack": "item:gtceu:ulv_output_bus"
+      "stack": "item:gtceu:mv_lathe",
+      "recipe": "gtceu:shaped/mv_lathe"
     },
     {
-      "stack": "item:gtceu:ulv_input_bus"
+      "stack": "item:gtceu:lv_macerator",
+      "recipe": "gtceu:shaped/lv_macerator"
     },
     {
-      "stack": "item:minecraft:iron_ingot"
+      "stack": "item:gtceu:mv_macerator",
+      "recipe": "gtceu:shaped/mv_macerator"
     },
     {
-      "stack": {
-        "type": "tag",
-        "registry": "minecraft:item",
-        "id": "minecraft:logs",
-        "amount": 4
-      }
+      "stack": "item:gtceu:lv_rock_crusher",
+      "recipe": "gtceu:shaped/lv_rock_crusher"
     },
     {
-      "stack": {
-        "type": "tag",
-        "registry": "minecraft:item",
-        "id": "minecraft:planks",
-        "amount": 4
-      }
+      "stack": "item:gtceu:lv_block_breaker",
+      "recipe": "gtceu:shaped/lv_block_breaker"
     },
     {
-      "stack": "item:minecraft:oak_log"
+      "stack": "item:gtceu:mv_rock_crusher",
+      "recipe": "gtceu:shaped/mv_rock_crusher"
     },
     {
-      "stack": "item:minecraft:oak_planks"
-    },
-    {
-      "stack": "item:minecraft:cobblestone"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "gtceu:plutonium_241_ingot",
-        "amount": 3
-      }
+      "stack": "item:gtceu:mv_block_breaker",
+      "recipe": "gtceu:shaped/mv_block_breaker"
     }
   ],
   "lookup_history": [
+    "item:gtceu:large_centrifuge",
+    {
+      "type": "fluid",
+      "id": "gtceu:light_calcareous_slurry",
+      "amount": 2000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:concentrated_calcareous_slurry",
+      "amount": 1000
+    },
+    "item:kubejs:calcareous_slurry_residue_cake",
+    "item:gtceu:limestone_dust",
+    "item:gtceu:tiny_limestone_dust",
+    "item:gtceu:diamond_screw",
+    {
+      "type": "item",
+      "id": "gtceu:diamond_bolt",
+      "amount": 2
+    },
+    "item:gtceu:diamond_rod",
+    "item:minecraft:diamond",
+    "item:gtceu:diamond_grinding_head",
+    "item:constructionwand:diamond_wand{Damage:0,wand_options:{}}",
+    "item:minecraft:redstone",
+    "item:gtceu:silver_dust",
+    "item:gtceu:lv_centrifuge",
+    "item:minecraft:repeater",
+    "item:minecraft:soul_lantern",
+    "item:gtceu:silicon_dust",
+    "item:gtceu:ev_circuit_assembler",
+    "item:gtceu:hv_circuit_assembler",
+    "item:minecraft:anvil",
+    "item:gtceu:empty_tier_ii_battery",
+    "item:gtceu:luv_lapotronic_battery",
+    "item:gtceu:lapotronic_energy_orb_cluster{Charge:1000000000L}",
+    "item:gtceu:pyrite_dust",
+    "item:gtceu:silicon_dioxide_dust",
+    {
+      "type": "item",
+      "id": "gtceu:magnesia_dust",
+      "chance": 0.025
+    },
+    "item:gtceu:tiny_silicon_dioxide_dust",
+    "item:gtceu:zpm_forge_hammer",
+    "item:gtceu:lv_forge_hammer",
+    "item:minecraft:raw_copper",
+    "item:gtceu:raw_emerald",
+    "item:gtceu:mercury_barium_calcium_cuprate_dust",
+    "item:gtceu:hot_mercury_barium_calcium_cuprate_ingot",
+    "item:gtceu:mercury_barium_calcium_cuprate_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:mercury_barium_calcium_cuprate_single_wire",
+      "amount": 2
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_mercury_barium_calcium_cuprate",
+      "amount": 2304
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:mercury",
+      "amount": 3000
+    },
+    "item:gtceu:ruby_dust",
+    "item:gtceu:high_pressure_compressor",
+    "item:gtceu:carbon_dust",
+    "item:gtceu:uv_electromagnetic_separator",
+    "item:gtceu:zpm_electromagnetic_separator",
+    "item:gtceu:pure_naquadah_dust",
+    "item:gtceu:iv_circuit_assembler",
+    "item:gtceu:lv_electromagnetic_separator",
+    "item:gtceu:pure_yellow_limonite_dust",
+    "item:gtceu:iv_electromagnetic_separator",
+    "item:gtceu:mv_electromagnetic_separator",
     {
       "type": "fluid",
       "id": "minecraft:lava",
       "amount": 0
     },
-    "item:gtceu:high_pressure_compressor",
     {
       "type": "item",
       "id": "gtceu:plutonium_241_ingot",
@@ -64,7 +127,6 @@
     "item:gtceu:lv_machine_casing",
     "item:gtceu:lv_machine_hull",
     "#item:forge:tools/crowbars",
-    "item:gtceu:lv_forge_hammer",
     "item:gtceu:large_material_press",
     "item:minecraft:sand",
     "item:minecraft:sandstone",
@@ -79,14 +141,12 @@
     "item:gtceu:lv_electric_motor",
     "item:gtceu:lv_conveyor_module",
     "item:minecraft:cauldron",
-    "item:minecraft:redstone",
     {
       "type": "item",
       "id": "minecraft:coarse_dirt",
       "amount": 62
     },
     "item:gtceu:dirt_dust",
-    "item:gtceu:limestone_dust",
     "item:gtceu:hardened_blast_furnace",
     "item:gtceu:wetmill",
     "item:gtceu:ulv_kiln",
@@ -156,13 +216,7 @@
       "id": "gtceu:light_tuffaceous_slurry",
       "amount": 2000
     },
-    {
-      "type": "fluid",
-      "id": "gtceu:concentrated_stone_slurry",
-      "amount": 0
-    },
     "item:gtceu:ulv_centrifuge",
-    "item:gtceu:concentrated_stone_slurry_residue_dust",
     "item:gtceu:ptfe_pipe_casing",
     "item:gtceu:titanium_pipe_casing",
     "item:gtceu:uhv_machine_casing",
@@ -183,7 +237,6 @@
     "item:gtceu:blackstone_dust",
     "item:gtceu:raw_redstone",
     "item:gtceu:stone_dust",
-    "item:gtceu:lv_centrifuge",
     "item:gtceu:olivine_dust",
     "item:gtceu:sand_olivine_ore",
     {
@@ -260,20 +313,9 @@
       "amount": 0
     },
     "item:gtceu:calcite_dust",
-    {
-      "type": "fluid",
-      "id": "gtceu:light_stone_slurry",
-      "amount": 8000
-    },
-    "item:kubejs:stone_slurry_residue_cake",
     "item:kubejs:ulv_magnetic_motor",
     "item:kubejs:ulv_electric_pump",
     "item:minecraft:stone_bricks",
-    {
-      "type": "fluid",
-      "id": "gtceu:light_stone_slurry_waste",
-      "amount": 0
-    },
     "item:gtceu:iridium_metal_residue_dust",
     "item:gtceu:coke_oven",
     "item:minecraft:comparator",
@@ -394,7 +436,6 @@
     },
     "item:gtceu:powderbarrel",
     "item:gtceu:light_concrete_cobblestone",
-    "item:gtceu:light_stone_slurry_bucket",
     "fluid:gtceu:darmstadtium",
     "item:gtceu:steel_brick_casing",
     "item:gtceu:vacuum_tube",
@@ -446,20 +487,20 @@
   "recipe_defaults": {
     "added": [
       "woodenbucket:wooden_bucket",
-      "kubejs:kjs/gtceu_low_grade_terralite_dust",
-      "minecraft:kjs/ulv_electric_piston",
+      "minecraft:cobblestone_wall",
+      "minecraft:kjs/ulv_electric_pump",
       "kubejs:kjs/gtceu_deepslate_dust",
+      "minecraft:kjs/ulv_magnetic_motor",
+      "minecraft:kjs/gtceu_ulv_extractor",
       "gtceu:primitive_sifter/tuffaceous_residue_sifting",
+      "minecraft:kjs/gtceu_ulv_mixer",
       "minecraft:kjs/gtceu_ulv_thermal_generator",
       "minecraft:stone_brick_slab",
-      "minecraft:cobblestone_wall",
-      "minecraft:kjs/gtceu_ulv_extractor",
-      "minecraft:kjs/ulv_magnetic_motor",
-      "minecraft:kjs/gtceu_ulv_forge_hammer",
-      "minecraft:kjs/ulv_electric_pump",
-      "minecraft:kjs/gtceu_ulv_mixer",
+      "minecraft:kjs/ulv_electric_piston",
       "minecraft:stone_slab",
-      "minecraft:stone_bricks"
+      "minecraft:stone_bricks",
+      "kubejs:kjs/gtceu_low_grade_terralite_dust",
+      "minecraft:kjs/gtceu_ulv_forge_hammer"
     ],
     "tags": {},
     "resolutions": {},

@@ -369,3 +369,5 @@ FodyWeavers.xsd
 /minecraft/saves/New World (1)
 /minecraft/screenshots
 /minecraft/xaero/world-map
+minecraft/usercache.json
+instance.cfg

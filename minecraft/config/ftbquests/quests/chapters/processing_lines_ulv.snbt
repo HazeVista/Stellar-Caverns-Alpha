@@ -8,17 +8,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "6A9BDB791CD31C30"
-			shape: "rsquare"
-			tasks: [{
-				id: "4A902129B5496A2E"
-				item: "gtceu:stone_dust"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -2.5d
-		}
-		{
 			dependencies: ["2AD204BB5E7AD30F"]
 			id: "7D1163B5675C3331"
 			shape: "diamond"
@@ -56,13 +45,13 @@
 		}
 		{
 			dependencies: ["490B840979565848"]
-			icon: "gtceu:concentrated_stone_slurry_bucket"
+			icon: "gtceu:concentrated_calcareous_slurry_bucket"
 			id: "41D293627C25FB38"
 			shape: "rsquare"
 			tasks: [
 				{
 					id: "4403D2C9FBD4E75F"
-					item: "gtceu:concentrated_stone_slurry_bucket"
+					item: "gtceu:concentrated_calcareous_slurry_bucket"
 					optional_task: true
 					type: "item"
 				}
@@ -77,11 +66,12 @@
 		}
 		{
 			dependencies: ["1C6DA75EE0531D3F"]
+			icon: "gtceu:concentrated_calcareous_slurry_residue_dust"
 			id: "2AD204BB5E7AD30F"
 			shape: "rsquare"
 			tasks: [{
 				id: "75D699BB02D12C61"
-				item: "gtceu:concentrated_stone_slurry_residue_dust"
+				item: "gtceu:concentrated_calcareous_slurry_residue_dust"
 				type: "item"
 			}]
 			x: 2.5d
@@ -90,15 +80,15 @@
 		{
 			dependencies: [
 				"2F48216DDFF172BA"
-				"6A9BDB791CD31C30"
+				"4B1456D6FC70C091"
 			]
-			icon: "gtceu:light_stone_slurry_bucket"
+			icon: "gtceu:light_calcareous_slurry_bucket"
 			id: "490B840979565848"
 			shape: "rsquare"
 			tasks: [
 				{
 					id: "5E5AC603D2DB0E0C"
-					item: "gtceu:light_stone_slurry_bucket"
+					item: "gtceu:light_calcareous_slurry_bucket"
 					optional_task: true
 					type: "item"
 				}
@@ -132,11 +122,12 @@
 		}
 		{
 			dependencies: ["41D293627C25FB38"]
+			icon: "kubejs:calcareous_slurry_residue_cake"
 			id: "1C6DA75EE0531D3F"
 			shape: "rsquare"
 			tasks: [{
 				id: "79AFD00A582B7984"
-				item: "kubejs:stone_slurry_residue_cake"
+				item: "kubejs:calcareous_slurry_residue_cake"
 				type: "item"
 			}]
 			x: 1.0d
@@ -316,6 +307,17 @@
 			x: 2.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["59D4266FCFB116F6"]
+			id: "4B1456D6FC70C091"
+			tasks: [{
+				id: "6B7BE89D31881CB1"
+				item: "gtceu:limestone_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
 	]
-	title: "Processing Lines ULV"
+	title: "ULV - LV"
 }
