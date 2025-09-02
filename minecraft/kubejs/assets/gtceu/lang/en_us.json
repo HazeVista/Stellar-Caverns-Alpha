@@ -10,6 +10,8 @@
   "gtceu.primitive_kiln": "Primitive Kiln",
   "gtceu.primitive_forge_hammer": "Primitive Forge Hammer",
 
+  "gtceu.geothermal_generator": "Geothermal Generator",
+
 
   "material.gtceu.light_calcareous_slurry": "Light Calcareous Slurry",
   "material.gtceu.light_calcareous_slurry_waste": "Light Calcareous Slurry Waste",
@@ -20,13 +22,14 @@
  
   "material.gtceu.low_grade_terralite": "Low Grade Terralite",
 
-
+  
   "material.gtceu.concentrated_calcareous_slurry_residue": "Concentrated Calcareous Slurry Residue",
   "material.gtceu.concentrated_tuffaceous_slurry_residue": "Concentrated Tuffaceous Slurry Residue",
   "material.gtceu.tuff": "Tuff",
   "material.gtceu.dirt": "Dirt",
   "material.gtceu.limestone": "Limestone",
   "material.gtceu.silicon_dioxide": "Silica",
+  "material.gtceu.dense_low_grade_terralite": "Dense Low Grade Terralite",
 
   
   "material.gtceu.woodest": "Wood",
@@ -37,9 +40,9 @@
   "block.gtceu.hardened_blast_furnace": "Hardened Blast Furnace",
   "gtceu.hardened_blast_furnace": "Hardened Blast Furnace",
   "block.gtceu.high_pressure_compressor": "High Pressure Compressor",
-  "gtceu.high_pressure_compression": "High Pressure",
+  "gtceu.high_pressure_compression": "High Pressure Compression",
 
-  "material.gtceu.low_grade_terralite_superconductor": "Low Grade Terralite Superconductor"
+  "material.gtceu.dense_low_grade_terralite_superconductor": "Dense Low Grade Terralite Superconductor"
 
 
 }

@@ -3,4 +3,5 @@ ServerEvents.recipes(event => {
         .itemInputs('2x minecraft:charcoal', 'minecraft:iron_ingot')
         .itemOutputs('gtceu:steel_ingot')
         .duration(400)
+        
 });

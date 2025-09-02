@@ -11,4 +11,15 @@ ServerEvents.recipes(event => {
         .duration(160)
         .EUt(2)
         
+    event.recipes.gtceu.primitive_compressor('primtive_low_grade_terralite_to_dense')
+        .itemInputs('4x gtceu:low_grade_terralite_dust')
+        .itemOutputs('gtceu:dense_low_grade_terralite_dust')
+        .duration(400)
+        .EUt(2)
+    
+    event.recipes.gtceu.compressor('low_grade_terralite_to_dense')
+        .itemInputs('4x gtceu:low_grade_terralite_dust')
+        .itemOutputs('gtceu:dense_low_grade_terralite_dust')
+        .duration(200)
+        .EUt(2)
 });

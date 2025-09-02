@@ -3,6 +3,13 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .dust()
         .color(0x696969)
 
+
+    event.create('dense_low_grade_terralite')
+        .dust()
+        .color(0x5B7564)
+        .secondaryColor(0x019936)
+        
+
     event.create('concentrated_calcareous_slurry_residue')
         .dust()
         .color(0x2F4D69)

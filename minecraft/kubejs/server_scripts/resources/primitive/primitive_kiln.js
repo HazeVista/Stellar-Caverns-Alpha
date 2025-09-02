@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
         .itemInputs('3x gtceu:raw_rubber_dust', "gtceu:sulfur_dust")
         .itemOutputs('gtceu:rubber_ingot')
         .duration(160)
-        .EUt(8)
+        .EUt(4)
 
     event.recipes.gtceu.primitive_kiln('charcoal')
         .itemInputs('#minecraft:logs','#minecraft:planks')

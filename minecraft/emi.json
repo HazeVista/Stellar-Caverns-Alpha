@@ -1,44 +1,174 @@
 {
   "favorites": [
     {
-      "stack": "item:gtceu:mv_lathe",
-      "recipe": "gtceu:shaped/mv_lathe"
+      "stack": "item:gtceu:lv_lathe",
+      "recipe": "gtceu:shaped/lv_lathe"
     },
     {
-      "stack": "item:gtceu:lv_macerator",
-      "recipe": "gtceu:shaped/lv_macerator"
+      "stack": "item:gtceu:copper_single_cable"
     },
     {
-      "stack": "item:gtceu:mv_macerator",
-      "recipe": "gtceu:shaped/mv_macerator"
+      "stack": "item:gtceu:lv_lithium_battery",
+      "recipe": "gtceu:canner/lithium_battery_lv"
     },
     {
-      "stack": "item:gtceu:lv_rock_crusher",
-      "recipe": "gtceu:shaped/lv_rock_crusher"
+      "stack": "item:gtceu:dense_low_grade_terralite_superconductor_ingot"
     },
     {
-      "stack": "item:gtceu:lv_block_breaker",
-      "recipe": "gtceu:shaped/lv_block_breaker"
+      "stack": "item:gtceu:dense_low_grade_terralite_superconductor_quadruple_wire",
+      "recipe": "gtceu:shapeless/dense_low_grade_terralite_superconductor_wire_wire_gt_double_doubling"
     },
     {
-      "stack": "item:gtceu:mv_rock_crusher",
-      "recipe": "gtceu:shaped/mv_rock_crusher"
-    },
-    {
-      "stack": "item:gtceu:mv_block_breaker",
-      "recipe": "gtceu:shaped/mv_block_breaker"
+      "stack": "item:gtceu:dense_low_grade_terralite_superconductor_octal_wire",
+      "recipe": "gtceu:shapeless/dense_low_grade_terralite_superconductor_wire_wire_gt_double_quadrupling"
     }
   ],
   "lookup_history": [
-    "item:gtceu:low_grade_terralite_superconductor_single_wire",
-    "item:gtceu:mv_block_breaker",
+    "item:gtceu:dense_low_grade_terralite_superconductor_double_wire",
+    {
+      "type": "item",
+      "id": "gtceu:low_grade_terralite_dust",
+      "amount": 64
+    },
+    "item:gtceu:dense_low_grade_terralite_dust",
+    "item:gtceu:dense_low_grade_terralite_superconductor_dust",
+    "item:gtceu:dense_low_grade_terralite_superconductor_ingot",
+    "item:gtceu:dense_low_grade_terralite_superconductor_single_wire",
+    {
+      "type": "item",
+      "id": "gtceu:aluminium_large_fluid_pipe",
+      "amount": 64
+    },
+    "item:gtceu:dense_low_grade_terralite_superconductor_nugget",
+    {
+      "type": "fluid",
+      "id": "minecraft:water",
+      "amount": 8000
+    },
+    {
+      "type": "fluid",
+      "id": "minecraft:lava",
+      "amount": 1900
+    },
+    {
+      "type": "item",
+      "id": "gtceu:lv_battery_hull",
+      "amount": 64
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:steam",
+      "amount": 960
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:distilled_water",
+      "amount": 0
+    },
+    {
+      "type": "item",
+      "id": "gtceu:hv_water_pump",
+      "amount": 64
+    },
+    "item:gtceu:mv_water_pump",
+    {
+      "type": "item",
+      "id": "gtceu:mv_geothermal_generator",
+      "amount": 64
+    },
+    "item:minecraft:lava_bucket",
+    "item:gtceu:copper_single_cable",
+    {
+      "type": "item",
+      "id": "gtceu:tungstensteel_turbine_casing",
+      "amount": 2
+    },
+    "item:gtceu:steel_turbine_casing",
+    {
+      "type": "item",
+      "id": "gtceu:titanium_turbine_casing",
+      "amount": 2
+    },
+    "item:gtceu:blue_steel_frame",
+    "item:gtceu:blue_steel_rod",
+    "item:gtceu:blue_steel_ingot",
+    "item:gtceu:hot_blue_steel_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:blue_steel_dust",
+      "amount": 8
+    },
+    "item:gtceu:bismuth_bronze_dust",
+    "item:gtceu:plasma_large_turbine",
+    "item:gtceu:ulv_thermal_generator",
     "item:gtceu:lv_block_breaker",
-    "item:gtceu:mv_macerator",
+    "item:gtceu:mv_rock_crusher",
+    "item:gtceu:lv_rock_crusher",
     "item:gtceu:lv_macerator",
+    "item:gtceu:lv_lathe",
     "item:gtceu:mv_lathe",
+    "item:gtceu:mv_block_breaker",
+    "item:minecraft:spruce_pressure_plate",
+    "#item:gtceu:circuits/lv",
+    "item:gtceu:lv_cutter",
+    "item:minecraft:diamond",
+    "item:gtceu:mv_macerator",
+    "#item:gtceu:circuits/mv",
+    "item:gtceu:double_wrought_iron_plate",
+    "item:kubejs:ulv_electric_pump",
+    "item:kubejs:ulv_magnetic_motor",
+    "item:gtceu:hv_sensor",
+    "item:gtceu:advanced_energy_detector_cover",
+    "item:gtmthings:zpm_2a_wireless_energy_input_hatch",
+    "item:gtmthings:luv_2a_wireless_energy_input_hatch",
+    "item:gtmthings:mv_2a_wireless_energy_input_hatch",
+    "item:gtmthings:lv_2a_wireless_energy_input_hatch",
+    "item:gtmthings:wireless_computation_receiver_hatch",
+    "item:gtmthings:wireless_computation_transmitter_hatch",
+    "item:gtmthings:zpm_huge_item_import_bus",
+    "item:gtmthings:virtual_item_provider",
+    "item:gtmthings:virtual_item_provider_cell",
+    "item:gtmthings:lv_digital_miner",
+    "item:gtmthings:mv_digital_miner",
+    "item:gtmthings:programmable_cover",
+    "item:gtmthings:luv_4a_wireless_energy_receive_cover",
+    "item:gtmthings:zpm_4a_wireless_energy_receive_cover",
+    "item:gtmthings:uv_4a_wireless_energy_receive_cover",
+    "item:gtmthings:mv_4a_wireless_energy_receive_cover",
+    "item:gtmthings:lv_wireless_energy_receive_cover",
+    "item:gtmthings:mv_wireless_energy_receive_cover",
+    "item:gtmthings:hv_wireless_energy_receive_cover",
+    "item:gtceu:high_pressure_compressor",
+    "item:gtmthings:lv_huge_item_export_bus",
+    "item:gtmthings:hv_huge_item_export_bus",
+    "item:gtmthings:mv_huge_item_export_bus",
+    "item:gtmthings:ev_huge_item_export_bus",
+    "item:gtmthings:zpm_huge_item_export_bus",
+    "item:gtmthings:iv_huge_item_export_bus",
+    "item:gtmthings:uv_huge_dual_hatch",
+    "item:gtceu:ulv_output_bus",
+    {
+      "type": "fluid",
+      "id": "gtceu:light_calcareous_slurry_waste",
+      "amount": 0
+    },
+    "item:gtceu:ulv_kiln",
+    "item:gtceu:wrought_iron_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:hardened_blast_furnace",
+      "amount": 64
+    },
+    "item:gtceu:turbine_rotor{GT.PartStats:{Material:\"gtceu:rhodium_plated_palladium\"}}",
+    "item:gtceu:turbine_rotor{GT.PartStats:{Material:\"gtceu:manganese\"}}",
+    "item:gtceu:turbine_rotor{GT.PartStats:{Material:\"gtceu:tungsten\"}}",
+    "item:gtceu:hsss_rotor",
+    "item:gtceu:rhodium_plated_palladium_rotor",
+    "item:gtceu:steel_rotor",
+    "item:gtceu:steam_large_turbine",
+    "item:gtceu:turbine_rotor{GT.PartStats:{Material:\"gtceu:naquadah\"}}",
     "item:minecraft:bamboo_mosaic_stairs",
     "item:minecraft:deepslate",
-    "item:gtceu:mv_rock_crusher",
     "item:gtceu:brass_turbine_blade",
     "item:gtceu:double_brass_plate",
     "item:gtceu:brass_plate",
@@ -77,7 +207,6 @@
       "amount": 2
     },
     "item:gtceu:diamond_rod",
-    "item:minecraft:diamond",
     "item:gtceu:diamond_grinding_head",
     "item:constructionwand:diamond_wand{Damage:0,wand_options:{}}",
     "item:minecraft:redstone",
@@ -123,7 +252,6 @@
       "amount": 3000
     },
     "item:gtceu:ruby_dust",
-    "item:gtceu:high_pressure_compressor",
     "item:gtceu:carbon_dust",
     "item:gtceu:uv_electromagnetic_separator",
     "item:gtceu:zpm_electromagnetic_separator",
@@ -134,11 +262,6 @@
     "item:gtceu:iv_electromagnetic_separator",
     "item:gtceu:mv_electromagnetic_separator",
     {
-      "type": "fluid",
-      "id": "minecraft:lava",
-      "amount": 0
-    },
-    {
       "type": "item",
       "id": "gtceu:plutonium_241_ingot",
       "amount": 64
@@ -147,7 +270,6 @@
     "item:minecraft:cobblestone",
     "item:gtceu:lv_input_bus",
     "item:gtceu:ulv_input_bus",
-    "item:gtmthings:lv_huge_item_export_bus",
     "item:gtmthings:lv_huge_item_import_bus",
     "item:gtceu:maintenance_hatch",
     "item:gtceu:lv_machine_casing",
@@ -173,14 +295,8 @@
       "amount": 62
     },
     "item:gtceu:dirt_dust",
-    "item:gtceu:hardened_blast_furnace",
     "item:gtceu:wetmill",
-    "item:gtceu:ulv_kiln",
-    "item:gtceu:ulv_thermal_generator",
     "item:gtceu:ulv_input_hatch",
-    "item:gtceu:ulv_output_bus",
-    "item:gtceu:double_wrought_iron_plate",
-    "item:gtceu:wrought_iron_ingot",
     {
       "type": "tag",
       "registry": "minecraft:item",
@@ -297,7 +413,6 @@
     "item:gtceu:steel_frame",
     "item:kubejs:wood_prospecting_sieve{Damage:0}",
     "item:gtceu:carbon_fiber_mesh",
-    "item:gtceu:low_grade_terralite_dust",
     "item:angelring:leadstone_angel_ring",
     "item:minecraft:dark_oak_log",
     "#item:minecraft:logs",
@@ -338,8 +453,6 @@
       "amount": 0
     },
     "item:gtceu:calcite_dust",
-    "item:kubejs:ulv_magnetic_motor",
-    "item:kubejs:ulv_electric_pump",
     "item:minecraft:stone_bricks",
     "item:gtceu:iridium_metal_residue_dust",
     "item:gtceu:coke_oven",
@@ -348,11 +461,6 @@
     "item:toms_storage:ts.trim",
     "item:toms_storage:ts.inventory_connector",
     "item:minecraft:cake",
-    {
-      "type": "fluid",
-      "id": "minecraft:water",
-      "amount": 4980
-    },
     {
       "type": "item",
       "id": "gtceu:biotite_dust",
@@ -439,11 +547,6 @@
     "item:constructionwand:core_angel",
     {
       "type": "fluid",
-      "id": "gtceu:steam",
-      "amount": 6000
-    },
-    {
-      "type": "fluid",
       "id": "gtceu:liquid_oxygen",
       "amount": 0
     },
@@ -484,9 +587,6 @@
     "item:gtceu:tiny_rose_gold_dust"
   ],
   "craft_history": [
-    "minecraft:kjs/gtceu_rubber_plate",
-    "kubejs:kjs/gtceu_stone_dust",
-    "kubejs:kjs/gtceu_low_grade_terralite_dust",
     "woodenbucket:wooden_bucket",
     "minecraft:stone_axe",
     "minecraft:kjs/gtceu_ulv_thermal_generator",
@@ -496,8 +596,6 @@
     "minecraft:stone_slab",
     "minecraft:kjs/gtceu_ulv_mixer",
     "minecraft:kjs/gtceu_ulv_mixer",
-    "kubejs:kjs/gtceu_deepslate_dust",
-    "kubejs:kjs/gtceu_deepslate_dust",
     "minecraft:kjs/gtceu_ulv_extractor",
     "minecraft:kjs/gtceu_ulv_compressor",
     "minecraft:cobblestone_wall",
@@ -511,19 +609,21 @@
   "recipe_defaults": {
     "added": [
       "minecraft:kjs/gtceu_ulv_forge_hammer",
+      "gtceu:primitive_compressor/primtive_low_grade_terralite_to_dense",
+      "gtceu:high_pressure_compression/lv_super_con",
+      "gtceu:primitive_sifter/stone_sifting_to_terralite",
       "minecraft:kjs/ulv_electric_piston",
-      "woodenbucket:wooden_bucket",
-      "minecraft:kjs/ulv_magnetic_motor",
-      "minecraft:kjs/gtceu_ulv_thermal_generator",
-      "gtceu:primitive_sifter/tuffaceous_residue_sifting",
-      "minecraft:stone_brick_slab",
-      "minecraft:stone_slab",
       "minecraft:cobblestone_wall",
+      "gtceu:wiremill/mill_dense_low_grade_terralite_superconductor_wire",
+      "woodenbucket:wooden_bucket",
+      "minecraft:kjs/gtceu_ulv_thermal_generator",
+      "gtceu:mixer/lv_super_con_base",
+      "minecraft:stone_brick_slab",
       "minecraft:kjs/ulv_electric_pump",
-      "kubejs:kjs/gtceu_low_grade_terralite_dust",
       "minecraft:kjs/gtceu_ulv_mixer",
-      "kubejs:kjs/gtceu_deepslate_dust",
+      "minecraft:stone_slab",
       "minecraft:kjs/gtceu_ulv_extractor",
+      "minecraft:kjs/ulv_magnetic_motor",
       "minecraft:stone_bricks"
     ],
     "tags": {},

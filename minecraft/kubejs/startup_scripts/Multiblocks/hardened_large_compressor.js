@@ -32,7 +32,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('high_pressure_compressor', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .appearanceBlock(() => Block.getBlock('gtceu: solid_machine_casing'))
-        .recipeTypes(['high_pressure_compression','primitive_forge_hammer','forge_hammer'])
+        .recipeTypes(['high_pressure_compression','primitive_forge_hammer','forge_hammer','compressor'])
         .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('CAAAC', 'CAAAC', 'CAAAC', 'C###C', 'C###C', '#CCC#')
