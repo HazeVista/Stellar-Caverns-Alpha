@@ -77,4 +77,28 @@
             E: 'gtceu:lv_machine_hull',
             F: 'kubejs:terralite_drilling_head'
         })
+
+        event.shaped('toms_storage:ts.storage_terminal', [
+            'ABA',
+            'BCD',
+            'ABA'
+        ], {
+            A: 'minecraft:stone_bricks',
+            B: 'gtceu:tin_huge_item_pipe',
+            C: 'gtceu:steel_crate',
+            D: 'minecraft:glass'
+
+        })
+
+        event.shaped('toms_storage:ts.inventory_connector', [
+            'ABA',
+            'CDC',
+            'AEA'
+        ], {
+            A: 'minecraft:stone_bricks',
+            B: 'minecraft:redstone_block',
+            C: 'gtceu:steel_crate',
+            D: 'minecraft:diamond',
+            E: 'gtceu:dense_low_grade_terralite_superconductor_quadruple_wire'
+        })
     });

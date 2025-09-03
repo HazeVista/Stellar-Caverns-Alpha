@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
         .EUt(2)
 
     event.recipes.gtceu.primitive_mixer('red_alloy_dust')
-        .itemInputs('1x gtceu:copper_dust', 'minecraft:redstone')
+        .itemInputs('1x gtceu:copper_dust', '4x minecraft:redstone')
         .itemOutputs('gtceu:red_alloy_dust')
         .circuit(2)
         .duration(80)

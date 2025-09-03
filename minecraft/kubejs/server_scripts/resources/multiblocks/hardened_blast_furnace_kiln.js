@@ -43,4 +43,11 @@ ServerEvents.recipes(event => {
         .itemInputs('4x #minecraft:logs', '4x #minecraft:planks')
         .itemOutputs('4x minecraft:charcoal')
         .duration(160)
+    
+    event.recipes.gtceu.hardened_blast_furnace('wrought_iron_to_steel')
+        .itemInputs('2x minecraft:charcoal', 'gtceu:wrought_iron_ingot')
+        .itemOutputs('gtceu:steel_ingot')
+        .duration(400)
+        
 });
+

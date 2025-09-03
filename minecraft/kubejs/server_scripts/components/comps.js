@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.shaped('kubejs:terralite_drilling_head', [
+    event.shaped('kubejs:terralite_grinding_head', [
         'ACA',
         'CBC',
         'ACA'

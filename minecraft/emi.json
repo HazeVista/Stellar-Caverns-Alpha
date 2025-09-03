@@ -1,29 +1,58 @@
 {
   "favorites": [
     {
-      "stack": "item:gtceu:lv_lathe",
-      "recipe": "gtceu:shaped/lv_lathe"
+      "stack": "item:minecraft:crafting_table"
     },
     {
-      "stack": "item:gtceu:copper_single_cable"
+      "stack": "item:minecraft:diamond"
     },
     {
-      "stack": "item:gtceu:lv_lithium_battery",
-      "recipe": "gtceu:canner/lithium_battery_lv"
+      "stack": "item:toms_storage:ts.storage_terminal"
     },
     {
-      "stack": "item:gtceu:dense_low_grade_terralite_superconductor_ingot"
+      "stack": "item:toms_storage:ts.crafting_terminal",
+      "recipe": "toms_storage:crafting_terminal"
     },
     {
-      "stack": "item:gtceu:dense_low_grade_terralite_superconductor_quadruple_wire",
-      "recipe": "gtceu:shapeless/dense_low_grade_terralite_superconductor_wire_wire_gt_double_doubling"
+      "stack": "item:toms_storage:ts.storage_terminal"
     },
     {
-      "stack": "item:gtceu:dense_low_grade_terralite_superconductor_octal_wire",
-      "recipe": "gtceu:shapeless/dense_low_grade_terralite_superconductor_wire_wire_gt_double_quadrupling"
+      "stack": "item:toms_storage:ts.inventory_connector"
     }
   ],
   "lookup_history": [
+    "item:gtceu:hv_geothermal_generator",
+    "item:gtceu:mv_geothermal_generator",
+    "item:gtceu:lv_geothermal_generator",
+    "item:toms_storage:ts.crafting_terminal",
+    "item:toms_storage:ts.storage_terminal",
+    "item:toms_storage:ts.inventory_connector",
+    "item:toms_storage:ts.trim",
+    "item:gtceu:dense_low_grade_terralite_superconductor_dust",
+    "item:gtceu:dense_low_grade_terralite_superconductor_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:carbon_dust",
+      "amount": 64
+    },
+    "item:minecraft:diamond",
+    "item:minecraft:paper",
+    "item:gtceu:paper_dust",
+    "item:gtceu:tiny_paper_dust",
+    "item:minecraft:glass",
+    "item:minecraft:cyan_stained_glass",
+    "item:gtceu:ball_casting_mold",
+    "item:gtceu:rotor_casting_mold",
+    "item:gtceu:ulv_extractor",
+    "item:gtceu:copper_single_cable",
+    "item:gtceu:lv_lithium_battery",
+    "item:gtceu:dense_low_grade_terralite_superconductor_octal_wire",
+    "item:gtceu:dense_low_grade_terralite_superconductor_quadruple_wire",
+    "item:gtceu:steel_ingot",
+    "item:gtceu:lv_circuit_assembler",
+    "item:gtceu:uv_circuit_assembler",
+    "item:gtceu:lv_electric_motor",
+    "item:kubejs:ulv_magnetic_motor",
     "item:gtceu:dense_low_grade_terralite_superconductor_double_wire",
     {
       "type": "item",
@@ -31,8 +60,6 @@
       "amount": 64
     },
     "item:gtceu:dense_low_grade_terralite_dust",
-    "item:gtceu:dense_low_grade_terralite_superconductor_dust",
-    "item:gtceu:dense_low_grade_terralite_superconductor_ingot",
     "item:gtceu:dense_low_grade_terralite_superconductor_single_wire",
     {
       "type": "item",
@@ -71,13 +98,7 @@
       "amount": 64
     },
     "item:gtceu:mv_water_pump",
-    {
-      "type": "item",
-      "id": "gtceu:mv_geothermal_generator",
-      "amount": 64
-    },
     "item:minecraft:lava_bucket",
-    "item:gtceu:copper_single_cable",
     {
       "type": "item",
       "id": "gtceu:tungstensteel_turbine_casing",
@@ -111,12 +132,10 @@
     "item:minecraft:spruce_pressure_plate",
     "#item:gtceu:circuits/lv",
     "item:gtceu:lv_cutter",
-    "item:minecraft:diamond",
     "item:gtceu:mv_macerator",
     "#item:gtceu:circuits/mv",
     "item:gtceu:double_wrought_iron_plate",
     "item:kubejs:ulv_electric_pump",
-    "item:kubejs:ulv_magnetic_motor",
     "item:gtceu:hv_sensor",
     "item:gtceu:advanced_energy_detector_cover",
     "item:gtmthings:zpm_2a_wireless_energy_input_hatch",
@@ -252,7 +271,6 @@
       "amount": 3000
     },
     "item:gtceu:ruby_dust",
-    "item:gtceu:carbon_dust",
     "item:gtceu:uv_electromagnetic_separator",
     "item:gtceu:zpm_electromagnetic_separator",
     "item:gtceu:pure_naquadah_dust",
@@ -286,7 +304,6 @@
     "item:gtceu:tin_alloy_ingot",
     "item:gtceu:tin_single_wire",
     "item:gtceu:tin_single_cable",
-    "item:gtceu:lv_electric_motor",
     "item:gtceu:lv_conveyor_module",
     "item:minecraft:cauldron",
     {
@@ -307,7 +324,6 @@
     "item:gtceu:charcoal_dust",
     "item:minecraft:ladder",
     "item:minecraft:campfire",
-    "item:minecraft:glass",
     "item:minecraft:stone_brick_wall",
     "item:gtceu:fireclay_dust",
     "item:gtceu:compressed_fireclay",
@@ -365,7 +381,6 @@
     "item:gtceu:steam_machine_casing",
     "item:gtceu:ulv_sifter",
     "item:gtceu:ulv_compressor",
-    "item:gtceu:ulv_extractor",
     "item:gtceu:ulv_mixer",
     "item:gtceu:ulv_macerator",
     "item:gtceu:ev_air_scrubber",
@@ -457,9 +472,6 @@
     "item:gtceu:iridium_metal_residue_dust",
     "item:gtceu:coke_oven",
     "item:minecraft:comparator",
-    "item:toms_storage:ts.storage_terminal",
-    "item:toms_storage:ts.trim",
-    "item:toms_storage:ts.inventory_connector",
     "item:minecraft:cake",
     {
       "type": "item",
@@ -608,23 +620,23 @@
   ],
   "recipe_defaults": {
     "added": [
-      "minecraft:kjs/gtceu_ulv_forge_hammer",
-      "gtceu:primitive_compressor/primtive_low_grade_terralite_to_dense",
-      "gtceu:high_pressure_compression/lv_super_con",
-      "gtceu:primitive_sifter/stone_sifting_to_terralite",
+      "minecraft:kjs/gtceu_ulv_extractor",
       "minecraft:kjs/ulv_electric_piston",
-      "minecraft:cobblestone_wall",
+      "minecraft:stone_slab",
+      "minecraft:kjs/gtceu_ulv_forge_hammer",
+      "minecraft:kjs/gtceu_ulv_mixer",
+      "gtceu:primitive_sifter/stone_sifting_to_terralite",
       "gtceu:wiremill/mill_dense_low_grade_terralite_superconductor_wire",
       "woodenbucket:wooden_bucket",
-      "minecraft:kjs/gtceu_ulv_thermal_generator",
-      "gtceu:mixer/lv_super_con_base",
+      "minecraft:stone_bricks",
       "minecraft:stone_brick_slab",
-      "minecraft:kjs/ulv_electric_pump",
-      "minecraft:kjs/gtceu_ulv_mixer",
-      "minecraft:stone_slab",
-      "minecraft:kjs/gtceu_ulv_extractor",
+      "gtceu:mixer/lv_super_con_base",
       "minecraft:kjs/ulv_magnetic_motor",
-      "minecraft:stone_bricks"
+      "gtceu:primitive_compressor/primtive_low_grade_terralite_to_dense",
+      "minecraft:kjs/ulv_electric_pump",
+      "minecraft:cobblestone_wall",
+      "gtceu:high_pressure_compression/lv_super_con",
+      "minecraft:kjs/gtceu_ulv_thermal_generator"
     ],
     "tags": {},
     "resolutions": {},

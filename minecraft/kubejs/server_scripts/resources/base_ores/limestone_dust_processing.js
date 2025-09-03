@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     event.recipes.gtceu.primitive_maceration('base_ore_dusts')
         .itemInputs('minecraft:cobblestone')
-        .itemOutputs('4x gtceu:limestone_dust')
+        .itemOutputs('4x gtceu:stone_dust')
         .duration(32)
         .EUt(2)
 

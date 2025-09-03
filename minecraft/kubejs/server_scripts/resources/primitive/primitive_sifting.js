@@ -39,5 +39,12 @@ ServerEvents.recipes(event => {
         .chancedOutput('gtceu:rubber_sapling', 2500, 0)
         .duration(80)
         .EUt(4)
+
+    event.recipes.gtceu.primitive_sifter('woodpulp_to_chad')
+        .itemInputs('8x gtceu:wood_dust')
+        .itemOutputs('4x gtceu:paper_dust')
+        .duration(60)
+        .EUt(3)
+        
 });
 

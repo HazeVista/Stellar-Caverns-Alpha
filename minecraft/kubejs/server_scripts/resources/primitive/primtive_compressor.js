@@ -22,4 +22,11 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:dense_low_grade_terralite_dust')
         .duration(200)
         .EUt(2)
-});
+
+    event.recipes.gtceu.primitive_compressor('primitive_chad_to_paper')
+        .itemInputs('3x gtceu:paper_dust')
+        .itemOutputs('2x minecraft:paper')
+        .duration(120)
+        .EUt(2)
+
+    });

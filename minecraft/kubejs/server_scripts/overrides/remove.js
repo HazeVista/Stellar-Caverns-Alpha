@@ -10,4 +10,6 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:shaped/lv_rock_crusher'})
     event.remove({id: 'gtceu:shaped/lv_block_breaker'})
     
+    event.remove({id: 'toms_storage:storage_terminal'})
+    event.remove({id: 'toms_storage:inventory_connector'})
 });

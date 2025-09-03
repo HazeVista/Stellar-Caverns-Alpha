@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: "47CAC09395B873F2"
+	id: "5281B347E452D2F9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "250D9F6A157E4A19"
+			tasks: [{
+				id: "0D33D01BCCCC5B96"
+				item: "kubejs:ulv_magnetic_motor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "6C780A7DE010A9A4"
+			tasks: [{
+				id: "25A96D514BD8CCF5"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "0F229362858C00F1"
+			tasks: [{
+				id: "57A92954134445B5"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "6CE601B3F0E3BF58"
+			tasks: [{
+				id: "52AB651B2006DF84"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	title: "Progression"
+}
