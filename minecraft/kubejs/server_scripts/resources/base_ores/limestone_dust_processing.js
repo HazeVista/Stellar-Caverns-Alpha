@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         .duration(120)
 
     event.recipes.gtceu.primitive_mixer('light_calcareous_slurry_synthesis')
-        .itemInputs(Item.of('16x gtceu:limestone_dust'))
+        .itemInputs(Item.of('16x gtceu:dripstone_dust'))
         .inputFluids('minecraft:water')
         .outputFluids(Fluid.of('gtceu:light_calcareous_slurry', 2000))
         .duration(20)
@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:lead_dust')
         .itemOutputs(Item.of('2x gtceu:copper_dust'))
         .itemOutputs(Item.of('3x gtceu:iron_dust'))
-        .itemOutputs(Item.of('4x gtceu:limelimestone_dust'))
+        .itemOutputs(Item.of('4x gtceu:dripstone_dust'))
         .duration(100)
         .EUt(4)
 

@@ -27,7 +27,7 @@
   "material.gtceu.concentrated_tuffaceous_slurry_residue": "Concentrated Tuffaceous Slurry Residue",
   "material.gtceu.tuff": "Tuff",
   "material.gtceu.dirt": "Dirt",
-  "material.gtceu.limestone": "Limestone",
+  "material.gtceu.dripstone": "Dripstone",
   "material.gtceu.silicon_dioxide": "Silica",
   "material.gtceu.dense_low_grade_terralite": "Dense Low Grade Terralite",
 
@@ -41,6 +41,11 @@
   "gtceu.hardened_blast_furnace": "Hardened Blast Furnace",
   "block.gtceu.high_pressure_compressor": "High Pressure Compressor",
   "gtceu.high_pressure_compression": "High Pressure Compression",
+  "block.gtceu.drymill": "Hardened Drymill",
+  "gtceu.drymill": "Drymill",
+  "block.gtceu.hardened_core_drilling_rig": "Hardened Core Drilling Rig",
+  "gtceu.core_drilling": "Core Drilling",
+
 
   "material.gtceu.dense_low_grade_terralite_superconductor": "Dense Low Grade Terralite Superconductor"
 

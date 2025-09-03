@@ -22,9 +22,9 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .dust()
         .color(0x94674A)
 
-    event.create('limestone')
+    event.create('dripstone')
         .dust()
-        .color(0xC1C1C1)
+        .color(0xB29562)
 
     event.create('concentrated_tuffaceous_slurry_residue')
         .dust()

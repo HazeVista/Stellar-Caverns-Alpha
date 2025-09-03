@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
-    event.recipes.gtceu.primitive_sifter('tuff_granite_limestone_dusts')
+    event.recipes.gtceu.primitive_sifter('tuff_granite_dripstone_dusts')
         .itemInputs('32x gtceu:stone_dust')
-        .itemOutputs('4x gtceu:tuff_dust', '4x gtceu:granite_dust','8x gtceu:limestone_dust','16x gtceu:dirt_dust')
+        .itemOutputs('4x gtceu:tuff_dust', '4x gtceu:granite_dust','8x gtceu:dripstone_dust','16x gtceu:dirt_dust')
         .duration(60)
         .EUt(4)
 

@@ -293,6 +293,7 @@
 			id: "4B1456D6FC70C091"
 			shape: "rsquare"
 			tasks: [{
+				icon: "gtceu:dripstone_dust"
 				id: "6B7BE89D31881CB1"
 				item: "gtceu:limestone_dust"
 				type: "item"

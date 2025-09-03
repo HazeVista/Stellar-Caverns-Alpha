@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
         .itemInputs('64x gtceu:carbon_dust')
         .itemOutputs('1x minecraft:diamond')
         .duration(600)
-        .EUt(64)
+        .EUt(32)
 
 
 
