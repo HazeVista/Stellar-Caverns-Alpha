@@ -19,4 +19,40 @@ ServerEvents.recipes(event => {
         C: '#gtceu:circuits/lv',
         D: 'gtceu:solid_machine_casing'
     })
+
+    event.shaped('gtceu:hardened_core_drilling_rig',[
+        'ABA',
+        'BCB',
+        'ABA'
+    ], {
+        A: 'gtceu:steel_plate',
+        B: 'gtceu:lv_electric_motor',
+        C: 'gtceu:steel_drill_head'
+
+    })
+
+    event.shaped('gtceu:wetmill',[
+        'ADA',
+        'BCB',
+        'ADA'
+    ], {
+        A: 'gtceu:steel_plate',
+        B: 'gtceu:lv_electric_pump',
+        C: 'gtceu:steel_pipe_casing',
+        D: '#gtceu:circuits/lv',
+        
+    })
+
+     event.shaped('gtceu:drymill',[
+        'AEA',
+        'DCD',
+        'ABA'
+    ], {
+        A: 'gtceu:steel_plate',
+        B: 'gtceu:lv_electric_pump',
+        C: 'gtceu:steel_gearbox',
+        D: '#gtceu:circuits/lv',
+        E: 'kubejs:wood_prospecting_sieve'
+        
+    })
 });
