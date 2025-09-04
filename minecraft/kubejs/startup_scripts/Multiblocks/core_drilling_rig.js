@@ -38,8 +38,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('@', Predicates.controller(Predicates.blocks(definition.get())))
             .build())
         
-        .workableCasingModel(
+        .workableCasingRenderer(
             "gtceu:block/casings/solid/machine_casing_solid_steel",
-            "gtceu:block/machines/centrifuge"
+            "gtceu:block/machines/centrifuge", false
         );
 });

@@ -1,26 +1,218 @@
 {
   "favorites": [
     {
-      "stack": "item:minecraft:crafting_table"
+      "stack": {
+        "type": "item",
+        "id": "gtceu:granite_dust",
+        "amount": 4
+      }
     },
     {
-      "stack": "item:minecraft:diamond"
-    },
-    {
-      "stack": "item:toms_storage:ts.storage_terminal"
-    },
-    {
-      "stack": "item:toms_storage:ts.crafting_terminal",
-      "recipe": "toms_storage:crafting_terminal"
-    },
-    {
-      "stack": "item:toms_storage:ts.storage_terminal"
-    },
-    {
-      "stack": "item:toms_storage:ts.inventory_connector"
+      "stack": {
+        "type": "fluid",
+        "id": "minecraft:water",
+        "amount": 1440
+      }
     }
   ],
   "lookup_history": [
+    "item:gtceu:lv_muffler_hatch",
+    "item:gtceu:quartzite_gem",
+    "item:gtceu:high_pressure_compressor",
+    "item:gtceu:microchip_processor",
+    "item:gtceu:nand_chip",
+    "fluid:minecraft:lava",
+    "item:gtceu:lv_geothermal_generator",
+    "item:gtceu:exquisite_rutile_gem",
+    "item:gtceu:rutile_dust",
+    "item:gtceu:tiny_rutile_dust",
+    "item:gtceu:small_rutile_dust",
+    "item:gtceu:rutile_block",
+    "item:gtceu:flawless_rutile_gem",
+    "item:gtceu:rutile_gem",
+    {
+      "type": "item",
+      "id": "gtceu:crushing_wheels",
+      "amount": 2
+    },
+    "item:gtceu:secure_maceration_casing",
+    "item:gtceu:treated_wood_rod",
+    "item:gtceu:treated_wood_frame",
+    "item:gtceu:primitive_pump",
+    "item:gtceu:coke_oven",
+    {
+      "type": "fluid",
+      "id": "gtceu:creosote",
+      "amount": 250
+    },
+    "item:gtceu:coke_oven_hatch",
+    "item:gtceu:coke_oven_brick",
+    "item:minecraft:clay_ball",
+    "item:gtceu:compressed_coke_clay",
+    "item:minecraft:sand",
+    "#item:minecraft:sand",
+    "item:gtceu:wetmill",
+    "item:gtceu:drymill",
+    {
+      "type": "fluid",
+      "id": "gtceu:light_calcareous_slurry",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:light_calcareous_slurry_waste",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:concentrated_calcareous_slurry",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:green_sapphire_slurry",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:sapphire_slurry",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:ruby_slurry",
+      "amount": 0
+    },
+    {
+      "type": "item",
+      "id": "gtceu:sial_dust",
+      "amount": 8
+    },
+    "item:gtceu:hornblende_dust",
+    "item:gtceu:tiny_hornblende_dust",
+    "item:gtceu:dolomite_dust",
+    "item:gtceu:carbon_dust",
+    "item:gtceu:tiny_sodium_bicarbonate_dust",
+    "item:gtceu:magnesium_dust",
+    "item:gtceu:alumina_dust",
+    "item:gtceu:aluminium_dust",
+    "item:gtceu:volcanic_ash_dust",
+    "item:gtceu:metal_mixture_dust",
+    "item:gtceu:rare_earth_dust",
+    "item:gtceu:rarest_metal_mixture_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:biomass",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:ethanol",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:ethylene",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:vinyl_chloride",
+      "amount": 144
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:polyvinyl_chloride",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:polyvinyl_acetate",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:vinyl_acetate",
+      "amount": 144
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:sulfuric_light_fuel",
+      "amount": 12000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:light_fuel",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:severely_steam_cracked_light_fuel",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:enriched_mineral_water",
+      "amount": 0
+    },
+    "item:gtceu:sapphire_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:enriched_naquadah_waste",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:naquadria_waste",
+      "amount": 0
+    },
+    "item:gtceu:solid_machine_casing",
+    "item:gtceu:dark_ash_dust",
+    "item:gtceu:potash_dust",
+    "item:gtceu:soda_ash_dust",
+    "item:gtceu:tiny_debris_dust",
+    "item:gtceu:small_debris_dust",
+    "item:gtceu:debris_dust",
+    "item:gtceu:stone_dust",
+    "item:minecraft:apple",
+    "item:gtceu:spessartine_dust",
+    "item:gtceu:gallium_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:granite_mixture",
+      "amount": 1440
+    },
+    "item:gtceu:granite_dust",
+    "item:minecraft:coarse_dirt",
+    "item:minecraft:dirt",
+    {
+      "type": "item",
+      "id": "gtceu:dirt_dust",
+      "amount": 4
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:tuff_mixture",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:nitration_mixture",
+      "amount": 0
+    },
+    "item:gtceu:uhv_input_bus",
+    "item:minecraft:redstone",
+    "item:gtceu:plagioclase_dust",
+    "item:gtceu:schist_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:schist_mixture",
+      "amount": 0
+    },
+    "item:gtceu:andesite_dust",
+    "item:gtceu:tiny_andesite_dust",
+    "item:gtceu:tuff_dust",
+    "item:gtceu:hardened_core_drilling_rig",
     "item:gtceu:dense_low_grade_terralite_superconductor_dust",
     "item:gtceu:dense_low_grade_terralite_superconductor_ingot",
     "item:gtceu:tiny_dense_low_grade_terralite_superconductor_dust",
@@ -41,30 +233,15 @@
     "item:gtceu:ulv_transformer_1a",
     "item:gtceu:lv_transformer_1a",
     "item:gtceu:ulv_machine_hull",
-    "item:gtceu:lv_geothermal_generator",
-    "item:gtceu:high_pressure_compressor",
     "item:gtceu:diamond_grinding_head",
     "item:kubejs:terralite_grinding_head",
     "#item:minecraft:planks",
     "item:minecraft:crafting_table",
-    "item:gtceu:wetmill",
-    {
-      "type": "fluid",
-      "id": "gtceu:light_calcareous_slurry",
-      "amount": 2000
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:concentrated_calcareous_slurry",
-      "amount": 0
-    },
     "item:minecraft:dripstone_block",
-    "item:gtceu:stone_dust",
     "item:gtceu:pure_redstone_dust",
     "item:gtceu:certus_quartz_indicator",
     "item:ae2:certus_quartz_crystal",
     "item:gtceu:certus_quartz_gem",
-    "item:gtceu:hardened_core_drilling_rig",
     {
       "type": "item",
       "id": "minecraft:cobblestone",
@@ -73,26 +250,14 @@
     "item:gtceu:steel_plate",
     "item:gtceu:steel_rod",
     "item:gtceu:steel_frame",
-    {
-      "type": "item",
-      "id": "gtceu:solid_machine_casing",
-      "amount": 36
-    },
-    "item:gtceu:drymill",
     "item:gtceu:steel_gearbox",
     "item:gtceu:mv_muffler_hatch",
-    "item:gtceu:lv_muffler_hatch",
     "item:gtceu:hv_geothermal_generator",
     "item:gtceu:mv_geothermal_generator",
     "item:toms_storage:ts.crafting_terminal",
     "item:toms_storage:ts.storage_terminal",
     "item:toms_storage:ts.inventory_connector",
     "item:toms_storage:ts.trim",
-    {
-      "type": "item",
-      "id": "gtceu:carbon_dust",
-      "amount": 64
-    },
     "item:minecraft:diamond",
     "item:minecraft:paper",
     "item:gtceu:paper_dust",
@@ -130,11 +295,6 @@
       "amount": 8000
     },
     {
-      "type": "fluid",
-      "id": "minecraft:lava",
-      "amount": 1900
-    },
-    {
       "type": "item",
       "id": "gtceu:lv_battery_hull",
       "amount": 64
@@ -149,12 +309,6 @@
       "id": "gtceu:distilled_water",
       "amount": 0
     },
-    {
-      "type": "item",
-      "id": "gtceu:hv_water_pump",
-      "amount": 64
-    },
-    "item:gtceu:mv_water_pump",
     "item:minecraft:lava_bucket",
     {
       "type": "item",
@@ -206,7 +360,6 @@
     "item:gtmthings:virtual_item_provider_cell",
     "item:gtmthings:lv_digital_miner",
     "item:gtmthings:mv_digital_miner",
-    "item:gtmthings:programmable_cover",
     "item:gtmthings:luv_4a_wireless_energy_receive_cover",
     "item:gtmthings:zpm_4a_wireless_energy_receive_cover",
     "item:gtmthings:uv_4a_wireless_energy_receive_cover",
@@ -222,11 +375,6 @@
     "item:gtmthings:iv_huge_item_export_bus",
     "item:gtmthings:uv_huge_dual_hatch",
     "item:gtceu:ulv_output_bus",
-    {
-      "type": "fluid",
-      "id": "gtceu:light_calcareous_slurry_waste",
-      "amount": 0
-    },
     "item:gtceu:ulv_kiln",
     "item:gtceu:wrought_iron_ingot",
     {
@@ -254,7 +402,6 @@
     },
     "item:gtceu:zinc_ingot",
     "item:gtceu:zinc_foil",
-    "item:gtceu:quartzite_gem",
     "item:gtceu:lv_emitter",
     "item:gtceu:brass_rod",
     "item:gtceu:zinc_dust",
@@ -271,7 +418,6 @@
     },
     "item:gtceu:diamond_rod",
     "item:constructionwand:diamond_wand{Damage:0,wand_options:{}}",
-    "item:minecraft:redstone",
     "item:gtceu:silver_dust",
     "item:gtceu:lv_centrifuge",
     "item:minecraft:repeater",
@@ -336,7 +482,6 @@
     "item:gtceu:lv_machine_hull",
     "#item:forge:tools/crowbars",
     "item:gtceu:large_material_press",
-    "item:minecraft:sand",
     "item:minecraft:sandstone",
     "item:minecraft:sandstone_stairs",
     "item:ae2:spatial_storage_cell_128",
@@ -348,12 +493,6 @@
     "item:gtceu:tin_single_cable",
     "item:gtceu:lv_conveyor_module",
     "item:minecraft:cauldron",
-    {
-      "type": "item",
-      "id": "minecraft:coarse_dirt",
-      "amount": 62
-    },
-    "item:gtceu:dirt_dust",
     "item:gtceu:ulv_input_hatch",
     "item:minecraft:charcoal",
     "item:gtceu:charcoal_dust",
@@ -473,7 +612,6 @@
     "item:gtceu:hp_steam_forge_hammer",
     "item:gtceu:lp_steam_forge_hammer",
     "item:gtceu:redrock_dust",
-    "item:gtceu:granite_dust",
     "item:gtceu:small_platinum_sludge_residue_dust",
     "item:gtceu:small_basalt_dust",
     "item:gtceu:sodalite_dust",
@@ -502,7 +640,6 @@
     "item:gtceu:calcite_dust",
     "item:minecraft:stone_bricks",
     "item:gtceu:iridium_metal_residue_dust",
-    "item:gtceu:coke_oven",
     "item:minecraft:comparator",
     "item:minecraft:cake",
     {
@@ -510,17 +647,7 @@
       "id": "gtceu:biotite_dust",
       "chance": 0.11111111
     },
-    {
-      "type": "item",
-      "id": "gtceu:metal_mixture_dust",
-      "chance": 0.0925
-    },
     "item:kubejs:crude_cobblestone_hammer{Damage:0}",
-    {
-      "type": "fluid",
-      "id": "gtceu:cracked_bauxite_slurry",
-      "amount": 0
-    },
     "item:angelring:energetic_angel_ring",
     "item:angelring:angel_ring",
     "item:angelring:diamond_ring",
@@ -563,7 +690,6 @@
     "item:minecraft:stone_slab",
     "item:minecraft:stone_brick_slab",
     "item:minecraft:cobblestone_wall",
-    "item:gtceu:primitive_pump",
     "#item:minecraft:saplings",
     "item:gtceu:ulv_voltage_coil",
     "#item:minecraft:wooden_pressure_plates",
@@ -649,22 +775,22 @@
   ],
   "recipe_defaults": {
     "added": [
+      "woodenbucket:wooden_bucket",
+      "minecraft:stone_brick_slab",
+      "minecraft:stone_bricks",
+      "gtceu:assembler/assemble_steel_frame",
+      "minecraft:cobblestone_wall",
       "minecraft:stone_slab",
-      "gtceu:shaped/plate_steel",
+      "minecraft:kjs/gtceu_ulv_forge_hammer",
       "minecraft:kjs/gtceu_ulv_mixer",
+      "minecraft:kjs/ulv_magnetic_motor",
       "minecraft:kjs/gtceu_ulv_extractor",
+      "minecraft:kjs/ulv_electric_piston",
+      "gtceu:shaped/stick_steel",
+      "minecraft:kjs/gtceu_ulv_thermal_generator",
       "gtceu:shaped/casing_steel_solid",
       "minecraft:kjs/ulv_electric_pump",
-      "minecraft:stone_brick_slab",
-      "gtceu:shaped/stick_steel",
-      "minecraft:cobblestone_wall",
-      "minecraft:stone_bricks",
-      "woodenbucket:wooden_bucket",
-      "minecraft:kjs/gtceu_ulv_thermal_generator",
-      "minecraft:kjs/ulv_electric_piston",
-      "minecraft:kjs/gtceu_ulv_forge_hammer",
-      "minecraft:kjs/ulv_magnetic_motor",
-      "gtceu:assembler/assemble_steel_frame"
+      "gtceu:shaped/plate_steel"
     ],
     "tags": {},
     "resolutions": {},

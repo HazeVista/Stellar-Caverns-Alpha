@@ -32,8 +32,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 .build())
 
 
-        .workableCasingModel(
+        .workableCasingRenderer(
             "gtceu:block/casings/solid/machine_casing_solid_steel",
-            "gtceu:block/machines/ore_washer"                   
+            "gtceu:block/machines/ore_washer", false                 
         );
 });

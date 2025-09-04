@@ -1,0 +1,35 @@
+GTCEuStartupEvents.registry('gtceu:material', event => {
+
+    //Plagioclase
+    event.create('debris')
+        .dust()
+        .color(0x6E351D)
+
+    event.create('volcanic_ash')
+        .dust()
+        .color(0x201010)
+
+    event.create('alumina')
+        .dust()
+        .color(0x6BC3D1)
+
+    event.create('dolomite')
+        .dust()
+        .color(0xF7F7F7)
+    
+    event.create('hornblende')
+        .dust()
+        .color(0x282828)
+
+    event.create('schist')
+        .dust()
+        .color(0xB3C2B0)
+
+    event.create('plagioclase')
+        .dust()
+        .color(0xFDFFDD)
+
+    event.create('sial')
+        .dust()
+        .color(0x8C5582)
+});

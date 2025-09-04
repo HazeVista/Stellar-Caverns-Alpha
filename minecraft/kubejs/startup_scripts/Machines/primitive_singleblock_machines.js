@@ -83,7 +83,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 		.definition((tier, builder) => (
 			builder
 				.recipeType('primitive_maceration')
-				.workableCasingModel('minecraft:block/cobblestone', 'gtceu:block/machines/macerator')
+				.workableCasingRenderer('minecraft:block/cobblestone', 'gtceu:block/machines/macerator', false)
 		))
 
 	event.create('centrifuge', 'simple')
@@ -91,7 +91,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 		.definition((tier, builder) => (
 			builder
 				.recipeType('primitive_centrifuge')
-				.workableCasingModel('minecraft:block/stone_bricks', 'gtceu:block/machines/centrifuge')
+				.workableCasingRenderer('minecraft:block/stone_bricks', 'gtceu:block/machines/centrifuge', false)
 		))
 
 	event.create('mixer', 'simple')
@@ -99,7 +99,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 		.definition((tier, builder) => (
 			builder
 				.recipeType('primitive_mixer')
-				.workableCasingModel('minecraft:block/cobblestone', 'gtceu:block/machines/mixer')
+				.workableCasingRenderer('minecraft:block/cobblestone', 'gtceu:block/machines/mixer', false)
 		))
 
 	event.create('extractor', 'simple')
@@ -107,7 +107,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 		.definition((tier, builder) => (
 			builder
 				.recipeType('primitive_extractor')
-				.workableCasingModel('minecraft:block/cobblestone', 'gtceu:block/machines/extractor')
+				.workableCasingRenderer('minecraft:block/cobblestone', 'gtceu:block/machines/extractor', false)
 		))
 
 
@@ -116,7 +116,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 		.definition((tier, builder) => (
 			builder
 				.recipeType('primitive_compressor')
-				.workableCasingModel('minecraft:block/cobblestone', 'gtceu:block/machines/compressor')
+				.workableCasingRenderer('minecraft:block/cobblestone', 'gtceu:block/machines/compressor', false)
 		))
 
 
@@ -125,7 +125,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 		.definition((tier, builder) => (
 			builder
 				.recipeType('primitive_forge_hammer')
-				.workableCasingModel('minecraft:block/cobblestone', 'gtceu:block/machines/forge_hammer')
+				.workableCasingRenderer('minecraft:block/cobblestone', 'gtceu:block/machines/forge_hammer', false)
 		))
 
 	event.create('kiln', 'simple')
@@ -133,7 +133,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 		.definition((tier, builder) => (
 			builder
 				.recipeType('primitive_kiln')
-				.workableCasingModel('minecraft:block/stone_bricks', 'gtceu:block/machines/arc_furnace')
+				.workableCasingRenderer('minecraft:block/stone_bricks', 'gtceu:block/machines/arc_furnace', false)
 		))
 
 	event.create('sifter', 'simple')
@@ -141,7 +141,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 		.definition((tier, builder) => (
 			builder
 				.recipeType('primitive_sifter')
-				.workableCasingModel('minecraft:block/stone_bricks', 'gtceu:block/machines/sifter')
+				.workableCasingRenderer('minecraft:block/stone_bricks', 'gtceu:block/machines/sifter', false)
 		))
 
 	// Generators
@@ -151,7 +151,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 			builder
 				.recipeType('thermal_generator')
 				.regressWhenWaiting(false)
-				.workableCasingModel('minecraft:block/stone_bricks', 'kubejs:block/singleblock/thermal_generator')
+				.workableCasingRenderer('minecraft:block/stone_bricks', 'kubejs:block/singleblock/thermal_generator', false)
 		))
 });
 

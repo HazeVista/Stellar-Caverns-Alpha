@@ -28,8 +28,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .build())
 
 
-        .workableCasingModel(
+        .workableCasingRenderer(
             'minecraft:block/stone_bricks',
-            "gtceu:block/machines/furnace"
+            "gtceu:block/machines/furnace", false
         );
 });

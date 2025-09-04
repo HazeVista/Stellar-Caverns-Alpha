@@ -3,6 +3,7 @@ ServerEvents.recipes(event => {
         .itemInputs('32x gtceu:stone_dust')
         .itemOutputs('4x gtceu:tuff_dust', '4x gtceu:granite_dust','8x gtceu:dripstone_dust','16x gtceu:dirt_dust')
         .duration(60)
+        .circuit(3)
         .EUt(4)
 
     event.recipes.gtceu.primitive_mixer('light_tuffaceous_slurry_synthesis')

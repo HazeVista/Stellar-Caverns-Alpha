@@ -19,6 +19,8 @@
   "material.gtceu.concentrated_calcareous_slurry": "Concentrated Calcareous Slurry",
   "material.gtceu.concentrated_tuffaceous_slurry": "Concentrated Tuffaceous Slurry",
 
+  "material.gtceu.enriched_mineral_water": "Enriched Mineral Water",
+
  
   "material.gtceu.low_grade_terralite": "Low Grade Terralite",
 
@@ -30,6 +32,29 @@
   "material.gtceu.dripstone": "Dripstone",
   "material.gtceu.silicon_dioxide": "Silica",
   "material.gtceu.dense_low_grade_terralite": "Dense Low Grade Terralite",
+  "material.gtceu.schist": "Schist",
+  "material.gtceu.plagioclase": "Plagioclase",
+  "material.gtceu.debris": "Debris",
+  "material.gtceu.volcanic_ash": "Volcanic Ash",
+  "material.gtceu.alumina": "Alumina",
+  "material.gtceu.dolomite": "Dolomite",
+  "material.gtceu.hornblende": "Hornblende",
+  "material.gtceu.sial": "Sial",
+
+  "material.gtceu.plagioclase_mixture": "Plagioclase Mixture",
+  "material.gtceu.schist_mixture": "Schist Mixture",
+  "material.gtceu.tuff_mixture": "Tuff Mixture",
+  "material.gtceu.granite_mixture": "Granite Mixture",
+  "material.gtceu.deepslate_mixture": "Deepslate Mixture",
+  "material.gtceu.diorite_mixture": "Diorite Mixture",
+  "material.gtceu.basalt_mixture": "Basalt Mixture",
+  "material.gtceu.dripstone_mixture": "Dripstone Mixture",
+  "material.gtceu.andesite_mixture": "Andesite Mixture",
+  "material.gtceu.blackstone_mixture": "Blackstone Mixture",
+  "material.gtceu.netherrack_mixture": "Netherrack Mixture",
+
+
+  
 
   
   "material.gtceu.woodest": "Wood",

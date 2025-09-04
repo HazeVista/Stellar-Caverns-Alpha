@@ -1,0 +1,96 @@
+ServerEvents.recipes(event => {
+    //LV Recipes
+    event.recipes.gtceu.wetmill('wetmill_tuff_mixture')
+        .itemInputs('4x gtceu:tuff_dust')
+        .inputFluids('minecraft:water 576')
+        .outputFluids('gtceu:tuff_mixture 576')
+        .chancedOutput('minecraft:redstone', 3000, 0)
+        .EUt(16)
+        .duration(160)
+
+    event.recipes.gtceu.wetmill('wetmill_granite_mixture')
+        .itemInputs('10x gtceu:granite_dust')
+        .inputFluids('minecraft:water 1440')
+        .outputFluids('gtceu:granite_mixture 1440')
+        .chancedOutput('gtceu:nickel_dust', 2500, 0)
+        .EUt(16)
+        .duration(400)
+
+     event.recipes.gtceu.wetmill('wetmill_deepslate_mixture')
+        .itemInputs('10x gtceu:deepslate_dust')
+        .inputFluids('minecraft:water 1440')
+        .outputFluids('gtceu:deepslate_mixture 1440')
+        .chancedOutput('gtceu:gallium_dust', 2000, 0)
+        .EUt(16)
+        .duration(400)
+
+    //MV Recipes
+     event.recipes.gtceu.wetmill('wetmill_diorite_mixture')
+        .itemInputs('9x gtceu:diorite_dust')
+        .inputFluids('minecraft:water 1296')
+        .outputFluids('gtceu:diorite_mixture 1296')
+        .chancedOutput('gtceu:vanadium_dust', 2000, 0)
+        .EUt(64)
+        .duration(360)
+
+     event.recipes.gtceu.wetmill('wetmill_basalt_mixture')
+        .itemInputs('10x gtceu:basalt_dust')
+        .inputFluids('minecraft:water 1440')
+        .outputFluids('gtceu:basalt_mixture 1440')
+        .chancedOutput('gtceu:graphite_dust', 2000, 0)
+        .EUt(64)
+        .duration(400)
+
+     event.recipes.gtceu.wetmill('wetmill_schist_mixture')
+        .itemInputs('12x gtceu:schist_dust')
+        .inputFluids('minecraft:water 1728')
+        .outputFluids('gtceu:schist_mixture 1728')
+        .chancedOutput('gtceu:gold_dust', 2000, 0)
+        .EUt(64)
+        .duration(480)
+    
+    // HV Recipes
+     event.recipes.gtceu.wetmill('wetmill_dripstone_mixture')
+        .itemInputs('16x gtceu:dripstone_dust')
+        .inputFluids('minecraft:water 2304')
+        .outputFluids('gtceu:dripstone_mixture 2304')
+        .chancedOutput('gtceu:vanadium_dust', 2500, 0)
+        .EUt(256)
+        .duration(640)
+
+    event.recipes.gtceu.wetmill('wetmill_plagioclase_mixture')
+        .itemInputs('8x gtceu:plagioclase_dust')
+        .inputFluids('minecraft:water 1152')
+        .outputFluids('gtceu:plagioclase_mixture 1152')
+        .chancedOutput('gtceu:rare_earth_dust', 2500, 0)
+        .EUt(256)
+        .duration(320)
+
+    event.recipes.gtceu.wetmill('wetmill_andesite_mixture')
+        .itemInputs('9x gtceu:andesite_dust')
+        .inputFluids('minecraft:water 1296')
+        .outputFluids('gtceu:andesite_mixture 1296')
+        .chancedOutput('gtceu:spessartine_dust', 2500, 0)
+        .EUt(256)
+        .duration(360)
+
+    //EV Recipes
+
+    //FIX
+    event.recipes.gtceu.wetmill('wetmill_blackstone_mixture')
+        .itemInputs('11x gtceu:blackstone_dust')
+        .inputFluids('minecraft:water 1584')
+        .outputFluids('gtceu:blackstone_mixture 1584')
+        .chancedOutput('gtceu:tiny_debris_dust', 3000, 0)
+        .EUt(1024)
+        .duration(440)
+
+    event.recipes.gtceu.wetmill('wetmill_netherrack_mixture')
+        .itemInputs('18x gtceu:netherrack_dust')
+        .inputFluids('minecraft:water 2592')
+        .outputFluids('gtceu:netherrack_mixture 2592')
+        .chancedOutput('minecraft:glowstone_dust', 2500, 0)
+        .EUt(1024)
+        .duration(640)
+    
+});

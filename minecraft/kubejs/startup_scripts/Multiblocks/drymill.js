@@ -2,7 +2,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('drymill')
         .category('simple')
         .setEUIO('in')
-        .setMaxIOSize(6, 6, 0, 0) // 6 item inputs, 6 outputs, no fluids
+        .setMaxIOSize(0, 6, 2, 2) // 6 item inputs, 6 outputs, no fluids
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.FURNACE);
 });
@@ -37,8 +37,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('@', Predicates.controller(Predicates.blocks(definition.get())))
             .build()
         )
-        .workableCasingModel(
+        .workableCasingRenderer(
             "gtceu:block/casings/solid/machine_casing_solid_steel",
-            "gtceu:block/machines/centrifuge"
+            "gtceu:block/machines/centrifuge", false
         );
 });

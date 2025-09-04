@@ -54,4 +54,10 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:glass_tube')
         .duration(160)
         .EUt(4)
+
+    event.recipes.gtceu.primitive_kiln('primitive_coke_bricks')
+        .itemInputs('#minecraft:smelts_to_glass', 'minecraft:clay_ball')
+        .itemOutputs('gtecu:coke_oven_brick')
+        .duration(150)
+        .EUt(7)
 });       

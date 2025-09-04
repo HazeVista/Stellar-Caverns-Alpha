@@ -36,24 +36,23 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('CAAAC', 'CAAAC', 'CAAAC', 'C###C', 'C###C', '#CCC#')
-            .aisle('ABBBA', 'A###A', 'A###A', '#####', '#####', 'C#A#C')
-            .aisle('ABBBA', 'A###A', 'ADDDA', '##A##', '##A##', 'CAAAC')
-            .aisle('ABBBA', 'A###A', 'A###A', '#####', '#####', 'C#A#C')
+            .aisle('AAAAA', 'A###A', 'A###A', '#####', '#####', 'C#A#C')
+            .aisle('AAAAA', 'A###A', 'ADDDA', '##A##', '##A##', 'CAAAC')
+            .aisle('AAAAA', 'A###A', 'A###A', '#####', '#####', 'C#A#C')
             .aisle('CAAAC', 'CA@AC', 'CAAAC', 'C###C', 'C###C', '#CCC#')
             .where('A', Predicates.blocks('gtceu:solid_machine_casing')
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
                 .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
                 .or(Predicates.abilities(PartAbility.INPUT_ENERGY)))
             .where('#', Predicates.any())
-            .where('B', Predicates.blocks('minecraft:cauldron'))
             .where('C', Predicates.blocks('gtceu:steel_frame'))
             .where('D', Predicates.blocks('gtceu:steel_machine_casing'))
             .where('@', Predicates.controller(Predicates.blocks(definition.get())))
             .build())
 
 
-        .workableCasingModel(
+        .workableCasingRenderer(
             "gtceu:block/casings/solid/machine_casing_solid_steel",
-            "gtceu:block/machines/forge_hammer"
+            "gtceu:block/machines/forge_hammer", false
         );
 });
