@@ -17,6 +17,7 @@
 !README.md
 
 # Specific exclusion
+defaultconfigs/*
 config/ae2/*
 config/craftingtweaks/*
 config/functionalstorage/*
