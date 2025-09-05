@@ -9,7 +9,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Theres a couple different mods added to help with early game storage, have fun experimenting with them :)"]
+			description: [
+				"Theres a couple different mods added to help with early game storage."
+				""
+				"Have fun experimenting with them :)"
+			]
 			icon: "minecraft:chest"
 			id: "4AC00791DFC56447"
 			shape: "diamond"
@@ -27,7 +31,7 @@
 			dependencies: ["4AC00791DFC56447"]
 			icon: "toms_storage:ts.storage_terminal"
 			id: "5303B469A5374EFE"
-			subtitle: "primitive ae2, if you will"
+			subtitle: "Primitive ae2, if you will"
 			tasks: [{
 				id: "7523446F85838041"
 				title: "Tom's Simple Storage"
@@ -80,6 +84,7 @@
 				}
 			}
 			id: "2402550C91661B28"
+			subtitle: "Wireless Color-Coded Storage"
 			tasks: [{
 				id: "5EC8D554C3DC78CD"
 				title: "Ender Storages"

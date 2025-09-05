@@ -3,8 +3,9 @@
 	default_quest_shape: ""
 	filename: "processing_lines_ulv"
 	group: "3F5E1E1DE358ED88"
+	icon: "minecraft:cobblestone"
 	id: "3E000CB487A152F8"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -121,6 +122,7 @@
 			]
 			id: "59D4266FCFB116F6"
 			shape: "octagon"
+			size: 1.25d
 			tasks: [{
 				id: "15CBA5CD33CBAD5B"
 				item: "gtceu:stone_dust"
@@ -293,8 +295,8 @@
 			id: "4B1456D6FC70C091"
 			shape: "rsquare"
 			tasks: [{
-				id: "6B7BE89D31881CB1"
-				item: "gtceu:limestone_dust"
+				id: "6A43C41BC7B1A16F"
+				item: "gtceu:dripstone_dust"
 				type: "item"
 			}]
 			x: -3.5d
@@ -378,6 +380,86 @@
 			x: -1.0d
 			y: 3.0d
 		}
+		{
+			description: [
+				"Mix with terralite in your generator."
+				""
+				"This will probably get changed later."
+			]
+			icon: "gtceu:light_calcareous_slurry_bucket"
+			id: "285DBB47C26CEEA0"
+			subtitle: "first \"decent\" power"
+			tasks: [
+				{
+					id: "5D4637F94099E9F8"
+					item: "gtceu:light_calcareous_slurry_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C4362FC397C6E75"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"285DBB47C26CEEA0"
+				"736C0F093F84AE0E"
+				"07947FDE2083BB82"
+			]
+			description: ["I guess you can extract the water back out of this."]
+			icon: "gtceu:light_calcareous_slurry_waste_bucket"
+			id: "1A8C19F80ACC7592"
+			subtitle: "yummers"
+			tasks: [
+				{
+					id: "47198140B7D06911"
+					item: "gtceu:light_calcareous_slurry_waste_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2FBBEDE58B8D452E"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Throw some low-grade terralite in your compressor for the dense stuff. "
+				""
+				"This variant of terralite runs about 25x longer than stone dust and generates 4x as much EU/t."
+				""
+				"You can still use water and stone dust if you want but once you try this you'll never want to go back."
+			]
+			id: "736C0F093F84AE0E"
+			tasks: [{
+				id: "76341F38E5DC9861"
+				item: "gtceu:dense_low_grade_terralite_dust"
+				type: "item"
+			}]
+			title: "Terralite 2.0"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			id: "07947FDE2083BB82"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "1322A663CD153DFE"
+				item: "gtceu:ulv_thermal_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
 	]
-	title: "ULV - LV"
+	title: "Chapter 1"
 }

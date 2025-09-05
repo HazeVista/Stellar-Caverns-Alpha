@@ -35,35 +35,41 @@
 				type: "checkmark"
 			}]
 			title: "Introduction to SC"
-			x: 2.5d
-			y: 1.25d
+			x: 6.25d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5A3DEEE022F87740"]
 			description: [
 				"Have fun chopping logs (or don't have fun doing it idc) because you'll need a lot of them. "
 				""
-				"The sapling was free but as you will learn, getting organic material in the future will take quite a bit more effprt."
+				"The sapling was free but as you will learn, getting organic material in the future will take quite a bit more effort."
 			]
 			icon: "minecraft:oak_log"
 			id: "33F97368B98EFDD0"
 			shape: "rsquare"
 			size: 1.5d
 			subtitle: "Chop Chop Tree Boy"
-			tasks: [{
-				count: 16L
-				id: "243C979678B50E3A"
-				item: "minecraft:oak_log"
-				optional_task: true
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 16L
+					id: "243C979678B50E3A"
+					item: "minecraft:oak_log"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "79DAF193D6633C92"
+					type: "checkmark"
+				}
+			]
 			title: "Chop Chop!"
-			x: 2.5d
-			y: 3.25d
+			x: 6.25d
+			y: 7.25d
 		}
 		{
 			dependencies: ["33F97368B98EFDD0"]
-			description: ["It is probably worth it to make multipule furnaces."]
+			description: ["It's probably worth it to make a couple furnaces."]
 			hide_until_deps_visible: false
 			id: "0E01A4FFA58C6415"
 			shape: "rsquare"
@@ -82,12 +88,12 @@
 				}
 			]
 			title: "Getting Crafty"
-			x: 2.5d
-			y: 5.0d
+			x: 6.25d
+			y: 9.25d
 		}
 		{
 			dependencies: ["5A3DEEE022F87740"]
-			description: ["disables mobs which in turn disables skipping progression due to mob drops."]
+			description: ["Disables mobs, which in turn disables skipping progression due to mob drops."]
 			icon: {
 				Count: 1
 				id: "minecraft:golden_sword"
@@ -110,12 +116,13 @@
 				title: "Turn Of Mob Spawning"
 				type: "checkmark"
 			}]
-			x: 0.625d
-			y: 1.25d
+			title: "Turn Off Mob Spawning"
+			x: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5A3DEEE022F87740"]
-			description: ["if you dont want things to be caught on fire i suppouse? idk"]
+			description: ["You dont want things to be caught on fire, i suppose?"]
 			icon: {
 				Count: 1
 				id: "minecraft:flint_and_steel"
@@ -138,8 +145,9 @@
 				title: "Turn Of Fire Tick"
 				type: "checkmark"
 			}]
-			x: 4.375d
-			y: 1.25d
+			title: "Turn Off Fire Tick"
+			x: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6A469F4248906F63"]
@@ -154,23 +162,21 @@
 			]
 			id: "65AD5D9D0A0D8100"
 			shape: "rsquare"
-			size: 1.0d
 			subtitle: "Another Weird \"Machine\""
 			tasks: [{
 				id: "42D3325047F1BEFE"
 				item: "gtceu:ulv_extractor"
 				type: "item"
 			}]
-			title: "The start of it all.."
-			x: 2.5d
-			y: 16.0d
+			title: "Primitive Sucker Machine"
+			x: -1.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["65AD5D9D0A0D8100"]
 			description: ["obtained from the primtive extractor for now.."]
 			id: "57099D097D2F4606"
 			shape: "rsquare"
-			size: 1.0d
 			subtitle: "get the infinite water source!"
 			tasks: [{
 				id: "0EDE7DDEAF543C81"
@@ -188,15 +194,15 @@
 				type: "item"
 			}]
 			title: "Wabter"
-			x: 4.0d
-			y: 14.5d
+			x: 0.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["7A7DF7455DD82A2B"]
 			description: ["WHAT DO YOU MEAN IT DOESN'T MOVE FLUIDS ITSELF?!?!?"]
 			id: "6A469F4248906F63"
 			shape: "diamond"
-			size: 1.0d
+			size: 1.25d
 			subtitle: "dissapointing"
 			tasks: [{
 				id: "022720455A0C712B"
@@ -204,21 +210,21 @@
 				type: "item"
 			}]
 			title: "\"Your Inability Upsets Me\""
-			x: 1.0d
-			y: 14.5d
+			x: 0.5d
+			y: 15.0d
 		}
 		{
 			dependencies: [
 				"774D942546D29552"
 				"52F8BF78E34593DA"
 			]
-			description: ["Your very first \"machine component\", used in the most basic primitive machines."]
+			description: ["This is your very first \"machine component\", used in the most basic primitive machines."]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: false
 			id: "7A7DF7455DD82A2B"
 			shape: "diamond"
-			size: 1.0d
-			subtitle: "you did it!"
+			size: 1.25d
+			subtitle: "You did it!"
 			tasks: [{
 				id: "3F890FB9AF084970"
 				item: "kubejs:ulv_magnetic_motor"
@@ -263,7 +269,7 @@
 		}
 		{
 			dependencies: ["64422BE02B33A5CE"]
-			description: ["Jokes aside stone dust is going to be the life blood over your early game, it is used for your first starting metals and power as well."]
+			description: ["Almost all of your resources are going to come from this early on. Make sure to keep a lot of it around."]
 			id: "733F7FFE484F0C67"
 			shape: "rsquare"
 			subtitle: "Actually Important I Promise"
@@ -273,19 +279,19 @@
 				type: "item"
 			}]
 			title: "*Cough Cough*"
-			x: 2.5d
-			y: 8.5d
+			x: 4.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["0E01A4FFA58C6415"]
 			description: [
 				"Use this to turn cobblestone into stone dust. "
-				"You &4&lWILL&r&r need alot of stone dust."
+				"You &4&lWILL&r&r need a lot of stone dust."
 			]
 			hide_until_deps_visible: false
 			id: "64422BE02B33A5CE"
 			shape: "diamond"
-			size: 1.5d
+			size: 1.25d
 			subtitle: "Cronch Cronch"
 			tasks: [{
 				id: "50322F6B896C395E"
@@ -299,8 +305,8 @@
 				type: "item"
 			}]
 			title: "Hulk Smash!"
-			x: 2.5d
-			y: 6.75d
+			x: 6.25d
+			y: 11.5d
 		}
 		{
 			dependencies: ["52F8BF78E34593DA"]
@@ -332,7 +338,7 @@
 		{
 			dependencies: ["0E01A4FFA58C6415"]
 			description: [
-				"All primitive machines use either cobblestone, and later mostly stone or stone bricks, set some of this to smelt in a furnace while you do other things."
+				"These primitive machines will cost quite a few stone blocks. This might take a while, so let some run passively while you do other tasks."
 				""
 				"Charcoal is disabled until you get the kiln intentionally."
 			]
@@ -353,48 +359,54 @@
 				}
 			]
 			title: "Rock Solid"
-			x: 4.0d
-			y: 5.0d
+			x: 8.125d
+			y: 9.25d
 		}
 		{
-			dependencies: ["39F8A9B06282651F"]
+			dependencies: [
+				"39F8A9B06282651F"
+				"7A7DF7455DD82A2B"
+			]
 			description: [
-				"This is primarily used in the ULV age to seperate out some water from light stone slurry to get a more concentrated version for your first &2processing line&r"
+				"This is primarily used in the ULV age to separate out water from light calcareous slurry. This will give you a concentrated version for your first &2processing line&r"
 				""
 				"Check out the tab!"
 			]
+			hide_dependency_lines: true
 			id: "385639537FFF8A58"
 			shape: "rsquare"
-			subtitle: "WEEEEE"
 			tasks: [{
 				id: "69052DDAE8ECB164"
 				item: "gtceu:ulv_centrifuge"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 19.0d
+			x: 4.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["456C9B7753AC2EAB"]
 			description: [
-				"This is how you get your ingots as well as glass and charcoal! "
+				"This is how you get your ingots, glass, and charcoal! "
 				""
-				"(Hint. Check the recipes, the ones that use a solid fuel generally dont use power.)"
+				"Hint: Check the recipes, the ones that use a solid fuel generally dont use power."
 			]
 			id: "16D29683D42802B8"
 			shape: "rsquare"
-			size: 1.0d
 			subtitle: "Burn Baby Burrnnnnn"
 			tasks: [{
 				id: "74A0079E1FFFD80E"
 				item: "gtceu:ulv_kiln"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 14.5d
+			x: 6.0d
+			y: 16.5d
 		}
 		{
-			dependencies: ["57099D097D2F4606"]
+			dependencies: [
+				"6A469F4248906F63"
+				"7A7DF7455DD82A2B"
+				"57099D097D2F4606"
+			]
 			description: [
 				"Your first (and only) source of power in the ULV age."
 				""
@@ -404,7 +416,7 @@
 			]
 			id: "39F8A9B06282651F"
 			shape: "gear"
-			size: 1.0d
+			size: 2.0d
 			subtitle: "UNLIMITEDDD POWERRRRR"
 			tasks: [{
 				id: "6F9B2DDAA036E830"
@@ -412,30 +424,16 @@
 				type: "item"
 			}]
 			title: "Powahhh!"
-			x: 4.0d
-			y: 17.5d
+			x: 2.5d
+			y: 16.5d
 		}
 		{
 			dependencies: [
+				"7A7DF7455DD82A2B"
 				"39F8A9B06282651F"
-				"456C9B7753AC2EAB"
 			]
-			description: ["This is currently your only way to get gravel and sand for flint and glass."]
-			id: "156B4084FF6E06BA"
-			shape: "rsquare"
-			size: 1.0d
-			subtitle: "Smoosh"
-			tasks: [{
-				id: "119CAB7F0FA24193"
-				item: "gtceu:ulv_forge_hammer"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 16.0d
-		}
-		{
-			dependencies: ["39F8A9B06282651F"]
 			description: ["This machine replaces the hand sifting you have to do for low grade terralite as well as deepslate dust, also letting you refine slurry into your first ores in the last step."]
+			hide_dependency_lines: true
 			id: "25734248D226DE4F"
 			shape: "rsquare"
 			subtitle: "On this season of gold rush.."
@@ -444,15 +442,16 @@
 				item: "gtceu:ulv_sifter"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 19.0d
+			x: -0.5d
+			y: 14.0d
 		}
 		{
 			dependencies: [
 				"39F8A9B06282651F"
 				"6A469F4248906F63"
 			]
-			description: ["This machine is used to make light stone slurry, which you will be using &lA LOT&r of."]
+			description: ["This machine is used to make light slurries, which you will be using &lA LOT&r of."]
+			hide_dependency_lines: true
 			id: "5EBEB5A9DC390830"
 			shape: "rsquare"
 			subtitle: "Spin me right round baby.."
@@ -461,8 +460,8 @@
 				item: "gtceu:ulv_mixer"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 17.5d
+			x: 0.5d
+			y: 16.5d
 		}
 		{
 			dependencies: [
@@ -473,7 +472,6 @@
 			hide_until_deps_complete: false
 			id: "195083969043CB7B"
 			shape: "rsquare"
-			size: 1.0d
 			subtitle: "[I Lied]"
 			tasks: [
 				{
@@ -512,26 +510,30 @@
 					type: "item"
 				}
 			]
-			title: "Metalurgic Master"
-			x: 7.5d
-			y: 17.5d
+			title: "Metallurgic Master"
+			x: 4.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["7A7DF7455DD82A2B"]
 			description: ["Just another machine part..."]
 			id: "456C9B7753AC2EAB"
 			shape: "diamond"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				id: "6D7C2B112CAC5525"
 				item: "kubejs:ulv_electric_piston"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 13.0d
+			x: 4.5d
+			y: 15.0d
 		}
 		{
-			dependencies: ["39F8A9B06282651F"]
+			dependencies: [
+				"39F8A9B06282651F"
+				"7A7DF7455DD82A2B"
+			]
+			hide_dependency_lines: true
 			id: "114AC19640B0B7D4"
 			shape: "rsquare"
 			tasks: [{
@@ -540,7 +542,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 19.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["195083969043CB7B"]
@@ -554,26 +556,27 @@
 				type: "item"
 			}]
 			title: "Getting Steel"
-			x: 7.5d
-			y: 20.5d
+			x: 2.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["4D59BD71B3734DBF"]
 			description: [
-				"Steel is the backbone material of LV machines, though you'll still be using it even in the end of the pack. "
+				"Steel is the backbone material of LV machines and you'll still be using it even in the end of the pack. "
+				""
 				"Never underestimate how much steel you'll need, especially early on..."
 			]
 			id: "700184B42DDD888A"
 			shape: "diamond"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "33ABBD01361201D1"
 				item: "gtceu:steel_ingot"
 				type: "item"
 			}]
-			title: "Am I gregging yet?"
-			x: 5.5d
-			y: 21.5d
+			title: "Am I Gregging Yet?"
+			x: 0.5d
+			y: 20.0d
 		}
 		{
 			dependencies: [
@@ -583,7 +586,11 @@
 				"1C005A7A40DEF44C"
 				"74CA1A4D503B9AF9"
 			]
-			description: ["You might want to just start off with a stack of these to be honest"]
+			description: [
+				"You might want to just start off with a decent sized batch of these. "
+				""
+				"8 should be enough to get a few LV machines down, but you're going to need quite a bit more so be ready."
+			]
 			hide_dependency_lines: false
 			id: "51C8CEE2510E9BA8"
 			shape: "gear"
@@ -594,8 +601,8 @@
 				type: "item"
 			}]
 			title: "Little Computing Thingies"
-			x: 5.5d
-			y: 24.1d
+			x: -2.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["5EBEB5A9DC390830"]
@@ -609,12 +616,16 @@
 				type: "item"
 			}]
 			title: "Early Conductor Alloy"
-			x: 4.0d
-			y: 24.0d
+			x: -4.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["4C256C66B99EBEAD"]
-			description: ["You'll have to check the processing tab for rubber, you can turn it into sheets with a hammer for now."]
+			description: [
+				"You'll have to check the processing tab for rubber. "
+				""
+				"You can turn it into sheets with a hammer for now."
+			]
 			id: "7A58B7659F6D7CFF"
 			shape: "rsquare"
 			tasks: [{
@@ -623,13 +634,13 @@
 				type: "item"
 			}]
 			title: "Early Insulator"
-			x: 7.0d
-			y: 24.0d
+			x: -1.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["52F8BF78E34593DA"]
 			description: [
-				"Use paper with with the charcoal dust recipe to make resistors."
+				"Use paper with the charcoal dust recipe to make resistors."
 				""
 				"You can get the paper for this by crafting it from chad, which comes from sifting our wood dust."
 			]
@@ -642,8 +653,8 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 23.0d
+			x: -4.0d
+			y: 21.5d
 		}
 		{
 			dependencies: [
@@ -651,7 +662,7 @@
 				"700184B42DDD888A"
 			]
 			description: [
-				"You'll have to make the glass dust  for this from flint dust and quartz sand."
+				"You'll have to make the glass dust for this from flint dust and quartz sand."
 				""
 				"These can be obtained by using a mortar and pestle on sand and gravel."
 				""
@@ -673,16 +684,12 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 23.0d
+			x: -2.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["0E01A4FFA58C6415"]
-			description: [
-				"We added a wooden wrench for you so you can mine your machines to pick them up, although the CarryOn mod is a part of this modpack."
-				""
-				"(pick up any block with an inventory by shift-right clicking it within close range)"
-			]
+			description: ["We added a wooden wrench for you so you can pick up your primitive machines."]
 			id: "1EEAFA2A4A417065"
 			shape: "rsquare"
 			size: 1.25d
@@ -708,8 +715,290 @@
 				type: "item"
 			}]
 			title: "Machine Moving"
-			x: 1.0d
-			y: 5.0d
+			x: 4.375d
+			y: 9.25d
+		}
+		{
+			dependencies: [
+				"39F8A9B06282651F"
+				"456C9B7753AC2EAB"
+			]
+			description: ["Use this to smash cobblestone into gravel and sand."]
+			hide_dependency_lines: true
+			id: "77E5F3923AD2EFFA"
+			shape: "rsquare"
+			subtitle: "For smashing things"
+			tasks: [{
+				id: "747569A0F0864FAF"
+				item: "gtceu:ulv_forge_hammer"
+				type: "item"
+			}]
+			title: "Smoosh!"
+			x: 5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["55D40B7AE498918D"]
+			description: ["You'll need this to make the Low Voltage coil for your energy hatches."]
+			id: "0F79543E0A569C13"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Electric Slavery"
+			tasks: [{
+				id: "1D30BF89B50E064E"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["0F79543E0A569C13"]
+			description: [
+				"Energy hatches act as the energy input for multiblocks. "
+				""
+				"Regular energy hatches use up to 2 amps of their tier of energy. "
+				""
+				"On Multiblocks that allow it (specified in tooltips), you can overclock your recipes to the next tier with 2 energy hatches."
+			]
+			id: "5BF9E50B012DFD2F"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "7ECF1025DC136C57"
+				item: "gtceu:lv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5BF9E50B012DFD2F"]
+			description: [
+				"These machines process various stone dusts to separate them into simpler components, occasionally giving off precious byproducts."
+				""
+				"Look back at the Multiblocks tab for more information about these."
+			]
+			id: "00B19D5427966DF6"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Turn your dusts into more dusts!"
+			tasks: [
+				{
+					id: "1CE6D73870AF37C6"
+					item: "gtceu:wetmill"
+					type: "item"
+				}
+				{
+					id: "4333B3B9C6312F6F"
+					item: "gtceu:drymill"
+					type: "item"
+				}
+			]
+			title: "Stone Milling"
+			x: -4.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2D16F39830D4FAFB"]
+			description: ["You'll probably want to start off with a good batch of these like the last circuits."]
+			id: "36689C1C8800EFAF"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "18837E668E1961F9"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			title: "Little Computing Thingies 2.0"
+			x: -6.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"7F419F0E44646DFC"
+				"51C8CEE2510E9BA8"
+			]
+			id: "55D40B7AE498918D"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Make your materials stretch!"
+			tasks: [
+				{
+					id: "15AA2B7E99384909"
+					item: "gtceu:lv_bender"
+					type: "item"
+				}
+				{
+					id: "2DD4C1B4D5192FE0"
+					item: "gtceu:lv_polarizer"
+					type: "item"
+				}
+				{
+					id: "7CC126962A59BE9E"
+					item: "gtceu:lv_wiremill"
+					type: "item"
+				}
+				{
+					id: "4E86FA78F4F870DB"
+					item: "gtceu:lv_lathe"
+					type: "item"
+				}
+			]
+			title: "Cheaper Parts"
+			x: -2.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"64D3CD742A6186E0"
+				"7A58B7659F6D7CFF"
+			]
+			hide_dependency_lines: true
+			id: "7F419F0E44646DFC"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "6F07B04EF7D31152"
+				item: "gtceu:ulv_transformer_1a"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["00B19D5427966DF6"]
+			description: [
+				"Get these dusts from processing different stone dusts in your mills. "
+				""
+				"Nickel comes from granite and gallium comes from deepslate as Wetmill byproducts."
+				""
+				"Arsenic is from centrifuging volcanic ashes, which comes from processing tuff mixture in the Drymill."
+				""
+				"Silica also comes out of tuff mixture."
+			]
+			id: "2D16F39830D4FAFB"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "09BB11B03D1411CA"
+					item: "gtceu:nickel_dust"
+					type: "item"
+				}
+				{
+					id: "04A4A1983B5F53E2"
+					item: "gtceu:arsenic_dust"
+					type: "item"
+				}
+				{
+					id: "007C69A3FEB002E8"
+					item: "gtceu:gallium_dust"
+					type: "item"
+				}
+				{
+					id: "5387343E556B91D6"
+					item: "gtceu:silicon_dioxide_dust"
+					type: "item"
+				}
+			]
+			title: "Useful Byproducts"
+			x: -6.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1E070EB4ACB627A4"]
+			id: "430190557F3362AB"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "377A01CAF90C7DEC"
+				item: "gtceu:lv_geothermal_generator"
+				type: "item"
+			}]
+			title: "Better Power"
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5BF9E50B012DFD2F"]
+			description: ["Does silly compression recipes :)"]
+			id: "23060BD5D2405A56"
+			shape: "rsquare"
+			tasks: [{
+				id: "68ED298AAC62C27B"
+				item: "gtceu:high_pressure_compressor"
+				type: "item"
+			}]
+			title: "Big Ol' Lava Machine"
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["23060BD5D2405A56"]
+			id: "1E070EB4ACB627A4"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "2A6F57098C5A02F7"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2D16F39830D4FAFB"]
+			description: ["You'll need to make a distillery and autoclave in order to make one of these for your circuit assembler."]
+			id: "5B7296B7E12AF9D0"
+			shape: "rsquare"
+			tasks: [{
+				id: "2FCFDFC1E4359E78"
+				item: "gtceu:quartzite_gem"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"36689C1C8800EFAF"
+				"5B7296B7E12AF9D0"
+			]
+			id: "7F2AF39D092FCC38"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "It crafts circuits better than you do!"
+			tasks: [{
+				id: "753156DCC7225239"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["16D29683D42802B8"]
+			id: "3D86883162CF8C27"
+			shape: "rsquare"
+			tasks: [{
+				id: "52278C701E6519B3"
+				item: "gtceu:coke_oven"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["3D86883162CF8C27"]
+			id: "0E0DD9B279AB9036"
+			shape: "rsquare"
+			tasks: [{
+				id: "6EFECB88FCAF4998"
+				item: "gtceu:primitive_pump"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.0d
 		}
 	]
 	title: "The Start Of It All (ULV-LV)"
