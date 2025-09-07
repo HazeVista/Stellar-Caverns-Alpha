@@ -50,14 +50,15 @@ ServerEvents.recipes(event => {
         .duration(160)
     
     event.recipes.gtceu.primitive_kiln('primitive_glass_tubes')
-        .itemInputs('gtceu:ball_casting_mold','gtceu:glass_dust')
+        .itemInputs('gtceu:glass_dust')
+        .notConsumable('gtceu:ball_casting_mold',)
         .itemOutputs('gtceu:glass_tube')
         .duration(160)
         .EUt(4)
 
     event.recipes.gtceu.primitive_kiln('primitive_coke_bricks')
         .itemInputs('#minecraft:smelts_to_glass', 'minecraft:clay_ball')
-        .itemOutputs('2x gtecu:coke_oven_brick')
+        .itemOutputs('2x gtceu:coke_oven_brick')
         .duration(150)
         .EUt(7)
 });       
