@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
         'BBB',
         'ABA'
     ], {
-        A: 'minecraft:oak_planks',
+        A: '#minecraft:planks',
         B: 'minecraft:stick'
     });
 });

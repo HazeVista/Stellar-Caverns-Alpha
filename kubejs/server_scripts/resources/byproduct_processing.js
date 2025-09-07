@@ -31,4 +31,17 @@ ServerEvents.recipes(event => {
         .itemOutputs('1x gtceu:silicon_dust', '1x gtceu:aluminium_dust')
         .duration(60)
         .EUt(64)
+
+    event.recipes.gtceu.electromagnetic_separator('augite_blend_polar')
+        .itemInputs('3x gtceu:augite_blend_dust')
+        .itemOutputs('2x gtceu:augite_dust', '1x gtceu:titanaugite_dust')
+        .duration(80)
+        .EUt(384)
+
+    event.recipes.gtceu.electrolyzer('augite_dust_elec')
+        .itemInputs('2x gtceu:augite_dust')
+        .itemOutputs('gtceu:silicon_dust', '3x gtceu:aluminium_dust', 'gtceu:magnesium_dust', '2x gtceu:calcium dust')
+        .outputFluids('gtceu:oxygen 12000')
+        .duration(240)
+        .EUt(96)
 });

@@ -32,4 +32,12 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('sial')
         .dust()
         .color(0x8C5582)
+    
+    event.create('augite')
+        .dust()
+        .color(0x171616)
+    
+    event.create('titanaugite')
+        .dust()
+        .color(0xe3c5c5)
 });

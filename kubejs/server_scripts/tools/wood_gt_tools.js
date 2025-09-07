@@ -4,6 +4,6 @@ ServerEvents.recipes(event => {
         ' AA',
         ' A '
     ], {
-        A: 'minecraft:oak_planks'
+        A: '#minecraft:planks'
     });
 });

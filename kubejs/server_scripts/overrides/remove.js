@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
 
     event.remove({id: 'gtceu:shaped/mv_lathe'})
     event.remove({id: 'gtceu:shaped/mv_macerator'})
-    event.remove({id: 'gtceu:shaped/mv_rcok_crusher'})
+    event.remove({id: 'gtceu:shaped/mv_rock_crusher'})
     event.remove({id: 'gtceu:shaped/mv_block_breaker'})
     event.remove({id: 'gtceu:shaped/lv_macerator'})
     event.remove({id: 'gtceu:shaped/lv_rock_crusher'})

@@ -26,7 +26,7 @@
             F: 'kubejs:terralite_drilling_head'
         })
 
-            event.shaped('gtceu:mv_rock_crusher', [
+        event.shaped('gtceu:mv_rock_crusher', [
             'DCF',
             'AEA',
             'BBB'
@@ -39,7 +39,7 @@
             F: 'kubejs:terralite_drilling_head'
         })
 
-            event.shaped('gtceu:lv_macerator', [
+        event.shaped('gtceu:lv_macerator', [
             'DCF',
             'AAE',
             'BBA'

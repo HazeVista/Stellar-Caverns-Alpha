@@ -37,6 +37,9 @@
   "material.gtceu.dolomite": "Dolomite",
   "material.gtceu.hornblende": "Hornblende",
   "material.gtceu.sial": "Sial",
+  "material.gtceu.augite_blend": "Augite Blend",
+  "material.gtceu.augite": "Augite",
+  "material.gtceu.titanaugite": "Titanaugite",
 
   "material.gtceu.plagioclase_mixture": "Plagioclase Mixture",
   "material.gtceu.schist_mixture": "Schist Mixture",

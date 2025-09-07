@@ -11,5 +11,17 @@ ServerEvents.recipes(event => {
         .circuit(2)
         .duration(80)
         .EUt(4)
-
+        
+    event.recipes.gtceu.primitive_mixer('prim_clay_mix')
+        .itemInputs('minecraft:sand')
+        .inputFluids('minecraft:water 1000')
+        .itemOutputs('minecraft:clay')
+        .duration(40)
+        .EUt(2)
+    
+    event.recipes.gtceu.primitive_mixer('prim_bronze_mix')
+        .itemInputs('gtceu:tin_dust', 'x3 gtceu:copper_dust')
+        .itemOutputs('4x gtceu:bronze_dust')
+        .duration(400)
+        .EUt(7)
 });

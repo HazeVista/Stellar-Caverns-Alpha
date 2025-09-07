@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
         .duration(100)
 
     event.recipes.gtceu.hardened_blast_furnace('iron_to_wrought_iron')
-        .itemInputs('4x minecraft:iron_ingot', '4x minecraft:charcoal')
+        .itemInputs('2x minecraft:iron_ingot', '4x minecraft:charcoal')
         .itemOutputs('4x gtceu:wrought_iron_ingot')
         .duration(60)
 

@@ -29,4 +29,9 @@ ServerEvents.recipes(event => {
         .duration(120)
         .EUt(2)
 
+    event.recipes.gtceu.primitive_compressor('primitive_granite')
+        .itemInputs('4x gtceu:granite_dust')
+        .itemOutputs('1x granite')
+        .duration(120)
+        .EUt(2)
     });
