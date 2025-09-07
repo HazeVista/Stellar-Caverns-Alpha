@@ -43,4 +43,40 @@ ServerEvents.recipes(event => {
         .duration(480)
         .EUt(64)
 
+    //HV
+    event.recipes.gtceu.drymill('drymill_dripstone_mixture')
+        .inputFluids('gtceu:dripstone_mixture 2304')
+        .itemOutputs('10x gtceu:calcite_dust', '3x gtceu:dolomite_dust', '2x gtceu:manganese_dust', 'gtceu:silicon_dioxide_dust')
+        .outputFluids('gtceu:enriched_mineral_water 576')
+        .duration(640)
+        .EUt(256)
+    
+    event.recipes.gtceu.drymill('drymill_plagioclase_mixture')
+        .inputFluids('gtceu:plagioclase_mixture 1152')
+        .itemOutputs('4x sial_dust', '3x gtceu:rock_salt_dust', '2x gtceu:rare_earth_dust')
+        .outputFluids('gtceu:enriched_mineral_water 288')
+        .duration(320)
+        .EUt(256)
+    
+    event.recipes.gtceu.drymill('drymill_andesite_mixture')
+        .inputFluids('gtceu:andesite_mixture 1296')
+        .itemOutputs('6x plagioclase_dust', '2x gtceu:biotite_dust', 'gtceu:augite_blend')
+        .outputFluids('gtceu:enriched_mineral_water 324')
+        .duration(360)
+        .EUt(256)
+
+    //EV    
+    event.recipes.gtceu.drymill('drymill_blackstone_mixture')
+        .inputFluids('gtceu:blackstone_mixture 1584')
+        .itemOutputs('6x plagioclase_dust', '3x gtceu:dark_ash_dust', 'gtceu:olivine_dust', 'gtceu:hornblende_dust')
+        .outputFluids('gtceu:enriched_mineral_water 396')
+        .duration(440)
+        .EUt(1024)    
+
+    event.recipes.gtceu.drymill('drymill.netherrack.mixture')
+        .inputFluids('gtceu:netherrack_mixture 2592')
+        .itemOutputs('9x plagioclase_dust', '3x gtceu:saltpeter_dust', '2x gtceu:dolomite_dust', '2x gtceu:cinnabar_dust', '2x gtceu:titanaugite_dust')
+        .outputFluids('gtceu:enriched_mineral_water 648')
+        .duration(720)
+        .EUt(1024) 
 });

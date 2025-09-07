@@ -27,15 +27,15 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.primitive_maceration('tuffaceous_slurry_residue_dust')
         .itemInputs('kubejs:tuffaceous_slurry_residue_cake')
-        .itemOutputs(Item.of('10x gtceu:concentrated_tuffaceous_slurry_residue_dust'))
+        .itemOutputs(Item.of('20x gtceu:concentrated_tuffaceous_slurry_residue_dust'))
         .duration(100)
         .EUt(2)
 
     event.recipes.gtceu.primitive_sifter('tuffaceous_residue_sifting')
-        .itemInputs('5x gtceu:concentrated_tuffaceous_slurry_residue_dust')
-        .itemOutputs(Item.of('3x gtceu:sulfur_dust'))
-        .itemOutputs(Item.of('4x gtceu:tin_dust'))
-        .itemOutputs(Item.of('8x minecraft:redstone'))
+        .itemInputs('10x gtceu:concentrated_tuffaceous_slurry_residue_dust')
+        .itemOutputs(Item.of('1x gtceu:sulfur_dust'))
+        .itemOutputs(Item.of('3x gtceu:tin_dust'))
+        .itemOutputs(Item.of('6x minecraft:redstone'))
         .duration(100)
         .EUt(4)
 

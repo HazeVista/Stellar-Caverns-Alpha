@@ -31,12 +31,12 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.primitive_maceration('calcareous_slurry_residue_dust')
         .itemInputs('kubejs:calcareous_slurry_residue_cake')
-        .itemOutputs(Item.of('10x gtceu:concentrated_calcareous_slurry_residue_dust'))
+        .itemOutputs(Item.of('20x gtceu:concentrated_calcareous_slurry_residue_dust'))
         .duration(100)
         .EUt(2)
 
     event.recipes.gtceu.primitive_sifter('slurry_cake_maceration')
-        .itemInputs('5x gtceu:concentrated_calcareous_slurry_residue_dust')
+        .itemInputs('10x gtceu:concentrated_calcareous_slurry_residue_dust')
         .itemOutputs('gtceu:lead_dust')
         .itemOutputs(Item.of('2x gtceu:copper_dust'))
         .itemOutputs(Item.of('3x gtceu:iron_dust'))

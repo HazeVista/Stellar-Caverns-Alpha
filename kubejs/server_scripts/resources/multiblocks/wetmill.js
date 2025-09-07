@@ -75,8 +75,6 @@ ServerEvents.recipes(event => {
         .duration(360)
 
     //EV Recipes
-
-    //FIX
     event.recipes.gtceu.wetmill('wetmill_blackstone_mixture')
         .itemInputs('11x gtceu:blackstone_dust')
         .inputFluids('minecraft:water 1584')
@@ -91,6 +89,5 @@ ServerEvents.recipes(event => {
         .outputFluids('gtceu:netherrack_mixture 2592')
         .chancedOutput('minecraft:glowstone_dust', 2500, 0)
         .EUt(1024)
-        .duration(640)
-    
+        .duration(720)
 });

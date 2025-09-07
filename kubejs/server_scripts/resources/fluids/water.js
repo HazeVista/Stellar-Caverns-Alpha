@@ -8,5 +8,9 @@ ServerEvents.recipes(event => {
         .itemInputs('minecraft:apple')
 		.outputFluids(Fluid.of('minecraft:water', 250))
         .duration(80)
-
+        
+    event.recipes.gtceu.primitive_extractor('leaf_to_water')
+        .itemInputs('#minecraft:leaves')
+		.outputFluids(Fluid.of('minecraft:water', 250))
+        .duration(80)
 });

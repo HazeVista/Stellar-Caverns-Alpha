@@ -1,7 +1,7 @@
     ServerEvents.recipes(event => {
         event.shaped('gtceu:mv_macerator', [
             'DCF',
-            'AAF',
+            'AEF',
             'BBA'
         ], {
             A: 'gtceu:copper_single_cable',
@@ -9,7 +9,7 @@
             C: 'gtceu:mv_electric_motor',
             D: 'gtceu:mv_electric_piston',
             E: 'gtceu:mv_machine_hull',
-            F: 'kubejs:terralite_drilling_head'
+            F: 'kubejs:terralite_grinding_head'
 
         })
 
@@ -23,10 +23,10 @@
             C: 'gtceu:mv_electric_motor',
             D: 'gtceu:mv_electric_piston',
             E: 'gtceu:mv_machine_hull',
-            F: 'kubejs:terralite_drilling_head'
+            F: 'kubejs:terralite_grinding_head'
         })
 
-            event.shaped('gtceu:mv_rock_crusher', [
+        event.shaped('gtceu:mv_rock_crusher', [
             'DCF',
             'AEA',
             'BBB'
@@ -36,10 +36,10 @@
             C: 'gtceu:mv_electric_motor',
             D: 'gtceu:mv_electric_piston',
             E: 'gtceu:mv_machine_hull',
-            F: 'kubejs:terralite_drilling_head'
+            F: 'kubejs:terralite_grinding_head'
         })
 
-            event.shaped('gtceu:lv_macerator', [
+        event.shaped('gtceu:lv_macerator', [
             'DCF',
             'AAE',
             'BBA'
@@ -49,7 +49,7 @@
             C: 'gtceu:lv_electric_motor',
             D: 'gtceu:lv_electric_piston',
             E: 'gtceu:lv_machine_hull',
-            F: 'kubejs:terralite_drilling_head'
+            F: 'kubejs:terralite_grinding_head'
         })
 
         event.shaped('gtceu:lv_rock_crusher', [
@@ -62,7 +62,7 @@
             C: 'gtceu:lv_electric_motor',
             D: 'gtceu:lv_electric_piston',
             E: 'gtceu:lv_machine_hull',
-            F: 'kubejs:terralite_drilling_head'
+            F: 'kubejs:terralite_grinding_head'
         })
 
         event.shaped('gtceu:lv_lathe', [
@@ -75,7 +75,7 @@
             C: 'gtceu:lv_electric_motor',
             D: 'gtceu:lv_electric_piston',
             E: 'gtceu:lv_machine_hull',
-            F: 'kubejs:terralite_drilling_head'
+            F: 'kubejs:terralite_grinding_head'
         })
 
         event.shaped('toms_storage:ts.storage_terminal', [

@@ -10,7 +10,4 @@ ServerEvents.recipes(event => {
         .itemOutputs('1x minecraft:diamond')
         .duration(600)
         .EUt(32)
-
-
-
 });
