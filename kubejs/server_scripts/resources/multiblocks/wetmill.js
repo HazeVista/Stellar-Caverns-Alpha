@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
         .itemInputs('16x gtceu:dripstone_dust')
         .inputFluids('minecraft:water 2304')
         .outputFluids('gtceu:dripstone_mixture 2304')
-        .chancedOutput('gtceu:vanadium_dust', 2500, 0)
+        .chancedOutput('gtceu:magnesium_dust', 2500, 0)
         .EUt(256)
         .duration(640)
 
