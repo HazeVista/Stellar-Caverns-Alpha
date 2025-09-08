@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
         .duration(120)
         .EUt(96)
     
-    event.recipes.gtceu.electrolyzer('sial_dust_elec')
+    event.recipes.gtceu.centrifuge('sial_dust_elec')
         .itemInputs('2x gtceu:sial_dust')
         .itemOutputs('1x gtceu:silicon_dust', '1x gtceu:aluminium_dust')
         .duration(60)
@@ -39,9 +39,23 @@ ServerEvents.recipes(event => {
         .EUt(384)
 
     event.recipes.gtceu.electrolyzer('augite_dust_elec')
-        .itemInputs('2x gtceu:augite_dust')
+        .itemInputs('19x gtceu:augite_dust')
         .itemOutputs('gtceu:silicon_dust', '3x gtceu:aluminium_dust', 'gtceu:magnesium_dust', '2x gtceu:calcium dust')
         .outputFluids('gtceu:oxygen 12000')
         .duration(240)
         .EUt(96)
+
+    event.recipes.gtceu.distillery('distill_minerals')
+        .inputFluids('gtceu:enriched_mineral_water 1000')
+        .itemOutputs('gtceu:enriched_mineral_mixture_dust')
+        .outputFluids('gtceu:distilled_water 856')
+        .duration(240)
+        .EUt(96)
+    
+    event.recipes.gtceu.centrifuge('mineral_mix_cent')
+        .itemInputs('19x gtceu:augite_dust')
+        .itemOutputs('gtceu:silicon_dust', '3x gtceu:aluminium_dust', 'gtceu:magnesium_dust', '2x gtceu:calcium dust')
+        .outputFluids('gtceu:oxygen 12000')
+        .duration(240)
+        .EUt(75)
 });
