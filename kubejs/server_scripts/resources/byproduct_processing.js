@@ -49,13 +49,12 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:enriched_mineral_water 1000')
         .itemOutputs('gtceu:enriched_mineral_mixture_dust')
         .outputFluids('gtceu:distilled_water 856')
-        .duration(240)
+        .duration(80)
         .EUt(96)
     
     event.recipes.gtceu.centrifuge('mineral_mix_cent')
-        .itemInputs('19x gtceu:augite_dust')
-        .itemOutputs('gtceu:silicon_dust', '3x gtceu:aluminium_dust', 'gtceu:magnesium_dust', '2x gtceu:calcium dust')
-        .outputFluids('gtceu:oxygen 12000')
-        .duration(240)
+        .itemInputs('6x gtceu:enriched_mineral_mixture')
+        .itemOutputs('gtceu:impure_beryllium_dust', 'gtceu:impure_pentlandite_dust', 'gtceu:impure_copper_dust', 'gtceu:impure_wulfenite_dust', 'gtceu:impure_pyrochlore_dust', 'gtceu:impure_sphalerite_dust')
+        .duration(40)
         .EUt(75)
 });
