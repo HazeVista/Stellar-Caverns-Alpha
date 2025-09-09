@@ -1,6 +1,6 @@
 GTCEuStartupEvents.registry('gtceu:material', event => {
 
-    //Plagioclase
+    //Milling
     event.create('debris')
         .dust()
         .color(0x6E351D)
@@ -40,4 +40,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('titanaugite')
         .dust()
         .color(0xe3c5c5)
+    
+    event.create('enriched_mineral_mixture')
+        .dust()
+        .color(0xbdb5bc)
 });
