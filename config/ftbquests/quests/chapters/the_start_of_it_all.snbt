@@ -50,19 +50,10 @@
 			shape: "rsquare"
 			size: 1.5d
 			subtitle: "Chop Chop Tree Boy"
-			tasks: [
-				{
-					count: 16L
-					id: "243C979678B50E3A"
-					item: "minecraft:oak_log"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "79DAF193D6633C92"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "79DAF193D6633C92"
+				type: "checkmark"
+			}]
 			title: "Chop Chop!"
 			x: 6.25d
 			y: 7.25d
@@ -777,7 +768,7 @@
 			description: [
 				"These machines process various stone dusts to separate them into simpler components, occasionally giving off precious byproducts."
 				""
-				"Look back at the Multiblocks tab for more information about these."
+				"Look back at the Processing or Multiblocks tab for more information about these."
 			]
 			id: "00B19D5427966DF6"
 			shape: "rsquare"
@@ -812,7 +803,7 @@
 			}]
 			title: "Little Computing Thingies 2.0"
 			x: -6.5d
-			y: 13.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -863,7 +854,7 @@
 				item: "gtceu:ulv_transformer_1a"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: 18.0d
 		}
 		{
@@ -917,7 +908,7 @@
 			}]
 			title: "Better Power"
 			x: -4.5d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["5BF9E50B012DFD2F"]
@@ -931,7 +922,7 @@
 			}]
 			title: "Big Ol' Lava Machine"
 			x: -2.5d
-			y: 13.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["23060BD5D2405A56"]
@@ -944,11 +935,15 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2D16F39830D4FAFB"]
-			description: ["You'll need to make a distillery and autoclave in order to make one of these for your circuit assembler."]
+			description: [
+				"You'll need to make a distillery and autoclave in order to make one of these for your circuit assembler."
+				""
+				"Look at the autoclave recipe for Silica if you're confused."
+			]
 			id: "5B7296B7E12AF9D0"
 			shape: "rsquare"
 			tasks: [{
@@ -965,8 +960,8 @@
 				"5B7296B7E12AF9D0"
 			]
 			id: "7F2AF39D092FCC38"
-			shape: "gear"
-			size: 2.0d
+			shape: "rsquare"
+			size: 1.0d
 			subtitle: "It crafts circuits better than you do!"
 			tasks: [{
 				id: "753156DCC7225239"
@@ -974,12 +969,16 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 13.0d
+			y: 13.5d
 		}
 		{
-			dependencies: ["16D29683D42802B8"]
+			dependencies: [
+				"16D29683D42802B8"
+				"4E4B26AB42758D99"
+			]
 			id: "3D86883162CF8C27"
-			shape: "rsquare"
+			shape: "diamond"
+			size: 1.25d
 			tasks: [{
 				id: "52278C701E6519B3"
 				item: "gtceu:coke_oven"
@@ -991,14 +990,364 @@
 		{
 			dependencies: ["3D86883162CF8C27"]
 			id: "0E0DD9B279AB9036"
-			shape: "rsquare"
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "6EFECB88FCAF4998"
 				item: "gtceu:primitive_pump"
 				type: "item"
 			}]
+			title: "Generating Water"
+			x: 7.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["774D942546D29552"]
+			hide_dependency_lines: true
+			id: "4E4B26AB42758D99"
+			shape: "rsquare"
+			tasks: [{
+				id: "504C10932F2087C6"
+				item: "minecraft:clay"
+				type: "item"
+			}]
 			x: 7.5d
 			y: 15.0d
+		}
+		{
+			dependencies: ["25734248D226DE4F"]
+			description: ["You can get other types of saplings from sifting coarse dirt."]
+			icon: "minecraft:cherry_sapling"
+			id: "02D26536904171C4"
+			shape: "rsquare"
+			tasks: [{
+				id: "6ED4DCD30260282A"
+				title: "More Saplings"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["64D3CD742A6186E0"]
+			description: [
+				"Cables and wires carry EU between generators and machines."
+				""
+				"You can use red alloy cables early on, but we advise switching to superconductor wires A.S.A.P. Unlike regular wires, they wont shock you or lose energy over distance."
+				""
+				"Be sure to check online for more info about these!"
+			]
+			icon: "gtceu:red_alloy_double_cable"
+			id: "2B29D69158440BEF"
+			shape: "rsquare"
+			tasks: [{
+				id: "38A24461F504778B"
+				title: "Cables"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 20.0d
+		}
+		{
+			description: [
+				"This section is to give you tips about different tools in GT. Skip it if you're already familiar, as we haven't added any new functions to these tools for this pack."
+				""
+				"The crowbar can remove covers from machines, pipes, and other blocks."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_crowbar"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "5B6B4A4ACF1923E3"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2F9F53E67E259185"
+				title: "The Tools of GregTech"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: ["For grinding things into dust in a crafting table."]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_mortar"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 255
+					}
+					HideFlags: 2
+				}
+			}
+			id: "127B6F00FDEE79DE"
+			shape: "octagon"
+			tasks: [{
+				id: "0FFA4855F3B40E13"
+				title: "Mortar \\& Pestle"
+				type: "checkmark"
+			}]
+			title: "Mortar \\& Pestle"
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: [
+				"The wrench will break most GT machines, blocks, and pipes safely."
+				""
+				"Their best use is for  rotating machines and multiblock controllers."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_wrench"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+					}
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "3A155B1661056E1F"
+			shape: "octagon"
+			tasks: [{
+				id: "07BB38D104C63D0F"
+				title: "Wrench"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: [
+				"For smashing things in the crafting table."
+				""
+				"It also works as a pickaxe, but not as well."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_hammer"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "68E16C0BE10CBBB7"
+			shape: "octagon"
+			tasks: [{
+				id: "033922A8BE9493EC"
+				title: "Hammer"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: [
+				"Saws are mostly used for cutting things in a crafting table."
+				""
+				"They also harvest ice safely. *shrug*"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_saw"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						HarvestIce: 1b
+					}
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 255
+					}
+					HideFlags: 2
+				}
+			}
+			id: "13DFF37DD458D0F8"
+			shape: "octagon"
+			tasks: [{
+				id: "79A3D0A199C44386"
+				title: "Saw"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: ["Screwdrivers are used for toggling various settings on different GT blocks and items."]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_screwdriver"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 255
+					}
+					HideFlags: 2
+				}
+			}
+			id: "60AAD6EF3F040B37"
+			shape: "octagon"
+			tasks: [{
+				id: "45085A524E7783A1"
+				title: "Screwdriver"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: ["Soft Mallets can pause machines and change which direction energy converters convert energy. "]
+			icon: {
+				Count: 1
+				id: "gtceu:wood_mallet"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 127
+					}
+					HideFlags: 2
+				}
+			}
+			id: "458BF689008094A7"
+			shape: "octagon"
+			tasks: [{
+				id: "695C7A1F6444A787"
+				title: "Mallet"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: ["The wire cutters can safely break wires and cables, and allows you to connect and disconnect them to machines."]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_wire_cutter"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "128B708276E1F78A"
+			shape: "octagon"
+			tasks: [{
+				id: "58F7C802E4B30B66"
+				title: "Wire Cutters"
+				type: "checkmark"
+			}]
+			title: "Wirecutter"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: ["The file is used for crafting different machine parts in a crafting table."]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_file"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 255
+					}
+					HideFlags: 2
+				}
+			}
+			id: "2E56E77F169E67A3"
+			shape: "octagon"
+			tasks: [{
+				id: "790E5E2CD92B430D"
+				title: "File"
+				type: "checkmark"
+			}]
+			title: "File"
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2D16F39830D4FAFB"]
+			description: ["A furnace that gets wayyyyyyyy hotter than the other ones so far."]
+			id: "3F5E3ABF6201968C"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0555067A8CBD2A83"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			title: "Electric Blast Furnace (EBF)"
+			x: -6.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["7F2AF39D092FCC38"]
+			description: [
+				"This is the end of what I have mapped out for you in the questbook. I believe the next softlock in progression is the RBG laser lenses soon, but Scarlet and I will have that fixed soon. "
+				""
+				"We appreciate your time playtesting, and hope you leave any bugs, suggestions, or other feedback about the pack in our Discord."
+				""
+				"-Haze Vista"
+			]
+			icon: "minecraft:pufferfish"
+			id: "4E7D2A8D8DEB5D97"
+			shape: "heart"
+			size: 2.0d
+			tasks: [{
+				id: "2B69276D9C8F9B3C"
+				title: "Thanks for playtesting!"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 12.0d
 		}
 	]
 	title: "The Start Of It All (ULV-LV)"

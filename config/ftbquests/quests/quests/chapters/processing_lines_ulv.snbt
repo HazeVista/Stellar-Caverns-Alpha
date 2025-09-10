@@ -3,9 +3,8 @@
 	default_quest_shape: ""
 	filename: "processing_lines_ulv"
 	group: "3F5E1E1DE358ED88"
-	icon: "minecraft:cobblestone"
 	id: "3E000CB487A152F8"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -122,7 +121,6 @@
 			]
 			id: "59D4266FCFB116F6"
 			shape: "octagon"
-			size: 1.25d
 			tasks: [{
 				id: "15CBA5CD33CBAD5B"
 				item: "gtceu:stone_dust"
@@ -143,7 +141,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["76CF57FD0BCAA70C"]
@@ -155,7 +153,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["76CF57FD0BCAA70C"]
@@ -167,7 +165,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2AF4AEA216CDA8F2"]
@@ -179,7 +177,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["33DDDC4D857C6D77"]
@@ -191,7 +189,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -208,7 +206,7 @@
 				type: "item"
 			}]
 			x: 2.25d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["59D4266FCFB116F6"]
@@ -221,7 +219,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6135689FB32484C9"]
@@ -242,7 +240,7 @@
 				}
 			]
 			x: -2.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["116683475D6C91C0"]
@@ -263,7 +261,7 @@
 				}
 			]
 			x: -0.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["35AC18832BC40284"]
@@ -275,7 +273,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1753DB4CB3C5BD86"]
@@ -287,7 +285,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["59D4266FCFB116F6"]
@@ -295,8 +293,8 @@
 			id: "4B1456D6FC70C091"
 			shape: "rsquare"
 			tasks: [{
-				id: "6A43C41BC7B1A16F"
-				item: "gtceu:dripstone_dust"
+				id: "6B7BE89D31881CB1"
+				item: "gtceu:limestone_dust"
 				type: "item"
 			}]
 			x: -3.5d
@@ -341,7 +339,7 @@
 			]
 			title: "Centrifuge Your Redstone"
 			x: 5.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1B12C3D309E1593D"]
@@ -361,7 +359,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -378,264 +376,8 @@
 			}]
 			title: "Getting Sticky"
 			x: -1.0d
-			y: 3.0d
-		}
-		{
-			description: [
-				"Mix with terralite in your generator."
-				""
-				"This will probably get changed later."
-			]
-			icon: "gtceu:light_calcareous_slurry_bucket"
-			id: "285DBB47C26CEEA0"
-			subtitle: "first \"decent\" power"
-			tasks: [
-				{
-					id: "5D4637F94099E9F8"
-					item: "gtceu:light_calcareous_slurry_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5C4362FC397C6E75"
-					optional_task: true
-					type: "checkmark"
-				}
-			]
-			x: -1.5d
-			y: -6.5d
-		}
-		{
-			dependencies: [
-				"285DBB47C26CEEA0"
-				"736C0F093F84AE0E"
-				"07947FDE2083BB82"
-			]
-			description: ["I guess you can extract the water back out of this."]
-			icon: "gtceu:light_calcareous_slurry_waste_bucket"
-			id: "1A8C19F80ACC7592"
-			subtitle: "yummers"
-			tasks: [
-				{
-					id: "47198140B7D06911"
-					item: "gtceu:light_calcareous_slurry_waste_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2FBBEDE58B8D452E"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: -7.5d
-		}
-		{
-			description: [
-				"Throw some low-grade terralite in your compressor for the dense stuff. "
-				""
-				"This variant of terralite runs about 25x longer than stone dust and generates 4x as much EU/t."
-				""
-				"You can still use water and stone dust if you want but once you try this you'll never want to go back."
-			]
-			id: "736C0F093F84AE0E"
-			tasks: [{
-				id: "76341F38E5DC9861"
-				item: "gtceu:dense_low_grade_terralite_dust"
-				type: "item"
-			}]
-			title: "Terralite 2.0"
-			x: 1.5d
-			y: -6.5d
-		}
-		{
-			id: "07947FDE2083BB82"
-			shape: "octagon"
-			size: 1.25d
-			tasks: [{
-				id: "1322A663CD153DFE"
-				item: "gtceu:ulv_thermal_generator"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["5BF9E50B012DFD2F"]
-			id: "6DB5AF796CADD3EC"
-			shape: "octagon"
-			tasks: [
-				{
-					id: "06504F33D71AFDF9"
-					item: "gtceu:wetmill"
-					type: "item"
-				}
-				{
-					id: "0E44D76A9B83B9E7"
-					item: "gtceu:drymill"
-					type: "item"
-				}
-			]
-			title: "LV Milling"
-			x: -2.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["6DB5AF796CADD3EC"]
-			icon: "gtceu:granite_mixture_bucket"
-			id: "1C0C7E08FDCD1592"
-			tasks: [{
-				id: "056949886F3E19B2"
-				type: "checkmark"
-			}]
-			title: "Granite Mixture"
-			x: -0.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["6DB5AF796CADD3EC"]
-			id: "14D96C3329CD202B"
-			tasks: [{
-				id: "7FB03BD6489A02AA"
-				item: "gtceu:tuff_mixture_bucket"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["6DB5AF796CADD3EC"]
-			id: "3609608B5DD33232"
-			tasks: [{
-				id: "27AF541BBF2232F8"
-				item: "gtceu:deepslate_mixture_bucket"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["3609608B5DD33232"]
-			id: "2AB0701781587052"
-			tasks: [{
-				id: "7A7A6132D033D9FC"
-				item: "gtceu:gallium_dust"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["4424A8E2C2604F0B"]
-			description: ["Centrifuge volcanic ash for this"]
-			id: "62429501F41629B6"
-			tasks: [{
-				id: "0BF54C2ACD254D2B"
-				item: "gtceu:arsenic_dust"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["14D96C3329CD202B"]
-			id: "4424A8E2C2604F0B"
-			tasks: [{
-				id: "7615B85FFCBE4912"
-				item: "gtceu:volcanic_ash_dust"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["1C0C7E08FDCD1592"]
-			id: "1DB5FE58E8D41C39"
-			tasks: [{
-				id: "3C2EC136176968A7"
-				item: "gtceu:nickel_dust"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"2AB0701781587052"
-				"62429501F41629B6"
-			]
-			id: "73751663E18383EA"
-			tasks: [{
-				id: "784A9BFDC04B19BD"
-				item: "gtceu:gallium_arsenide_dust"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 8.0d
-		}
-		{
-			id: "42A6B9DFBCAB3896"
-			shape: "octagon"
-			tasks: [
-				{
-					id: "36954FB83B4C4534"
-					item: "gtceu:drymill"
-					type: "item"
-				}
-				{
-					id: "14F3613DD2CEC222"
-					item: "gtceu:wetmill"
-					type: "item"
-				}
-			]
-			title: "MV Milling"
-			x: -2.0d
-			y: 11.0d
-		}
-		{
-			dependencies: [
-				"3609608B5DD33232"
-				"1C0C7E08FDCD1592"
-				"14D96C3329CD202B"
-			]
-			dependency_requirement: "one_completed"
-			hide_dependency_lines: true
-			id: "0AF85D685E30B1E9"
-			tasks: [{
-				id: "5F1DF619196A3039"
-				item: "gtceu:silicon_dioxide_dust"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0AF85D685E30B1E9"]
-			id: "63A049829D171FDB"
-			tasks: [{
-				id: "5D8D8860C3F0CCE6"
-				item: "gtceu:silicon_dust"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"63A049829D171FDB"
-				"73751663E18383EA"
-			]
-			id: "351AC72A485BC5E5"
-			shape: "gear"
-			size: 1.25d
-			tasks: [{
-				id: "30F234CE50F0ED50"
-				item: "gtceu:silicon_boule"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 8.0d
+			y: 2.5d
 		}
 	]
-	title: "Chapter 1-2"
+	title: "ULV - LV"
 }

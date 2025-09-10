@@ -82,6 +82,31 @@
 			x: -5.0d
 			y: 1.0d
 		}
+		{
+			description: [
+				"Turns gem dusts into gems way more efficiently than the High Pressure Compressor."
+				""
+				"Consumes explosives."
+			]
+			id: "62EC7960568434EC"
+			tasks: [{
+				id: "0844CE198B7F9A7F"
+				item: "gtceu:implosion_compressor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "0F3102F84948359F"
+			tasks: [{
+				id: "7B2D70304C224F38"
+				item: "gtceu:multi_smelter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
 	]
 	title: "Multiblocks"
 }

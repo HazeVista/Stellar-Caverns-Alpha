@@ -12,4 +12,17 @@ ServerEvents.recipes(event => {
     
     event.remove({id: 'toms_storage:storage_terminal'})
     event.remove({id: 'toms_storage:inventory_connector'})
+
+    event.remove({id:'ae2:smelting/silicon_from_certus_quartz_dust'})
+    event.remove({id:'ae2:blasting/silicon_from_certus_quartz_dust'})
+
+    event.remove({id: 'minecraft:shears'})
+    event.remove({id: 'minecraft:observer'})
+    event.remove({id: 'laserio:logic_chip_raw'})
+    event.remove({id: 'laserio:laser_connector_advanced'})
+    event.remove({id: 'laserio:card_fluid'})
+    event.remove({id: 'laserio:card_item'})
+    event.remove({id: 'laserio:card_redstone'})
+    event.remove({id: 'laserio:card_energy'})
+    event.remove({id: 'laserio:laser_wrench'})
 });

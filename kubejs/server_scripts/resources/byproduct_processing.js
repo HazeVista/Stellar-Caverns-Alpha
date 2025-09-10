@@ -57,4 +57,12 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:impure_beryllium_dust', 'gtceu:impure_pentlandite_dust', 'gtceu:impure_copper_dust', 'gtceu:impure_wulfenite_dust', 'gtceu:impure_pyrochlore_dust', 'gtceu:impure_sphalerite_dust')
         .duration(40)
         .EUt(75)
+
+    event.recipes.gtceu.chemical_reactor('ghast_tear_creation')
+        .itemInputs('gtceu:tiny_potassium_dust', 'tiny_lithium_dust')
+        .inputFluids('gtceu:salt_water 1000')
+        .itemOutputs('minecraft:ghast_tear')
+        .outputFluids('minecraft:water 1000')
+        .duration(100)
+        .EUt(480)
 });

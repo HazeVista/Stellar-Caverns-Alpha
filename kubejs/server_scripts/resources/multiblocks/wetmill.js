@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
         .itemInputs('10x gtceu:granite_dust')
         .inputFluids('minecraft:water 1440')
         .outputFluids('gtceu:granite_mixture 1440')
-        .chancedOutput('gtceu:nickel_dust', 2500, 0)
+        .chancedOutput('gtceu:nickel_dust', 7500, 0)
         .EUt(16)
         .duration(400)
 
@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
         .itemInputs('10x gtceu:deepslate_dust')
         .inputFluids('minecraft:water 1440')
         .outputFluids('gtceu:deepslate_mixture 1440')
-        .chancedOutput('gtceu:gallium_dust', 2000, 0)
+        .chancedOutput('gtceu:gallium_dust', 1500, 0)
         .EUt(16)
         .duration(400)
 
