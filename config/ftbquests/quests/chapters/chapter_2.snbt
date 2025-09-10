@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2"
+	group: "75DFBC3AD5337DEA"
+	icon: "gtceu:advanced_integrated_circuit"
+	id: "7EC36628D3649CF9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: ["Not currently accessible, justa placeholder."]
+		id: "6787A8B9DB2BB137"
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			count: 8L
+			id: "10AF96DCC1051371"
+			item: { Count: 8, id: "gtceu:advanced_integrated_circuit" }
+			type: "item"
+		}]
+		x: -6.0d
+		y: 14.5d
+	}]
+	title: "Chapter 2"
+}

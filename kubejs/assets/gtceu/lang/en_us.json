@@ -67,6 +67,9 @@
   "block.gtceu.hardened_core_drilling_rig": "Hardened Core Drilling Rig",
   "gtceu.core_drilling": "Core Drilling",
 
-  "material.gtceu.dense_low_grade_terralite_superconductor": "Dense Low Grade Terralite Superconductor"
+  "material.gtceu.dense_low_grade_terralite_superconductor": "Dense Low Grade Terralite Superconductor",
+  "material.gtceu.magnesiated_terralite_superconductor":"Magnesiated Terralite Superconductor",
 
+  "material.gtceu.silmaril": "Silmaril",
+  "material.gtceu.soul_lava": "Soul Lava"
 }

@@ -1,0 +1,45 @@
+// ServerEvents.recipes(event => {
+//     event.recipes.gtceu.polarizer('polarize_certus')
+//         .itemInputs('gtceu:flawless_certus_quartz_gem')
+//         .itemOutputs('ae2:charged_certus_quartz_crystal')
+//         .duration(20)
+//         .EUt(400)
+    
+//     event.recipes.gtceu.alloy_smelter('quartz_glass_alloying')
+//         .itemInputs('#forge:dusts/certus_quartz', '#forge:glass')
+//         .itemOutputs('ae2:quartz_glass')
+//         .duration(160)
+//         .EUt(7)
+
+//     event.recipes.gtceu.alloy_smelter('vib_quartz_glass_alloying')
+//         .itemInputs('ae2:quartz_glass', '2x minecraft:glowstone_dust')
+//         .itemOutputs('ae2:quartz_vibrant_glass')
+//         .duration(160)
+//         .EUt(7)
+    
+//     event.recpes.gtceu.large_chemical_reactor('mixing_fluix_dust_obsidian')
+//         .itemInputs('x16 #forge:dusts/certus_quartz', 'x16 gtceu:obsidian_dust', 'x32 minecraft:redstone')
+//         .inputFluids('minecraft:water 9216')
+//         .itemOutputs('64x ae2:fluix_crystal')
+//         .duration(1200)
+//         .EUt(1536)
+
+//     event.recipes.gtceu.canner('pattern_canning')
+//         .itemInputs('#forge:dusts/certus_quartz', 'x4 gtceu:fluid_cell')
+//         .inputFluids('gtceu:liquid_glowstone 576')
+//         .itemOutputs('4x ae2:blank_pattern')
+//         .duration(20)
+//         .EUt(384)
+
+//     event.recipes.gtceu.wiremill('mill_quartz_fiber')
+//         .itemInputs('ae2:quartz_glass')
+//         .itemOutputs('2x ae2:quartz_fiber')
+//         .duration(120)
+//         .EUt(28)
+
+//     event.recipes.gtceu.wiremill('mill_fluix')
+//         .itemInputs('ae2:fluix_crystal')
+//         .itemOutputs('4x ae2:fluix_cable')
+//         .duration(120)
+//         .EUt(28)    
+// });

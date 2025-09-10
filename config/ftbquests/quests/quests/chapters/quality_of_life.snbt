@@ -1,0 +1,93 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quality_of_life"
+	group: "47CAC09395B873F2"
+	icon: "fluxnetworks:flux_configurator"
+	id: "2947913EEAD02991"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Theres a couple different mods added to help with early game storage, have fun experimenting with them :)"]
+			icon: "minecraft:chest"
+			id: "4AC00791DFC56447"
+			shape: "diamond"
+			size: 1.75d
+			subtitle: "store yer things"
+			tasks: [{
+				id: "3E6151B7FB65351D"
+				title: "Early-Game Storage"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4AC00791DFC56447"]
+			icon: "toms_storage:ts.storage_terminal"
+			id: "5303B469A5374EFE"
+			subtitle: "primitive ae2, if you will"
+			tasks: [{
+				id: "7523446F85838041"
+				title: "Tom's Simple Storage"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4AC00791DFC56447"]
+			icon: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 1908001
+					clothColor: 1908001
+				}
+			}
+			id: "43EF96F09D779769"
+			subtitle: "Bigger Personal Inventory"
+			tasks: [{
+				id: "46F2CB9B8A1A4012"
+				title: "Sophisticated Backpack"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4AC00791DFC56447"]
+			icon: "functionalstorage:oak_1"
+			id: "16C885EB22C17042"
+			subtitle: "Cheap Bulk Storage"
+			tasks: [{
+				id: "7C0FEACD07E68465"
+				title: "Functional Storage"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4AC00791DFC56447"]
+			icon: {
+				Count: 1
+				id: "endertanks:ender_tank"
+				tag: {
+					code: "EEE"
+					owner: "all"
+				}
+			}
+			id: "2402550C91661B28"
+			tasks: [{
+				id: "5EC8D554C3DC78CD"
+				title: "Ender Storages"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+	]
+	title: "Quality of Life"
+}
