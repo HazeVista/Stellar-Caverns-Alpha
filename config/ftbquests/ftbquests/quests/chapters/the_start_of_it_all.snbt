@@ -1,0 +1,1354 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_start_of_it_all"
+	group: "75DFBC3AD5337DEA"
+	icon: "minecraft:oak_sapling"
+	id: "5FABB3D8611879FD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Stellar Caverns is a very heavy &4WIP&4."
+				""
+				"This pack is based upon harnessing the power of the ground and earth, all things starting from the rocks around you. "
+				""
+				"Also, this pack is intended to be experienced on peaceful. To avoid progression skips,  and help performance, it is reccomended to turn off all mob spawning."
+				""
+				"Thanks for Playtesting!"
+			]
+			icon: "minecraft:cobblestone"
+			id: "5A3DEEE022F87740"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67707EBA551050B2"
+				table_id: 499393389490512422L
+				type: "choice"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "You like rocks?"
+			tasks: [{
+				id: "1D8E6A866082CFDB"
+				title: "Basic info"
+				type: "checkmark"
+			}]
+			title: "Introduction to SC"
+			x: 6.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A3DEEE022F87740"]
+			description: [
+				"Have fun chopping logs (or don't have fun doing it idc) because you'll need a lot of them. "
+				""
+				"The sapling was free but as you will learn, getting organic material in the future will take quite a bit more effort."
+			]
+			icon: "minecraft:oak_log"
+			id: "33F97368B98EFDD0"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Chop Chop Tree Boy"
+			tasks: [{
+				id: "79DAF193D6633C92"
+				type: "checkmark"
+			}]
+			title: "Chop Chop!"
+			x: 6.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["33F97368B98EFDD0"]
+			description: ["It's probably worth it to make a couple furnaces."]
+			hide_until_deps_visible: false
+			id: "0E01A4FFA58C6415"
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Probably Important : )"
+			tasks: [
+				{
+					id: "31736060E56E6400"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "10A2E8D8E4EA8E6B"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "Getting Crafty"
+			x: 6.25d
+			y: 9.25d
+		}
+		{
+			dependencies: ["5A3DEEE022F87740"]
+			description: ["Disables mobs, which in turn disables skipping progression due to mob drops."]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1DEC7A6BBC49AB03"
+			optional: true
+			rewards: [{
+				command: "/gamerule doMobSpawning false"
+				id: "0B7DBC33F75C85AA"
+				type: "command"
+			}]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "The intended way"
+			tasks: [{
+				id: "014482F01E2DB2EF"
+				title: "Turn Of Mob Spawning"
+				type: "checkmark"
+			}]
+			title: "Turn Off Mob Spawning"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A3DEEE022F87740"]
+			description: ["You dont want things to be caught on fire, i suppose?"]
+			icon: {
+				Count: 1
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5521CA4D28EEF199"
+			optional: true
+			rewards: [{
+				command: "/gamerule doFireTick false"
+				id: "5D04885AB6B79D0D"
+				type: "command"
+			}]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "IM MELTTTINGG"
+			tasks: [{
+				id: "07FF5A616DEA381A"
+				title: "Turn Of Fire Tick"
+				type: "checkmark"
+			}]
+			title: "Turn Off Fire Tick"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6A469F4248906F63"]
+			description: [
+				"Your second primitive \"machine\". "
+				""
+				"Use this to extract water from saplings to get your first few buckets of water for an infinite source."
+				""
+				"The sapling recipe here won't use power either, but aside from this, most ulv recipes will consume .25a-1a of LV/t."
+				""
+				"Each tier will have you consuming more and more power, so make sure to keep a tab on how much you're able to supply :)"
+			]
+			id: "65AD5D9D0A0D8100"
+			shape: "rsquare"
+			subtitle: "Another Weird \"Machine\""
+			tasks: [{
+				id: "42D3325047F1BEFE"
+				item: "gtceu:ulv_extractor"
+				type: "item"
+			}]
+			title: "Primitive Sucker Machine"
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["65AD5D9D0A0D8100"]
+			description: ["obtained from the primtive extractor for now.."]
+			id: "57099D097D2F4606"
+			shape: "rsquare"
+			subtitle: "get the infinite water source!"
+			tasks: [{
+				id: "0EDE7DDEAF543C81"
+				item: {
+					Count: 1
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Wabter"
+			x: 0.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7A7DF7455DD82A2B"]
+			description: ["WHAT DO YOU MEAN IT DOESN'T MOVE FLUIDS ITSELF?!?!?"]
+			id: "6A469F4248906F63"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "dissapointing"
+			tasks: [{
+				id: "022720455A0C712B"
+				item: "kubejs:ulv_electric_pump"
+				type: "item"
+			}]
+			title: "\"Your Inability Upsets Me\""
+			x: 0.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"774D942546D29552"
+				"52F8BF78E34593DA"
+			]
+			description: ["This is your very first \"machine component\", used in the most basic primitive machines."]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "7A7DF7455DD82A2B"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "You did it!"
+			tasks: [{
+				id: "3F890FB9AF084970"
+				item: "kubejs:ulv_magnetic_motor"
+				type: "item"
+			}]
+			title: "The Cogs are Spinning!"
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["733F7FFE484F0C67"]
+			description: ["Sift through 8 stone dust to get low grade terralite dust."]
+			id: "52F8BF78E34593DA"
+			shape: "rsquare"
+			subtitle: "diggy diggy, uh, dust?"
+			tasks: [
+				{
+					id: "6D148EF54ABB9495"
+					item: {
+						Count: 1
+						id: "kubejs:wood_prospecting_sieve"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "559C5CC8719731D2"
+					item: "gtceu:low_grade_terralite_dust"
+					type: "item"
+				}
+				{
+					id: "2063FD877B9206CE"
+					item: "gtceu:deepslate_dust"
+					type: "item"
+				}
+			]
+			title: "Sifting Awayyyy"
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["64422BE02B33A5CE"]
+			description: ["Almost all of your resources are going to come from this early on. Make sure to keep a lot of it around."]
+			id: "733F7FFE484F0C67"
+			shape: "rsquare"
+			subtitle: "Actually Important I Promise"
+			tasks: [{
+				id: "45EFA476A8A614D7"
+				item: "gtceu:stone_dust"
+				type: "item"
+			}]
+			title: "*Cough Cough*"
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0E01A4FFA58C6415"]
+			description: [
+				"Use this to turn cobblestone into stone dust. "
+				"You &4&lWILL&r&r need a lot of stone dust."
+			]
+			hide_until_deps_visible: false
+			id: "64422BE02B33A5CE"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Cronch Cronch"
+			tasks: [{
+				id: "50322F6B896C395E"
+				item: {
+					Count: 1
+					id: "kubejs:crude_cobblestone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hulk Smash!"
+			x: 6.25d
+			y: 11.5d
+		}
+		{
+			dependencies: ["52F8BF78E34593DA"]
+			description: [
+				"Your first \"machine\" used to make deepslate from deepslate dust so that you can use it in ULV \"motors\"."
+				""
+				"You won't need power for some of these ulv recipes, including this one."
+			]
+			icon: "gtceu:ulv_compressor"
+			id: "774D942546D29552"
+			shape: "rsquare"
+			subtitle: "WAM BAM SLAM"
+			tasks: [
+				{
+					id: "1BA6221A77783DFA"
+					item: "minecraft:deepslate"
+					type: "item"
+				}
+				{
+					id: "46BF74FDD45C549F"
+					item: "gtceu:ulv_compressor"
+					type: "item"
+				}
+			]
+			title: "Compression Stones"
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0E01A4FFA58C6415"]
+			description: [
+				"These primitive machines will cost quite a few stone blocks. This might take a while, so let some run passively while you do other tasks."
+				""
+				"Charcoal is disabled until you get the kiln intentionally."
+			]
+			id: "20168C8ED326B641"
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Make A LOT of this"
+			tasks: [
+				{
+					id: "00BC0ED3F50595A2"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "5C41F809B2CC9F30"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+			]
+			title: "Rock Solid"
+			x: 8.125d
+			y: 9.25d
+		}
+		{
+			dependencies: [
+				"39F8A9B06282651F"
+				"7A7DF7455DD82A2B"
+			]
+			description: [
+				"This is primarily used in the ULV age to separate out water from light calcareous slurry. This will give you a concentrated version for your first &2processing line&r"
+				""
+				"Check out the tab!"
+			]
+			hide_dependency_lines: true
+			id: "385639537FFF8A58"
+			shape: "rsquare"
+			tasks: [{
+				id: "69052DDAE8ECB164"
+				item: "gtceu:ulv_centrifuge"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["456C9B7753AC2EAB"]
+			description: [
+				"This is how you get your ingots, glass, and charcoal! "
+				""
+				"Hint: Check the recipes, the ones that use a solid fuel generally dont use power."
+			]
+			id: "16D29683D42802B8"
+			shape: "rsquare"
+			subtitle: "Burn Baby Burrnnnnn"
+			tasks: [{
+				id: "74A0079E1FFFD80E"
+				item: "gtceu:ulv_kiln"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"6A469F4248906F63"
+				"7A7DF7455DD82A2B"
+				"57099D097D2F4606"
+			]
+			description: [
+				"Your first (and only) source of power in the ULV age."
+				""
+				"Now that you have a generator though, take a look at the processing tabs to generate power and create new resources."
+				""
+				"Good luck :)"
+			]
+			id: "39F8A9B06282651F"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "UNLIMITEDDD POWERRRRR"
+			tasks: [{
+				id: "6F9B2DDAA036E830"
+				item: "gtceu:ulv_thermal_generator"
+				type: "item"
+			}]
+			title: "Powahhh!"
+			x: 2.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"7A7DF7455DD82A2B"
+				"39F8A9B06282651F"
+			]
+			description: ["This machine replaces the hand sifting you have to do for low grade terralite as well as deepslate dust, also letting you refine slurry into your first ores in the last step."]
+			hide_dependency_lines: true
+			id: "25734248D226DE4F"
+			shape: "rsquare"
+			subtitle: "On this season of gold rush.."
+			tasks: [{
+				id: "0244B2840479EC4B"
+				item: "gtceu:ulv_sifter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"39F8A9B06282651F"
+				"6A469F4248906F63"
+			]
+			description: ["This machine is used to make light slurries, which you will be using &lA LOT&r of."]
+			hide_dependency_lines: true
+			id: "5EBEB5A9DC390830"
+			shape: "rsquare"
+			subtitle: "Spin me right round baby.."
+			tasks: [{
+				id: "2DAA127C18AFE444"
+				item: "gtceu:ulv_mixer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"16D29683D42802B8"
+				"2AD204BB5E7AD30F"
+			]
+			description: ["The ingots here will come from smelting dusts from the processing lines tab."]
+			hide_until_deps_complete: false
+			id: "195083969043CB7B"
+			shape: "rsquare"
+			subtitle: "[I Lied]"
+			tasks: [
+				{
+					id: "0C691985F2408FA6"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "7A3BF525B04CFE94"
+					item: "gtceu:lead_ingot"
+					type: "item"
+				}
+				{
+					id: "10192F781FDA08C4"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "13B72B3E3E400B94"
+					item: "gtceu:tin_ingot"
+					type: "item"
+				}
+				{
+					id: "080470CB3B79DB80"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					id: "21CCEA1D0AFC8886"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "31B6B651BD39AE50"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "Metallurgic Master"
+			x: 4.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7A7DF7455DD82A2B"]
+			description: ["Just another machine part..."]
+			id: "456C9B7753AC2EAB"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "6D7C2B112CAC5525"
+				item: "kubejs:ulv_electric_piston"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"39F8A9B06282651F"
+				"7A7DF7455DD82A2B"
+			]
+			hide_dependency_lines: true
+			id: "114AC19640B0B7D4"
+			shape: "rsquare"
+			tasks: [{
+				id: "0731FA487E6488C5"
+				item: "gtceu:ulv_macerator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["195083969043CB7B"]
+			description: ["You'll need to build at least one of these to make steel, though we advise making more than one."]
+			id: "4D59BD71B3734DBF"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "031C066792C7C9A4"
+				item: "gtceu:hardened_blast_furnace"
+				type: "item"
+			}]
+			title: "Getting Steel"
+			x: 2.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4D59BD71B3734DBF"]
+			description: [
+				"Steel is the backbone material of LV machines and you'll still be using it even in the end of the pack. "
+				""
+				"Never underestimate how much steel you'll need, especially early on..."
+			]
+			id: "700184B42DDD888A"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "33ABBD01361201D1"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			title: "Am I Gregging Yet?"
+			x: 0.5d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"700184B42DDD888A"
+				"64D3CD742A6186E0"
+				"7A58B7659F6D7CFF"
+				"1C005A7A40DEF44C"
+				"74CA1A4D503B9AF9"
+			]
+			description: [
+				"You might want to just start off with a decent sized batch of these. "
+				""
+				"8 should be enough to get a few LV machines down, but you're going to need quite a bit more so be ready."
+			]
+			hide_dependency_lines: false
+			id: "51C8CEE2510E9BA8"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1F7841572C3A155D"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			title: "Little Computing Thingies"
+			x: -2.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["5EBEB5A9DC390830"]
+			description: ["You can get red alloy dust by mixing copper and redstone in your primitive mixer."]
+			hide_dependency_lines: true
+			id: "64D3CD742A6186E0"
+			shape: "rsquare"
+			tasks: [{
+				id: "56865AB009D3A271"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			title: "Early Conductor Alloy"
+			x: -4.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4C256C66B99EBEAD"]
+			description: [
+				"You'll have to check the processing tab for rubber. "
+				""
+				"You can turn it into sheets with a hammer for now."
+			]
+			id: "7A58B7659F6D7CFF"
+			shape: "rsquare"
+			tasks: [{
+				id: "3B59AE1E95182917"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			title: "Early Insulator"
+			x: -1.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["52F8BF78E34593DA"]
+			description: [
+				"Use paper with the charcoal dust recipe to make resistors."
+				""
+				"You can get the paper for this by crafting it from chad, which comes from sifting our wood dust."
+			]
+			hide_dependency_lines: true
+			id: "1C005A7A40DEF44C"
+			shape: "rsquare"
+			subtitle: "Compressed Wood Dust"
+			tasks: [{
+				id: "2924198474BA83FE"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"16D29683D42802B8"
+				"700184B42DDD888A"
+			]
+			description: [
+				"You'll have to make the glass dust for this from flint dust and quartz sand."
+				""
+				"These can be obtained by using a mortar and pestle on sand and gravel."
+				""
+				"With a ball shaped mold made from steel, you'll be able to smelt your glass dust into tubes in a kiln."
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:glass_tube"
+			id: "74CA1A4D503B9AF9"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "184BA0360D15DC98"
+					item: "gtceu:glass_tube"
+					type: "item"
+				}
+				{
+					id: "13B15AD2DC1CEB61"
+					item: "gtceu:ball_casting_mold"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["0E01A4FFA58C6415"]
+			description: ["We added a wooden wrench for you so you can pick up your primitive machines."]
+			id: "1EEAFA2A4A417065"
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "4EF307C620B6A781"
+				item: {
+					Count: 1
+					id: "gtceu:woodest_wrench"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							Mode: 2b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 1
+							MaxDamage: 31
+							ToolSpeed: 5.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Machine Moving"
+			x: 4.375d
+			y: 9.25d
+		}
+		{
+			dependencies: [
+				"39F8A9B06282651F"
+				"456C9B7753AC2EAB"
+			]
+			description: ["Use this to smash cobblestone into gravel and sand."]
+			hide_dependency_lines: true
+			id: "77E5F3923AD2EFFA"
+			shape: "rsquare"
+			subtitle: "For smashing things"
+			tasks: [{
+				id: "747569A0F0864FAF"
+				item: "gtceu:ulv_forge_hammer"
+				type: "item"
+			}]
+			title: "Smoosh!"
+			x: 5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["55D40B7AE498918D"]
+			description: ["You'll need this to make the Low Voltage coil for your energy hatches."]
+			id: "0F79543E0A569C13"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Electric Slavery"
+			tasks: [{
+				id: "1D30BF89B50E064E"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["0F79543E0A569C13"]
+			description: [
+				"Energy hatches act as the energy input for multiblocks. "
+				""
+				"Regular energy hatches use up to 2 amps of their tier of energy. "
+				""
+				"On Multiblocks that allow it (specified in tooltips), you can overclock your recipes to the next tier with 2 energy hatches."
+			]
+			id: "5BF9E50B012DFD2F"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "7ECF1025DC136C57"
+				item: "gtceu:lv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5BF9E50B012DFD2F"]
+			description: [
+				"These machines process various stone dusts to separate them into simpler components, occasionally giving off precious byproducts."
+				""
+				"Look back at the Processing or Multiblocks tab for more information about these."
+			]
+			id: "00B19D5427966DF6"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Turn your dusts into more dusts!"
+			tasks: [
+				{
+					id: "1CE6D73870AF37C6"
+					item: "gtceu:wetmill"
+					type: "item"
+				}
+				{
+					id: "4333B3B9C6312F6F"
+					item: "gtceu:drymill"
+					type: "item"
+				}
+			]
+			title: "Stone Milling"
+			x: -4.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2D16F39830D4FAFB"]
+			description: ["You'll probably want to start off with a good batch of these like the last circuits."]
+			id: "36689C1C8800EFAF"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "18837E668E1961F9"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			title: "Little Computing Thingies 2.0"
+			x: -6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"7F419F0E44646DFC"
+				"51C8CEE2510E9BA8"
+			]
+			id: "55D40B7AE498918D"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Make your materials stretch!"
+			tasks: [
+				{
+					id: "15AA2B7E99384909"
+					item: "gtceu:lv_bender"
+					type: "item"
+				}
+				{
+					id: "2DD4C1B4D5192FE0"
+					item: "gtceu:lv_polarizer"
+					type: "item"
+				}
+				{
+					id: "7CC126962A59BE9E"
+					item: "gtceu:lv_wiremill"
+					type: "item"
+				}
+				{
+					id: "4E86FA78F4F870DB"
+					item: "gtceu:lv_lathe"
+					type: "item"
+				}
+			]
+			title: "Cheaper Parts"
+			x: -2.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"64D3CD742A6186E0"
+				"7A58B7659F6D7CFF"
+			]
+			hide_dependency_lines: true
+			id: "7F419F0E44646DFC"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "6F07B04EF7D31152"
+				item: "gtceu:ulv_transformer_1a"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["00B19D5427966DF6"]
+			description: [
+				"Get these dusts from processing different stone dusts in your mills. "
+				""
+				"Nickel comes from granite and gallium comes from deepslate as Wetmill byproducts."
+				""
+				"Arsenic is from centrifuging volcanic ashes, which comes from processing tuff mixture in the Drymill."
+				""
+				"Silica also comes out of tuff mixture."
+			]
+			id: "2D16F39830D4FAFB"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "09BB11B03D1411CA"
+					item: "gtceu:nickel_dust"
+					type: "item"
+				}
+				{
+					id: "04A4A1983B5F53E2"
+					item: "gtceu:arsenic_dust"
+					type: "item"
+				}
+				{
+					id: "007C69A3FEB002E8"
+					item: "gtceu:gallium_dust"
+					type: "item"
+				}
+				{
+					id: "5387343E556B91D6"
+					item: "gtceu:silicon_dioxide_dust"
+					type: "item"
+				}
+			]
+			title: "Useful Byproducts"
+			x: -6.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1E070EB4ACB627A4"]
+			id: "430190557F3362AB"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "377A01CAF90C7DEC"
+				item: "gtceu:lv_geothermal_generator"
+				type: "item"
+			}]
+			title: "Better Power"
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5BF9E50B012DFD2F"]
+			description: ["Does silly compression recipes :)"]
+			id: "23060BD5D2405A56"
+			shape: "rsquare"
+			tasks: [{
+				id: "68ED298AAC62C27B"
+				item: "gtceu:high_pressure_compressor"
+				type: "item"
+			}]
+			title: "Big Ol' Lava Machine"
+			x: -2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["23060BD5D2405A56"]
+			id: "1E070EB4ACB627A4"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "2A6F57098C5A02F7"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2D16F39830D4FAFB"]
+			description: [
+				"You'll need to make a distillery and autoclave in order to make one of these for your circuit assembler."
+				""
+				"Look at the autoclave recipe for Silica if you're confused."
+			]
+			id: "5B7296B7E12AF9D0"
+			shape: "rsquare"
+			tasks: [{
+				id: "2FCFDFC1E4359E78"
+				item: "gtceu:quartzite_gem"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"36689C1C8800EFAF"
+				"5B7296B7E12AF9D0"
+			]
+			id: "7F2AF39D092FCC38"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "It crafts circuits better than you do!"
+			tasks: [{
+				id: "753156DCC7225239"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"16D29683D42802B8"
+				"4E4B26AB42758D99"
+			]
+			id: "3D86883162CF8C27"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "52278C701E6519B3"
+				item: "gtceu:coke_oven"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["3D86883162CF8C27"]
+			id: "0E0DD9B279AB9036"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6EFECB88FCAF4998"
+				item: "gtceu:primitive_pump"
+				type: "item"
+			}]
+			title: "Generating Water"
+			x: 7.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["774D942546D29552"]
+			hide_dependency_lines: true
+			id: "4E4B26AB42758D99"
+			shape: "rsquare"
+			tasks: [{
+				id: "504C10932F2087C6"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["25734248D226DE4F"]
+			description: ["You can get other types of saplings from sifting coarse dirt."]
+			icon: "minecraft:cherry_sapling"
+			id: "02D26536904171C4"
+			shape: "rsquare"
+			tasks: [{
+				id: "6ED4DCD30260282A"
+				title: "More Saplings"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["64D3CD742A6186E0"]
+			description: [
+				"Cables and wires carry EU between generators and machines."
+				""
+				"You can use red alloy cables early on, but we advise switching to superconductor wires A.S.A.P. Unlike regular wires, they wont shock you or lose energy over distance."
+				""
+				"Be sure to check online for more info about these!"
+			]
+			icon: "gtceu:red_alloy_double_cable"
+			id: "2B29D69158440BEF"
+			shape: "rsquare"
+			tasks: [{
+				id: "38A24461F504778B"
+				title: "Cables"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 20.0d
+		}
+		{
+			description: [
+				"This section is to give you tips about different tools in GT. Skip it if you're already familiar, as we haven't added any new functions to these tools for this pack."
+				""
+				"The crowbar can remove covers from machines, pipes, and other blocks."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_crowbar"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "5B6B4A4ACF1923E3"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2F9F53E67E259185"
+				title: "The Tools of GregTech"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: ["For grinding things into dust in a crafting table."]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_mortar"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 255
+					}
+					HideFlags: 2
+				}
+			}
+			id: "127B6F00FDEE79DE"
+			shape: "octagon"
+			tasks: [{
+				id: "0FFA4855F3B40E13"
+				title: "Mortar \\& Pestle"
+				type: "checkmark"
+			}]
+			title: "Mortar \\& Pestle"
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: [
+				"The wrench will break most GT machines, blocks, and pipes safely."
+				""
+				"Their best use is for  rotating machines and multiblock controllers."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_wrench"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+					}
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "3A155B1661056E1F"
+			shape: "octagon"
+			tasks: [{
+				id: "07BB38D104C63D0F"
+				title: "Wrench"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: [
+				"For smashing things in the crafting table."
+				""
+				"It also works as a pickaxe, but not as well."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_hammer"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "68E16C0BE10CBBB7"
+			shape: "octagon"
+			tasks: [{
+				id: "033922A8BE9493EC"
+				title: "Hammer"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: [
+				"Saws are mostly used for cutting things in a crafting table."
+				""
+				"They also harvest ice safely. *shrug*"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_saw"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						HarvestIce: 1b
+					}
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 255
+					}
+					HideFlags: 2
+				}
+			}
+			id: "13DFF37DD458D0F8"
+			shape: "octagon"
+			tasks: [{
+				id: "79A3D0A199C44386"
+				title: "Saw"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: ["Screwdrivers are used for toggling various settings on different GT blocks and items."]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_screwdriver"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 255
+					}
+					HideFlags: 2
+				}
+			}
+			id: "60AAD6EF3F040B37"
+			shape: "octagon"
+			tasks: [{
+				id: "45085A524E7783A1"
+				title: "Screwdriver"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: ["Soft Mallets can pause machines and change which direction energy converters convert energy. "]
+			icon: {
+				Count: 1
+				id: "gtceu:wood_mallet"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 127
+					}
+					HideFlags: 2
+				}
+			}
+			id: "458BF689008094A7"
+			shape: "octagon"
+			tasks: [{
+				id: "695C7A1F6444A787"
+				title: "Mallet"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: ["The wire cutters can safely break wires and cables, and allows you to connect and disconnect them to machines."]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_wire_cutter"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "128B708276E1F78A"
+			shape: "octagon"
+			tasks: [{
+				id: "58F7C802E4B30B66"
+				title: "Wire Cutters"
+				type: "checkmark"
+			}]
+			title: "Wirecutter"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5B6B4A4ACF1923E3"]
+			description: ["The file is used for crafting different machine parts in a crafting table."]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_file"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 255
+					}
+					HideFlags: 2
+				}
+			}
+			id: "2E56E77F169E67A3"
+			shape: "octagon"
+			tasks: [{
+				id: "790E5E2CD92B430D"
+				title: "File"
+				type: "checkmark"
+			}]
+			title: "File"
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2D16F39830D4FAFB"]
+			description: ["A furnace that gets wayyyyyyyy hotter than the other ones so far."]
+			id: "3F5E3ABF6201968C"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0555067A8CBD2A83"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			title: "Electric Blast Furnace (EBF)"
+			x: -6.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["7F2AF39D092FCC38"]
+			description: [
+				"This is the end of what I have mapped out for you in the questbook. I believe the next softlock in progression is the RBG laser lenses soon, but Scarlet and I will have that fixed soon. "
+				""
+				"We appreciate your time playtesting, and hope you leave any bugs, suggestions, or other feedback about the pack in our Discord."
+				""
+				"-Haze Vista"
+			]
+			icon: "minecraft:pufferfish"
+			id: "4E7D2A8D8DEB5D97"
+			shape: "heart"
+			size: 2.0d
+			tasks: [{
+				id: "2B69276D9C8F9B3C"
+				title: "Thanks for playtesting!"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 12.0d
+		}
+	]
+	title: "The Start Of It All (ULV-LV)"
+}

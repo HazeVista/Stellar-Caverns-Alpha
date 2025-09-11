@@ -36,6 +36,10 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('augite')
         .dust()
         .color(0x171616)
+
+    event.create('augite_blend')
+        .dust()
+        .color(0x524548)
     
     event.create('titanaugite')
         .dust()

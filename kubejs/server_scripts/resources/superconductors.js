@@ -14,6 +14,26 @@ ServerEvents.recipes(event => {
    event.recipes.gtceu.mixer('mv_super_con_base')
       .itemInputs('4x gtceu:dense_low_grade_terralite_dust', '2x gtceu:magnesium_dust')
       .itemOutputs('6x gtceu:magnesiated_terralite_superconductor_dust')
-      .duration(200)
-      .EUt(80)
+      .duration(250)
+      .EUt(24)
+
+   event.recipes.gtceu.mixer('mix_hazium_tempcon')
+      .itemInputs('3x gtceu:magnesiated_terralite_superconductor_dust', '2x gtceu:electrum:dust')
+      .itemOutputs('5x gtceu:hazium_supertemporaryconductor')
+      .duration(300)
+      .EUt(96)
+
+   event.recipes.gtceu.chemical_bath(cool_hazium)
+      .itemInputs('gtceu:hot_hazium_supertemporaryconductor_ingot')
+      .inputFluids('minecraft:water 144')
+      .itemOutputs('gtceu:hazium_supertemporaryconductor_ingot')
+      .duration(400)
+      EUt(120)
+
+event.recipes.gtceu.chemical_bath(cool_hazium_distilled)
+      .itemInputs('gtceu:hot_hazium_supertemporaryconductor_ingot')
+      .inputFluids('minecraft:water 144')
+      .itemOutputs('gtceu:hazium_supertemporaryconductor_ingot')
+      .duration(250)
+      EUt(120)
 });

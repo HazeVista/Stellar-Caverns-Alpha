@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
     
     event.recipes.gtceu.drymill('drymill_andesite_mixture')
         .inputFluids('gtceu:andesite_mixture 1296')
-        .itemOutputs('6x gtceu:plagioclase_dust', '2x gtceu:biotite_dust', 'gtceu:augite_blend')
+        .itemOutputs('6x gtceu:plagioclase_dust', '2x gtceu:biotite_dust', 'gtceu:augite_blend_dust')
         .outputFluids('gtceu:enriched_mineral_water 324')
         .duration(360)
         .EUt(256)
