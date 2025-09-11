@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
         A: 'gtceu:steel_plate',
         B: 'gtceu:lv_electric_piston',
         C: '#gtceu:circuits/lv',
-        D: 'gtceu:solid_machine_casing'
+        D: 'kubejs:high_steam_machine_casing'
     })
 
     event.shaped('gtceu:hardened_core_drilling_rig',[
