@@ -1,0 +1,7 @@
+{
+	id: "06EE33A44FC2A226"
+	loot_size: 1
+	order_index: 0
+	rewards: [{ item: "minecraft:oak_sapling" }]
+	title: "Saplings"
+}

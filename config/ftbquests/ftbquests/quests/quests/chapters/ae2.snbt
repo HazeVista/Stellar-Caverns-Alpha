@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "47CAC09395B873F2"
+	icon: "ae2:drive"
+	id: "12B2E5FA4BDD2034"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "AE2"
+}

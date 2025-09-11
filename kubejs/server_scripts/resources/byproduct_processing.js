@@ -65,4 +65,10 @@ ServerEvents.recipes(event => {
         .outputFluids('minecraft:water 1000')
         .duration(100)
         .EUt(480)
+
+    event.recipes.gtceu.macerator('schist_to_dust')
+        .itemInputs('gtceu:schist')
+        .itemOutputs('gtceu:schist_dust')
+        .duration(80)
+        .EUt(7)
 });

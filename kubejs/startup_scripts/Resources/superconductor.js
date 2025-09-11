@@ -10,6 +10,10 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .ingot()
         .blastTemp(1600, 'low', 48, 300)
 
-    
+    event.create('hazium_supertemporaryconductor')
+        .cableProperties(512, 8, 0, true)
+        .color(0xcf9025)
+        .ingot()
+        .blastTemp(1800,'low', 400, 400)
 });
 
