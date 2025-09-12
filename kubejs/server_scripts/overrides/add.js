@@ -210,7 +210,7 @@
     ], {
         A: 'gtceu:polytetrafluoroethylene_plate',
         B: 'gtceu:stainless_steel_gear',
-        C: 'gtceu:stainless_steel_long_rod',
+        C: 'gtceu:long_stainless_steel_rod',
         D: '#forge:tools/wrenches'
     })
 

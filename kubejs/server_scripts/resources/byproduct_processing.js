@@ -67,7 +67,7 @@ ServerEvents.recipes(event => {
         .EUt(480)
 
     event.recipes.gtceu.macerator('schist_to_dust')
-        .itemInputs('gtceu:schist')
+        .itemInputs('kubejs:schist')
         .itemOutputs('gtceu:schist_dust')
         .duration(80)
         .EUt(7)
