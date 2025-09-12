@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
 
    event.recipes.gtceu.mixer('mix_hazium_tempcon')
       .itemInputs('3x gtceu:magnesiated_terralite_superconductor_dust', '2x gtceu:electrum_dust')
-      .itemOutputs('5x gtceu:hazium_supertemporaryconductor')
+      .itemOutputs('5x gtceu:hazium_supertemporaryconductor_dust')
       .duration(300)
       .EUt(96)
 
