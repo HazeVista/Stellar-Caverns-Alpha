@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
       .duration(400)
       .EUt(120)
 
-event.recipes.gtceu.chemical_bath('cool_hazium_distilled')
+   event.recipes.gtceu.chemical_bath('cool_hazium_distilled')
       .itemInputs('gtceu:hot_hazium_supertemporaryconductor_ingot')
       .inputFluids('gtceu:distilled_water 144')
       .itemOutputs('gtceu:hazium_supertemporaryconductor_ingot')
