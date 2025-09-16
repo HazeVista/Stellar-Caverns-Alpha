@@ -16,4 +16,16 @@ ServerEvents.recipes(event => {
         A: '#minecraft:planks',
         B: 'minecraft:stick'
     });
+
+    event.shaped('minecraft:string', [
+        'AA'
+    ], {
+        A: 'kubejs:plant_fibers'
+    });
+
+    event.shaped('kubejs:plant_fabric', [
+        'AAA'
+    ], {
+        A: 'kubejs:plant_fibers'
+    });
 });

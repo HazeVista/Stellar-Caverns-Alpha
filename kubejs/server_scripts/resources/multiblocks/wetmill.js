@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
         .itemInputs('4x gtceu:tuff_dust')
         .inputFluids('minecraft:water 576')
         .outputFluids('gtceu:tuff_mixture 576')
-        .chancedOutput('minecraft:redstone', 3000, 0)
+        .chancedOutput('gtceu:sphalerite_dust', 3000, 0)
         .EUt(16)
         .duration(160)
 

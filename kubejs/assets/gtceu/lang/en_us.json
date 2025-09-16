@@ -66,6 +66,11 @@
   "gtceu.drymill": "Drymill",
   "block.gtceu.hardened_core_drilling_rig": "Hardened Core Drilling Rig",
   "gtceu.core_drilling": "Core Drilling",
+  "block.gtceu.greenhouse": "Greenhouse",
+  "gtceu.greenhouse": "Greenhouse",
+  "gtceu.greenhouse_flowers": "Greenhouse Flowers",
+  "gtceu.inscription": "ME Inscription",
+  "block.gtceu.inscription_matrix": "Inscription Matrix",
 
   "material.gtceu.dense_low_grade_terralite_superconductor": "Dense Low Grade Terralite Superconductor",
   "material.gtceu.magnesiated_terralite_superconductor":"Magnesiated Terralite Superconductor",
@@ -74,7 +79,9 @@
   "material.gtceu.silmaril": "Silmaril",
   "material.gtceu.soul_lava": "Soul Lava",
   "material.gtceu.molten_flux": "Molten Flux",
-
+  "material.gtceu.impure_molten_flux": "Flux Slurry",
+  
   "material.gtceu.fluix_pearl": "Fluix Pearl",
-  "material.gtceu.liquid_nitrogen": "Liquid Nitrogen"
+  "material.gtceu.liquid_nitrogen": "Liquid Nitrogen",
+  "material.gtceu.futura_alloy": "Futura Steel"
 }

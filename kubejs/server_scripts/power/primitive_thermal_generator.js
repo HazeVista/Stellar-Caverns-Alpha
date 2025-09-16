@@ -2,9 +2,9 @@ ServerEvents.recipes(event => {
     // Stone burning generator
     event.recipes.gtceu.thermal_generator('primitive_stone_burning')
         .itemInputs('4x gtceu:stone_dust')
-        .inputFluids(Fluid.of('minecraft:water', 1000))
-        .duration(120)
-        .EUt(-2);
+        .inputFluids(Fluid.of('minecraft:water', 250))
+        .duration(240)
+        .EUt(-8);
 
     // Light stone slurry burning
     event.recipes.gtceu.thermal_generator('primitive_light_calcareous_slurry_burning')

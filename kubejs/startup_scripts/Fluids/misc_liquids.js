@@ -8,4 +8,9 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .liquid(1200)
         .color(0x0a0000)
         .iconSet(GTMaterialIconSet.FLUID)
+
+    event.create('impure_molten_flux')
+        .liquid(1200)
+        .color(0x660e19)
+        .iconSet(GTMaterialIconSet.FLUID)
 });

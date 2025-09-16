@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.core_drilling('schist_drilling')
         .circuit(4)
         .inputFluids('minecraft:water 50')
-        .itemOutputs('4x gtceu:schist')
+        .itemOutputs('4x kubejs:schist')
         .duration(20)
         .EUt(16)
 
@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.core_drilling('dripstone_drilling')
         .circuit(6)
         .inputFluids('minecraft:water 50')
-        .itemOutputs('4x minecraft:dripstone')
+        .itemOutputs('4x minecraft:dripstone_block')
         .duration(20)
         .EUt(16)
 

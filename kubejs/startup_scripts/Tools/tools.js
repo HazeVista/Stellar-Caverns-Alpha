@@ -11,4 +11,11 @@ StartupEvents.registry('item', event => {
         .tooltip('Can refine stone dust into its more rarer components')
         .texture('kubejs:item/tools/wood_prospecting_sieve')
 
+    event.create('plant_fibers')
+        .displayName('Plant Fibers')
+        .texture('kubejs:item/materials/plant_fibers')
+
+    event.create('plant_fabric')
+        .displayName('Plant Fabric')
+        .texture('kubejs:item/materials/plant_fabric')
 });
