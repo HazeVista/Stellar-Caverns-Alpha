@@ -2,11 +2,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 	event.create('light_calcareous_slurry')
 		.fluid()
 		.color(0x004c99)
-
-	event.create('light_calcareous_slurry_waste')
-		.fluid()
-		.color(0x808080)
-
+		
 	event.create('concentrated_calcareous_slurry')
 		.fluid()
 		.color(0x002445)
@@ -19,6 +15,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 		.fluid()
 		.color(0x506756)
 
-
+	event.create('light_granitic_slurry')
+		.fluid()
+		.color(0xe37d66)
 
 });

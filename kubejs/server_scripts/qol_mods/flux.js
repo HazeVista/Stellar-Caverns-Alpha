@@ -60,4 +60,28 @@ ServerEvents.recipes(event => {
         B: 'gtceu:obsidian_plate'
     })
 
+    event.recipes.gtceu.evaporation('evaporate_flux')
+        .inputFluids('gtceu:impure_molten_flux 4320')
+        .outputFluids('gtceu:molten_flux 2880')
+        .itemOutputs('10x gtceu:iron_dust')
+        .duration(2400)
+        .EUt(480)
+
+    event.recipes.gtceu.mixer('mix_flux')
+        .itemInputs('minecraft:redstone', 'gtceu:obsidian_dust')
+        .inputFluids('gtceu:molten_flux 144')
+        .outputFluids('gtceu:impure_molten_flux 432')
+        .duration(80)
+        .EUt(240)
+
+    event.shaped('angelring:angel_ring', [
+        'BAB',
+        'ACA',
+        'BAB'      
+    ], {
+        A: 'minecraft:gold_block',
+        B: 'minecraft:blaze_rod',
+        C: 'angelring:diamond_ring'
+    });
+    
     });

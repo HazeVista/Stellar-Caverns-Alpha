@@ -42,9 +42,13 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.primitive_sifter('woodpulp_to_chad')
         .itemInputs('8x gtceu:wood_dust')
-        .itemOutputs('4x gtceu:paper_dust')
+        .itemOutputs('4x gtceu:paper_dust', '2x kubejs:plant_fibers', 'gtceu:sticky_resin')
         .duration(60)
         .EUt(3)
         
+    event.recipes.gtceu.sifter('plant_balls_to_fiber')
+        .itemInputs('gtceu:plant_ball')
+        .itemOutputs('4x kubejs:plant_fibers')
+        .duration(200)
+        .EUt(7)
 });
-

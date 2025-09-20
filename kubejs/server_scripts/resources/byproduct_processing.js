@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
     
     event.recipes.gtceu.centrifuge('mineral_mix_cent')
         .itemInputs('6x gtceu:enriched_mineral_mixture_dust')
-        .itemOutputs('gtceu:impure_beryllium_dust', 'gtceu:impure_pentlandite_dust', 'gtceu:impure_copper_dust', 'gtceu:impure_wulfenite_dust', 'gtceu:impure_pyrochlore_dust', 'gtceu:impure_sphalerite_dust')
+        .itemOutputs('gtceu:impure_beryllium_dust', 'gtceu:impure_pentlandite_dust', 'gtceu:impure_copper_dust', 'gtceu:impure_wulfenite_dust', 'gtceu:impure_pyrochlore_dust', 'gtceu:impure_vanadium_magnetite_dust')
         .duration(40)
         .EUt(75)
 
@@ -69,6 +69,32 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.macerator('schist_to_dust')
         .itemInputs('kubejs:schist')
         .itemOutputs('gtceu:schist_dust')
-        .duration(80)
-        .EUt(7)
+        .duration(100)
+        .EUt(2)
+
+    event.recipes.gtceu.macerator('tuff_to_dust')
+        .itemInputs('minecraft:tuff')
+        .itemOutputs('gtceu:tuff_dust')
+        .duration(100)
+        .EUt(2)
+
+    event.recipes.gtceu.macerator('drip_to_dust')
+        .itemInputs('minecraft:dripstone_block')
+        .itemOutputs('gtceu:dripstone_dust')
+        .duration(100)
+        .EUt(2)
+
+    event.recipes.gtceu.fluid_solidifier('temper_glass')
+        .itemInputs('#forge:glass')
+        .inputFluids('minecraft:lava 100')
+        .itemOutputs('gtceu:tempered_glass')
+        .duration(300)
+        .EUt(28)
+
+    event.recipes.gtceu.autoclave('quartzite_from_silica')
+       .itemInputs('gtceu:silicon_dioxide_dust')
+        .inputFluids('gtceu:distilled_water 100')
+        .chancedOutput('gtceu:quartzite_gem', 5000, 0)
+        .duration(600)
+        .EUt(24)
 });

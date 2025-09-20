@@ -34,7 +34,7 @@
 				title: "Basic info"
 				type: "checkmark"
 			}]
-			title: "Introduction to SC"
+			title: "Introduction to StC"
 			x: 6.25d
 			y: 5.0d
 		}
@@ -228,6 +228,13 @@
 		{
 			dependencies: ["733F7FFE484F0C67"]
 			description: ["Sift through 8 stone dust to get low grade terralite dust."]
+			icon: {
+				Count: 1
+				id: "kubejs:wood_prospecting_sieve"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "52F8BF78E34593DA"
 			shape: "rsquare"
 			subtitle: "diggy diggy, uh, dust?"
@@ -802,8 +809,8 @@
 				type: "item"
 			}]
 			title: "Little Computing Thingies 2.0"
-			x: -6.5d
-			y: 13.5d
+			x: -8.5d
+			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -951,14 +958,15 @@
 				item: "gtceu:quartzite_gem"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 15.0d
+			x: -6.5d
+			y: 16.5d
 		}
 		{
 			dependencies: [
 				"36689C1C8800EFAF"
 				"5B7296B7E12AF9D0"
 			]
+			description: ["Use this to make cheaper circuits."]
 			id: "7F2AF39D092FCC38"
 			shape: "rsquare"
 			size: 1.0d
@@ -969,7 +977,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 13.5d
+			y: 16.5d
 		}
 		{
 			dependencies: [
@@ -1003,6 +1011,7 @@
 		}
 		{
 			dependencies: ["774D942546D29552"]
+			description: ["You can get clay by compressing mud, which comes from mixing water and dirt together."]
 			hide_dependency_lines: true
 			id: "4E4B26AB42758D99"
 			shape: "rsquare"
@@ -1049,11 +1058,13 @@
 			y: 20.0d
 		}
 		{
+			dependencies: ["5A3DEEE022F87740"]
 			description: [
 				"This section is to give you tips about different tools in GT. Skip it if you're already familiar, as we haven't added any new functions to these tools for this pack."
 				""
 				"The crowbar can remove covers from machines, pipes, and other blocks."
 			]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				id: "gtceu:iron_crowbar"
@@ -1077,7 +1088,7 @@
 				title: "The Tools of GregTech"
 				type: "checkmark"
 			}]
-			x: -1.0d
+			x: -9.0d
 			y: 7.5d
 		}
 		{
@@ -1104,7 +1115,7 @@
 				type: "checkmark"
 			}]
 			title: "Mortar \\& Pestle"
-			x: 0.5d
+			x: -7.5d
 			y: 9.0d
 		}
 		{
@@ -1138,7 +1149,7 @@
 				title: "Wrench"
 				type: "checkmark"
 			}]
-			x: -1.0d
+			x: -9.0d
 			y: 9.0d
 		}
 		{
@@ -1170,7 +1181,7 @@
 				title: "Hammer"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -10.5d
 			y: 6.0d
 		}
 		{
@@ -1202,7 +1213,7 @@
 				title: "Saw"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: -7.5d
 			y: 6.0d
 		}
 		{
@@ -1228,7 +1239,7 @@
 				title: "Screwdriver"
 				type: "checkmark"
 			}]
-			x: -1.0d
+			x: -9.0d
 			y: 6.0d
 		}
 		{
@@ -1254,7 +1265,7 @@
 				title: "Mallet"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -10.5d
 			y: 7.5d
 		}
 		{
@@ -1283,7 +1294,7 @@
 				type: "checkmark"
 			}]
 			title: "Wirecutter"
-			x: 0.5d
+			x: -7.5d
 			y: 7.5d
 		}
 		{
@@ -1310,15 +1321,18 @@
 				type: "checkmark"
 			}]
 			title: "File"
-			x: -2.5d
+			x: -10.5d
 			y: 9.0d
 		}
 		{
-			dependencies: ["2D16F39830D4FAFB"]
+			dependencies: [
+				"2D16F39830D4FAFB"
+				"57AFBC9A280523DD"
+			]
 			description: ["A furnace that gets wayyyyyyyy hotter than the other ones so far."]
 			id: "3F5E3ABF6201968C"
-			shape: "gear"
-			size: 2.0d
+			shape: "diamond"
+			size: 1.25d
 			tasks: [{
 				id: "0555067A8CBD2A83"
 				item: "gtceu:electric_blast_furnace"
@@ -1326,28 +1340,98 @@
 			}]
 			title: "Electric Blast Furnace (EBF)"
 			x: -6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5A3DEEE022F87740"]
+			description: ["Do NOT miss out on this one-of-a-kind tool. This will make your life so much easier that you have to be a complete fool to not use it."]
+			hide_dependency_lines: true
+			icon: "gtmthings:advanced_terminal"
+			id: "306DDE6C982529DF"
+			rewards: [{
+				id: "149A1C6E8D364B7B"
+				item: "gtmthings:advanced_terminal"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "443AD8C98EE1812D"
+				title: "Free Terminal"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"78564B37A27EA224"
+				"36689C1C8800EFAF"
+				"3E770FA87F744826"
+			]
+			description: [
+				"This should be your first mv machine. It makes getting aluminium for the rest of your mv machines a lot easier."
+				""
+				"Congratulations on getting this far!"
+				""
+				"Start reading the next progression tab to continue your technological journey :)"
+			]
+			id: "2979550D82194A62"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "26E19F07745BE965"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3F5E3ABF6201968C"]
+			description: ["There's more about getting your first aluminum in the processing lines tab."]
+			hide_dependency_lines: true
+			id: "78564B37A27EA224"
+			shape: "rsquare"
+			tasks: [{
+				id: "5358B32BD48F37CF"
+				item: "gtceu:aluminium_nugget"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["57AFBC9A280523DD"]
+			description: [
+				"Your LV superconductors wont work on MV machines, so you're going to have to upgrade to Magnesiated Terralite for wires."
+				""
+				"This will require an EBF and a LV mixer."
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:magnesiated_terralite_superconductor_ingot"
+			id: "3E770FA87F744826"
+			shape: "rsquare"
+			tasks: [{
+				id: "4A5048613DB06076"
+				title: "MV Superconductor"
+				type: "checkmark"
+			}]
+			x: -11.0d
 			y: 16.5d
 		}
 		{
-			dependencies: ["7F2AF39D092FCC38"]
-			description: [
-				"This is the end of what I have mapped out for you in the questbook. I believe the next softlock in progression is the RBG laser lenses soon, but Scarlet and I will have that fixed soon. "
-				""
-				"We appreciate your time playtesting, and hope you leave any bugs, suggestions, or other feedback about the pack in our Discord."
-				""
-				"-Haze Vista"
-			]
-			icon: "minecraft:pufferfish"
-			id: "4E7D2A8D8DEB5D97"
-			shape: "heart"
-			size: 2.0d
+			dependencies: ["51C8CEE2510E9BA8"]
+			hide_dependency_lines: true
+			id: "57AFBC9A280523DD"
+			shape: "rsquare"
 			tasks: [{
-				id: "2B69276D9C8F9B3C"
-				title: "Thanks for playtesting!"
-				type: "checkmark"
+				id: "45AAC8B142B34824"
+				item: "gtceu:lv_mixer"
+				type: "item"
 			}]
-			x: -10.0d
-			y: 12.0d
+			x: -8.5d
+			y: 13.5d
 		}
 	]
 	title: "The Start Of It All (ULV-LV)"

@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
         
     })
 
-     event.shaped('gtceu:drymill',[
+    event.shaped('gtceu:drymill',[
         'AEA',
         'DCD',
         'ABA'
@@ -52,7 +52,29 @@ ServerEvents.recipes(event => {
         B: 'gtceu:lv_electric_pump',
         C: 'gtceu:steel_gearbox',
         D: '#gtceu:circuits/lv',
-        E: 'kubejs:wood_prospecting_sieve'
-        
+        E: 'kubejs:wood_prospecting_sieve'  
     })
+
+    event.shaped('gtceu:greenhouse',[
+        'BAB',
+        'CDC',
+        'BAB'
+    ], {
+        A: '#gtceu:circuits/mv',
+        B: 'kubejs:high_steam_machine_casing',
+        C: 'gtceu:mv_conveyor_module',
+        D: 'gtceu:mv_machine_casing'
+    })
+
+    event.shaped('gtceu:crystalarium', [
+        'ABA',
+        'CDC',
+        'ACA'
+    ], {
+        A: '#gtceu:circuits/iv',
+        B: 'gtceu:ev_emitter',
+        C: 'gtceu:ev_electric_pump',
+        D: 'gtceu:ev_machine_hull'
+    });
+    
 });

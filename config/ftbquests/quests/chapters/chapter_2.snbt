@@ -7,19 +7,875 @@
 	id: "7EC36628D3649CF9"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		description: ["Not currently accessible, justa placeholder."]
-		id: "6787A8B9DB2BB137"
-		shape: "gear"
-		size: 2.0d
-		tasks: [{
-			count: 8L
-			id: "10AF96DCC1051371"
-			item: { Count: 8, id: "gtceu:advanced_integrated_circuit" }
-			type: "item"
-		}]
-		x: -6.0d
-		y: 14.5d
-	}]
-	title: "Chapter 2"
+	quests: [
+		{
+			dependencies: [
+				"4EEA9832D926BE97"
+				"4B94EBAF083A0F4C"
+				"47BFB5523C700A94"
+			]
+			description: [
+				"The crystalarium here is currently the final goal for 1.6.0. Congratulations on getting it done!"
+				""
+				"This is the end of what I have mapped out for you in the questbook."
+				""
+				"We appreciate your time playtesting, and hope you leave any bugs, suggestions, or other feedback about the pack in our Discord."
+				""
+				"-Haze Vista"
+			]
+			icon: "gtceu:crystalarium"
+			id: "4E7D2A8D8DEB5D97"
+			shape: "heart"
+			size: 2.5d
+			tasks: [{
+				id: "6962CD927E02C60E"
+				item: "gtceu:crystalarium"
+				type: "item"
+			}]
+			title: "The  Alpha Tester 1.6 Trophy"
+			x: 0.0d
+			y: 30.0d
+		}
+		{
+			dependencies: [
+				"71969D546572AA62"
+				"23060BD5D2405A56"
+			]
+			description: [
+				"After you get 9 emerald dust, throw it into a compressor to get your flawless gem."
+				""
+				"This recipe is pretty slow..."
+			]
+			id: "43C070403DC73EE5"
+			shape: "rsquare"
+			tasks: [{
+				id: "50672A20C391F113"
+				item: "gtceu:flawless_emerald_gem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["264F4138ACFFC5E5"]
+			description: [
+				"You should probably set up other machines for infrastructure reasons, but these are the next MV machines you'll need to continue progressing."
+				""
+				"You'll need to turn that mineral water from dust milling into  mineral mixture dust with a distillery and centrifuge that dust for impure beryllium dust. Once you have  some you'll be able to stick it back in a centrifuge for a chance at emerald dust."
+				""
+				"Good luck :)"
+			]
+			id: "71969D546572AA62"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "64D30B1BC353740F"
+					item: "gtceu:mv_distillery"
+					type: "item"
+				}
+				{
+					id: "37B05E51BDF8493C"
+					item: "gtceu:mv_centrifuge"
+					type: "item"
+				}
+			]
+			title: "Machines for Emerald Dust"
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2979550D82194A62"]
+			description: [
+				"Stock up plenty of this from electrolyzing different dusts like Sial and Clay dust, among many others."
+				""
+				"The quests from hereon out might get a bit less descriptive."
+			]
+			icon: "gtceu:aluminium_ingot"
+			id: "264F4138ACFFC5E5"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "732D67A0193D7046"
+					item: "gtceu:aluminium_dust"
+					type: "item"
+				}
+				{
+					id: "7B743C4D15857938"
+					item: "gtceu:aluminium_ingot"
+					type: "item"
+				}
+			]
+			title: "Stock Up Aluminum!"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["43C070403DC73EE5"]
+			description: ["You'll need this part for a few MV machines."]
+			id: "2D02AF84EA880EAE"
+			shape: "rsquare"
+			tasks: [{
+				id: "56189712AF2F0535"
+				item: "gtceu:mv_emitter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2D02AF84EA880EAE"]
+			id: "28478A53E5844C46"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "63E0EFDF075FF0FC"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["43C070403DC73EE5"]
+			description: ["Use a lathe on a flawless emerald to get this lens."]
+			id: "70595F153F65D438"
+			shape: "rsquare"
+			tasks: [{
+				id: "4CE10DFC1C7BA3D9"
+				item: "gtceu:emerald_lens"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1B12C3D309E1593D"]
+			description: ["You've certainly gotten your hands on ruby already."]
+			id: "6F1CF2A0A5E404EB"
+			shape: "rsquare"
+			tasks: [{
+				id: "17DE8C1A202E1374"
+				item: "gtceu:ruby_lens"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["71969D546572AA62"]
+			description: ["The only way to get sapphire dust this early on right now is lava centrifuging. This might take a while..."]
+			id: "19125CBDB2C942BE"
+			shape: "rsquare"
+			tasks: [{
+				id: "0212521B1E5794E2"
+				item: "gtceu:sapphire_lens"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["23060BD5D2405A56"]
+			description: ["Hopefully you've noticed where diamonds come from by now."]
+			id: "7032F8FB45B4C2A0"
+			shape: "rsquare"
+			tasks: [{
+				id: "132845999E875649"
+				item: "gtceu:diamond_lens"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"28478A53E5844C46"
+				"7032F8FB45B4C2A0"
+			]
+			id: "7820D51D99D84CA8"
+			shape: "rsquare"
+			tasks: [{
+				id: "14678C2ED0A63BC9"
+				item: "gtceu:cpu_wafer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"70595F153F65D438"
+				"28478A53E5844C46"
+			]
+			id: "0E3EBF7CAAF43FD5"
+			shape: "rsquare"
+			tasks: [{
+				id: "1F149B7AEDD1A4DA"
+				item: "gtceu:ram_wafer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"6F1CF2A0A5E404EB"
+				"28478A53E5844C46"
+			]
+			id: "0C43283FCC8EB276"
+			shape: "rsquare"
+			tasks: [{
+				id: "17ADF96CE56B15FF"
+				item: "gtceu:ilc_wafer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"28478A53E5844C46"
+				"19125CBDB2C942BE"
+			]
+			id: "1FD6E7E93C95F838"
+			shape: "rsquare"
+			tasks: [{
+				id: "26E4C38E54186E45"
+				item: "gtceu:ulpic_wafer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["00B19D5427966DF6"]
+			description: ["You can get vanadium for this by processing the mineral water from your drymill."]
+			id: "7E4F366700F736A4"
+			shape: "rsquare"
+			tasks: [{
+				id: "2F31D2551EDDB302"
+				item: "gtceu:vanadium_steel_buzz_saw_blade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["7E4F366700F736A4"]
+			description: [""]
+			id: "52C2A47530948D54"
+			shape: "rsquare"
+			tasks: [{
+				id: "0902D875FD946272"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.25d
+		}
+		{
+			dependencies: [
+				"1FD6E7E93C95F838"
+				"0E3EBF7CAAF43FD5"
+				"0C43283FCC8EB276"
+				"00B19D5427966DF6"
+				"52C2A47530948D54"
+				"7820D51D99D84CA8"
+			]
+			id: "659F349AB915B174"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "0F1F4285A5E7F270"
+					item: "gtceu:cpu_chip"
+					type: "item"
+				}
+				{
+					id: "26B8C850CAA10C3A"
+					item: "gtceu:ram_chip"
+					type: "item"
+				}
+				{
+					id: "4CB464A5D21DCC5C"
+					item: "gtceu:ilc_chip"
+					type: "item"
+				}
+				{
+					id: "190B11DD66A42F86"
+					item: "gtceu:ulpic_chip"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"659F349AB915B174"
+				"5E52232B58BA6988"
+			]
+			description: [
+				"This requires ULPIC chips and an advanced assembler (MV)."
+				""
+				"Provides 2 MV amps of multiblock energy throughput."
+			]
+			id: "0DF009C9A7B97F7F"
+			shape: "rsquare"
+			tasks: [{
+				id: "01E57795EFE1D1FB"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["264F4138ACFFC5E5"]
+			hide_dependency_lines: true
+			id: "5E52232B58BA6988"
+			shape: "rsquare"
+			tasks: [{
+				id: "045D623A7F465030"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"1BD5997E06E3EF11"
+				"659F349AB915B174"
+			]
+			description: ["Make sure to look at the new multiblocks unlocked by HV circuits in the multiblock tab!"]
+			id: "604DA45EFC83B3D8"
+			shape: "rsquare"
+			tasks: [{
+				id: "31E4C93A4611A029"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7F2AF39D092FCC38"]
+			id: "1BD5997E06E3EF11"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "06627DF9D14121D9"
+					item: "gtceu:basic_integrated_circuit"
+					type: "item"
+				}
+				{
+					id: "7D15E87C9F84DB4B"
+					item: "gtceu:good_integrated_circuit"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["604DA45EFC83B3D8"]
+			id: "77C7CE76D3F4FAE7"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "7A0BE019ADF82DE5"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["1640567156118EBD"]
+			description: [
+				"You should probably have this automated since you're going to be needing a lot of this very soon."
+				""
+				"There's a section about getting this set up in the processing lines tab."
+			]
+			icon: "gtceu:polyethylene_bucket"
+			id: "1533B445D169C0EB"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "38CAABCB179C9488"
+				title: "Polyethylene"
+				type: "checkmark"
+			}]
+			title: "Baby's First Polymer"
+			x: -2.5d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"77C7CE76D3F4FAE7"
+				"1533B445D169C0EB"
+				"659F349AB915B174"
+			]
+			id: "1CEA844982C3984D"
+			shape: "rsquare"
+			tasks: [{
+				id: "0190F9BAE607FAE1"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"77C7CE76D3F4FAE7"
+				"1533B445D169C0EB"
+				"659F349AB915B174"
+			]
+			description: ["This isn't required for the other circuits in the line, but its worth using this recipe for LV circuits since it's cheaper."]
+			hide_dependency_lines: true
+			id: "02CC9F06A7674792"
+			shape: "rsquare"
+			tasks: [{
+				id: "6D937D8516E4C81F"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 21.25d
+		}
+		{
+			dependencies: ["1CEA844982C3984D"]
+			id: "33D2EF9B48D65FF4"
+			shape: "rsquare"
+			tasks: [{
+				id: "173D7F97A5E8E73C"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 23.75d
+		}
+		{
+			dependencies: [
+				"33D2EF9B48D65FF4"
+				"313D418D1594E4D8"
+			]
+			id: "3C79B6AF2BC82533"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "4FD4015EFAD1DE78"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 25.0d
+		}
+		{
+			dependencies: [
+				"1533B445D169C0EB"
+				"248F3C184AC0F3F4"
+			]
+			id: "313D418D1594E4D8"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6BF371C0CA3AFEBE"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["0DF009C9A7B97F7F"]
+			description: [
+				"All of the ingredients for this will come from wet and dry milling one way or another. You'll have to use JEI for yourself to figure this out."
+				""
+				"You're going to need 2 MV energy hatches on your EBF in order to cook these ingots."
+			]
+			hide_dependency_lines: true
+			id: "20DD5285DA0DFE20"
+			shape: "rsquare"
+			tasks: [{
+				id: "637BE73299A4362B"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["20DD5285DA0DFE20"]
+			id: "248F3C184AC0F3F4"
+			shape: "rsquare"
+			tasks: [{
+				id: "225FF483EEBE4F12"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 25.0d
+		}
+		{
+			dependencies: [
+				"3C79B6AF2BC82533"
+				"19E9A1C1FED45CD1"
+			]
+			id: "517D4EB8469EE1C5"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "2B4767C0F6099A22"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["095116CA9420FDE6"]
+			description: [
+				"You'll need to use a mixer to get ender pearl dust, then mix it again with blaze powder from a chemical reactor."
+				""
+				"Once you have the ender eye dust from this you can toss it in an implosion compressor to turn it into the item you need."
+			]
+			icon: "gtceu:hv_emitter"
+			id: "19E9A1C1FED45CD1"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7A5F64087360D960"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "5386BB2578174E3C"
+					item: "gtceu:hv_emitter"
+					type: "item"
+				}
+			]
+			title: "Ender Eyes for Emitters"
+			x: 5.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["248F3C184AC0F3F4"]
+			hide_dependency_lines: true
+			id: "095116CA9420FDE6"
+			shape: "rsquare"
+			tasks: [{
+				id: "580DD402D186C914"
+				item: "gtceu:hv_mixer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"517D4EB8469EE1C5"
+				"3C79B6AF2BC82533"
+			]
+			id: "4EEA9832D926BE97"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "17E62627A2CEE7F3"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["248F3C184AC0F3F4"]
+			id: "088D9A95101980E4"
+			shape: "rsquare"
+			tasks: [{
+				id: "0DAC9AB3745FB771"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 27.5d
+		}
+		{
+			dependencies: [
+				"088D9A95101980E4"
+				"528B36DB5DEBE02A"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"This is another polymer that you're going to need quite a bit of."
+				""
+				"Theres also a section in processing lines for this."
+			]
+			icon: "gtceu:polytetrafluoroethylene_bucket"
+			id: "10B90964013F249B"
+			shape: "rsquare"
+			tasks: [{
+				id: "76CC543C9E5A574C"
+				title: "PTFE"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 30.0d
+		}
+		{
+			dependencies: [
+				"4EEA9832D926BE97"
+				"548F87CA6BE29E6C"
+			]
+			id: "4C4D12E77D4C7AF0"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "28CE105000539821"
+				item: "gtceu:inscription_matrix"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["10B90964013F249B"]
+			id: "6B898F98979B9467"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "0454ADFD7B4C1C63"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["3C79B6AF2BC82533"]
+			id: "663BC7AB2AC4CB4C"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "66133BDA41E63AC9"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			title: "Cooling Hotter Ingots"
+			x: -2.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["4C4D12E77D4C7AF0"]
+			id: "153F72BB85729AC7"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "33EF997A1EB372F8"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "0A2622610BEFF108"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "1D136666E717D180"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["20DD5285DA0DFE20"]
+			hide_dependency_lines: true
+			id: "5E616CFAB0311F35"
+			shape: "rsquare"
+			tasks: [{
+				id: "5B545B1C39CBF590"
+				item: "gtceu:hv_electromagnetic_separator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 32.5d
+		}
+		{
+			dependencies: [
+				"663BC7AB2AC4CB4C"
+				"6B898F98979B9467"
+				"5E616CFAB0311F35"
+			]
+			description: ["There's more about this in processing lines."]
+			id: "4B94EBAF083A0F4C"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6FFA9CE5C7232454"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["00B19D5427966DF6"]
+			description: ["It's not required, but the fluid drill will make getting methane a bit easier if you drill some oil. *eagle noises*"]
+			icon: "gtceu:mv_fluid_drilling_rig"
+			id: "528B36DB5DEBE02A"
+			shape: "rsquare"
+			tasks: [{
+				id: "164D83C6541BE485"
+				title: "Fluid Drilling"
+				type: "checkmark"
+			}]
+			title: "Oil Drilling"
+			x: -7.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["528B36DB5DEBE02A"]
+			description: ["Use this to scan for fluid veins."]
+			icon: "gtceu:prospector.hv"
+			id: "63D1291E89D627CF"
+			rewards: [{
+				id: "6F9D1C9402812AFC"
+				item: "gtceu:prospector.hv"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "50EE7A12817DFE09"
+				title: "Free Prospector"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 25.0d
+		}
+		{
+			dependencies: [
+				"7A93809EE65947B7"
+				"68F71C8B144A8AB8"
+			]
+			id: "47BFB5523C700A94"
+			shape: "rsquare"
+			tasks: [{
+				id: "2C7788B7301342C5"
+				item: "gtceu:ev_emitter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["4B94EBAF083A0F4C"]
+			id: "35A88FBFC2C866FD"
+			shape: "rsquare"
+			tasks: [{
+				id: "69B096847A1CAC69"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 32.5d
+		}
+		{
+			dependencies: ["35A88FBFC2C866FD"]
+			description: [
+				"This is probably just a temporary fix for 1.6, but you can get the radon and platinum you need from different materials in the end."
+				""
+				"Radon will come from collecting ender air and distilling it, and platinum comes at a pretty trash rate from centrifuging endstone dust, but at least it's accessible."
+				""
+				"You dont need to fight the dragon and currently wont benefit much anything from it, but do as you please."
+			]
+			id: "7A93809EE65947B7"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "0D4F62F64D729D43"
+				item: "minecraft:end_portal_frame"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 32.5d
+		}
+		{
+			dependencies: [
+				"3C79B6AF2BC82533"
+				"248F3C184AC0F3F4"
+			]
+			description: ["The only input hatch thats accessible at this tier and big enough for ender air is the ME Input hatch as of right now."]
+			hide_dependency_lines: true
+			id: "68F71C8B144A8AB8"
+			shape: "rsquare"
+			tasks: [{
+				id: "3BC16C218B687CEA"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["153F72BB85729AC7"]
+			id: "05562C766679F54E"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "072A5D57B6577BF8"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 27.5d
+		}
+		{
+			dependencies: [
+				"095116CA9420FDE6"
+				"545DF1BA84770577"
+			]
+			description: ["This is the base material for AE2 in Stellar Caverns."]
+			hide_dependent_lines: true
+			id: "548F87CA6BE29E6C"
+			shape: "rsquare"
+			tasks: [{
+				id: "543A81421C545C15"
+				item: "gtceu:futura_alloy_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"5B7296B7E12AF9D0"
+				"663BC7AB2AC4CB4C"
+			]
+			description: ["You can get certus by freezing certus in an autoclave with liquid nitrogen."]
+			hide_dependency_lines: true
+			icon: "gtceu:certus_quartz_gem"
+			id: "545DF1BA84770577"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "62190D3B78BAA9C7"
+					item: "gtceu:certus_quartz_gem"
+					type: "item"
+				}
+				{
+					id: "0505B7232D129ED5"
+					item: "gtceu:certus_quartz_dust"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 25.0d
+		}
+	]
+	title: "Industrialization Age [MV-EV]"
 }

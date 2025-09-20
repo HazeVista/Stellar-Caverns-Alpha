@@ -13,4 +13,11 @@ ServerEvents.recipes(event => {
         .itemInputs('#minecraft:leaves')
 		.outputFluids(Fluid.of('minecraft:water', 250))
         .duration(80)
+
+    event.recipes.gtceu.distillation_tower('distill_groundwater')
+        .inputFluids('gtceu:saline_groundwater 3000')
+        .outputFluids('gtceu:salt_water 2000', 'minecraft:water 900', 'gtceu:enriched_mineral_water 100')
+        .itemOutputs('gtceu:rock_salt_dust')
+        .duration(120)
+        .EUt(24)
 });

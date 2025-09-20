@@ -170,7 +170,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2AF4AEA216CDA8F2"]
+			dependencies: ["7B9275452664C363"]
 			id: "33DDDC4D857C6D77"
 			shape: "rsquare"
 			tasks: [{
@@ -304,7 +304,7 @@
 		}
 		{
 			dependencies: ["59D4266FCFB116F6"]
-			description: ["You can compress the dirt dust for more dirt if you want, but the granite doesn't have any intended uses for ulv at the moment."]
+			description: ["You can compress the dirt dust for more dirt if you want, but the granite doesn't have any intended uses for ulv besides turning it into slurry for your generator."]
 			id: "11BB6D3EC5BE798B"
 			tasks: [
 				{
@@ -364,77 +364,11 @@
 			y: 1.0d
 		}
 		{
-			description: [
-				"In order to get rubber, you'll need to process resin that comes from rubber trees."
-				""
-				"Theres a recipe in the primitive sifter that allows you to sift  coarse dirt for saplings."
-			]
-			id: "2AF4AEA216CDA8F2"
-			shape: "octagon"
-			tasks: [{
-				id: "45AD1FFAD00753C8"
-				item: "gtceu:rubber_sapling"
-				type: "item"
-			}]
-			title: "Getting Sticky"
-			x: -1.0d
-			y: 3.0d
-		}
-		{
-			description: [
-				"Mix with terralite in your generator."
-				""
-				"This will probably get changed later."
-			]
-			icon: "gtceu:light_calcareous_slurry_bucket"
-			id: "285DBB47C26CEEA0"
-			subtitle: "first \"decent\" power"
-			tasks: [
-				{
-					id: "5D4637F94099E9F8"
-					item: "gtceu:light_calcareous_slurry_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5C4362FC397C6E75"
-					optional_task: true
-					type: "checkmark"
-				}
-			]
-			x: -1.5d
-			y: -6.5d
-		}
-		{
-			dependencies: [
-				"285DBB47C26CEEA0"
-				"736C0F093F84AE0E"
-				"07947FDE2083BB82"
-			]
-			description: ["I guess you can extract the water back out of this."]
-			icon: "gtceu:light_calcareous_slurry_waste_bucket"
-			id: "1A8C19F80ACC7592"
-			subtitle: "yummers"
-			tasks: [
-				{
-					id: "47198140B7D06911"
-					item: "gtceu:light_calcareous_slurry_waste_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2FBBEDE58B8D452E"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: -7.5d
-		}
-		{
+			dependencies: ["733F7FFE484F0C67"]
 			description: [
 				"Throw some low-grade terralite in your compressor for the dense stuff. "
 				""
-				"This variant of terralite runs about 25x longer than stone dust and generates 4x as much EU/t."
+				"This variant of terralite runs much longer than stone dust."
 				""
 				"You can still use water and stone dust if you want but once you try this you'll never want to go back."
 			]
@@ -445,10 +379,11 @@
 				type: "item"
 			}]
 			title: "Terralite 2.0"
-			x: 1.5d
+			x: -0.5d
 			y: -6.5d
 		}
 		{
+			dependencies: ["430190557F3362AB"]
 			id: "07947FDE2083BB82"
 			shape: "octagon"
 			size: 1.25d
@@ -457,28 +392,25 @@
 				item: "gtceu:ulv_thermal_generator"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: -5.5d
 		}
 		{
-			dependencies: ["5BF9E50B012DFD2F"]
+			dependencies: [
+				"5BF9E50B012DFD2F"
+				"3BE90BC2520E1AA6"
+			]
+			icon: "gtceu:lv_energy_input_hatch"
 			id: "6DB5AF796CADD3EC"
 			shape: "octagon"
-			tasks: [
-				{
-					id: "06504F33D71AFDF9"
-					item: "gtceu:wetmill"
-					type: "item"
-				}
-				{
-					id: "0E44D76A9B83B9E7"
-					item: "gtceu:drymill"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "65BCAA61C1089254"
+				title: "LV Milling"
+				type: "checkmark"
+			}]
 			title: "LV Milling"
-			x: -2.0d
-			y: 7.0d
+			x: 11.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6DB5AF796CADD3EC"]
@@ -489,30 +421,31 @@
 				type: "checkmark"
 			}]
 			title: "Granite Mixture"
-			x: -0.5d
-			y: 6.0d
+			x: 12.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6DB5AF796CADD3EC"]
+			icon: "gtceu:tuff_mixture_bucket"
 			id: "14D96C3329CD202B"
 			tasks: [{
-				id: "7FB03BD6489A02AA"
-				item: "gtceu:tuff_mixture_bucket"
-				type: "item"
+				id: "46782D8549214882"
+				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 7.0d
+			x: 12.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6DB5AF796CADD3EC"]
+			icon: "gtceu:deepslate_mixture_bucket"
 			id: "3609608B5DD33232"
 			tasks: [{
-				id: "27AF541BBF2232F8"
-				item: "gtceu:deepslate_mixture_bucket"
-				type: "item"
+				id: "0B7C34E7F2968C22"
+				title: "Deepslate Mixture"
+				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 8.0d
+			x: 12.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3609608B5DD33232"]
@@ -522,8 +455,8 @@
 				item: "gtceu:gallium_dust"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 8.0d
+			x: 14.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4424A8E2C2604F0B"]
@@ -534,8 +467,8 @@
 				item: "gtceu:arsenic_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.0d
+			x: 15.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["14D96C3329CD202B"]
@@ -545,8 +478,8 @@
 				item: "gtceu:volcanic_ash_dust"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 7.0d
+			x: 14.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1C0C7E08FDCD1592"]
@@ -556,8 +489,8 @@
 				item: "gtceu:nickel_dust"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.0d
+			x: 14.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -570,27 +503,20 @@
 				item: "gtceu:gallium_arsenide_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 8.0d
+			x: 15.5d
+			y: -5.5d
 		}
 		{
+			dependencies: [
+				"5BF9E50B012DFD2F"
+				"3BE90BC2520E1AA6"
+			]
+			icon: "gtceu:mv_energy_input_hatch"
 			id: "42A6B9DFBCAB3896"
 			shape: "octagon"
-			tasks: [
-				{
-					id: "36954FB83B4C4534"
-					item: "gtceu:drymill"
-					type: "item"
-				}
-				{
-					id: "14F3613DD2CEC222"
-					item: "gtceu:wetmill"
-					type: "item"
-				}
-			]
 			title: "MV Milling"
-			x: -2.0d
-			y: 11.0d
+			x: 11.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -606,8 +532,8 @@
 				item: "gtceu:silicon_dioxide_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 15.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0AF85D685E30B1E9"]
@@ -617,8 +543,8 @@
 				item: "gtceu:silicon_dust"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 17.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -633,8 +559,646 @@
 				item: "gtceu:silicon_boule"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 17.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["111587FD14FBB9EB"]
+			id: "1640567156118EBD"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5A62A64FBA7CC1A3"
+				item: "gtceu:polyethylene_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["25734248D226DE4F"]
+			id: "7B9275452664C363"
+			shape: "octagon"
+			tasks: [{
+				id: "1892F116F89B5625"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5EBEB5A9DC390830"]
+			description: ["Pick one of these light slurries to throw in your generator with dense terralite."]
+			icon: "gtceu:light_granitic_slurry_bucket"
+			id: "40816140F5352E71"
+			tasks: [
+				{
+					id: "6946A004FCBB3CB7"
+					optional_task: true
+					title: "Light Slurry"
+					type: "checkmark"
+				}
+				{
+					id: "06164C80B1ADAFF2"
+					item: "gtceu:light_calcareous_slurry_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "23283E6FCCF47C74"
+					item: "gtceu:light_tuffaceous_slurry_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1375918F0269EEE5"
+					item: "gtceu:light_granitic_slurry_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"40816140F5352E71"
+				"07947FDE2083BB82"
+				"736C0F093F84AE0E"
+			]
+			description: ["Your generators will output water as a \"waste product\""]
+			id: "1D869C87485EC5EE"
+			tasks: [{
+				id: "2416DDF01467C03B"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["42A6B9DFBCAB3896"]
+			icon: "gtceu:schist_mixture_bucket"
+			id: "59A7DF3908E05C1A"
+			tasks: [{
+				id: "287DDAEEABAAA1B2"
+				title: "Schist Mixture"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5BF9E50B012DFD2F"]
+			id: "3BE90BC2520E1AA6"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4BD05D82965515BE"
+					item: "gtceu:drymill"
+					type: "item"
+				}
+				{
+					id: "4F8926F34314E12B"
+					item: "gtceu:wetmill"
+					type: "item"
+				}
+			]
+			title: "Milling"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BE90BC2520E1AA6"]
+			description: [
+				"1/4 of the water you put into your milling machines will come back out as enriched mineral water."
+				""
+				"Save this to collect some rarer resources from it once you get mv machines."
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:enriched_mineral_water_bucket"
+			id: "2FEECBD27CC1A1B2"
+			tasks: [
+				{
+					id: "0D79B4A32E29661D"
+					item: "gtceu:enriched_mineral_water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "54C411FAC46680DA"
+					type: "checkmark"
+				}
+			]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2FEECBD27CC1A1B2"]
+			description: ["Centrifuge this with an MV centrifuge."]
+			id: "5608C61EDC1F024D"
+			tasks: [{
+				id: "508410B5EE8684DE"
+				item: "gtceu:enriched_mineral_mixture_dust"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["59A7DF3908E05C1A"]
+			id: "4CB534BFDCF08A43"
+			tasks: [{
+				id: "2E96820C77754D8A"
+				item: "gtceu:gold_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5608C61EDC1F024D"]
+			description: ["Centrifuge this dust for a chance at emerald dust."]
+			id: "7B4616AAACB0A192"
+			tasks: [
+				{
+					id: "6319C9963D3DA349"
+					item: "gtceu:impure_beryllium_dust"
+					type: "item"
+				}
+				{
+					id: "749628EED22293EB"
+					item: "gtceu:emerald_dust"
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5608C61EDC1F024D"]
+			id: "17CD98BFB02C4B2B"
+			tasks: [
+				{
+					id: "7EFA5CEBE2C9AB6C"
+					item: "gtceu:impure_vanadium_magnetite_dust"
+					type: "item"
+				}
+				{
+					id: "444964BF4DA2650E"
+					item: "gtceu:vanadium_dust"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5608C61EDC1F024D"]
+			id: "71CF174071C10FEC"
+			tasks: [
+				{
+					id: "341D7BBD03107AD7"
+					item: "gtceu:impure_wulfenite_dust"
+					type: "item"
+				}
+				{
+					id: "22ED09A33B6C24D6"
+					item: "gtceu:molybdenum_dust"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5608C61EDC1F024D"]
+			id: "051609B06DDA149D"
+			tasks: [
+				{
+					id: "680C9D00310A4BCA"
+					item: "gtceu:impure_pyrochlore_dust"
+					type: "item"
+				}
+				{
+					id: "40D5EEA34D45379F"
+					item: "gtceu:niobium_dust"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5608C61EDC1F024D"]
+			id: "7FA53896B68B7B7D"
+			tasks: [
+				{
+					id: "2C0F672DA3AB6769"
+					item: "gtceu:impure_copper_dust"
+					type: "item"
+				}
+				{
+					id: "05D518B959054A57"
+					item: "gtceu:cobalt_dust"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42A6B9DFBCAB3896"]
+			icon: "gtceu:basalt_mixture_bucket"
+			id: "6194AC0E7A48BABD"
+			tasks: [{
+				id: "1B2A8D0ED3456845"
+				title: "Basalt Mixture"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6194AC0E7A48BABD"]
+			id: "13B51CE477B2D613"
+			tasks: [{
+				id: "52B570D24B7B2DF6"
+				item: "gtceu:graphite_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["42A6B9DFBCAB3896"]
+			icon: "gtceu:diorite_mixture_bucket"
+			id: "150659FF5A9F4EFF"
+			tasks: [{
+				id: "00AAE1A61B9B5E3C"
+				title: "Diorite Mixture"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["150659FF5A9F4EFF"]
+			id: "365A27CA01379319"
+			tasks: [{
+				id: "7B331B61E1F8C5F0"
+				item: "gtceu:antimony_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BE90BC2520E1AA6"]
+			id: "0394EDA6801B90BA"
+			tasks: [{
+				id: "13818BB89168A13B"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0394EDA6801B90BA"]
+			icon: "gtceu:andesite_mixture_bucket"
+			id: "672D6676C908CCFB"
+			tasks: [{
+				id: "7D9B62700FB92ECE"
+				title: "Andesite Mixture"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E53C0CB07E68D06"]
+			id: "1EF37B6525713508"
+			tasks: [{
+				id: "325A6C537AFC5739"
+				item: "gtceu:magnesium_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0394EDA6801B90BA"]
+			icon: "gtceu:dripstone_mixture_bucket"
+			id: "3E53C0CB07E68D06"
+			tasks: [{
+				id: "3EA32CB21E3ED50A"
+				title: "Dripstone Mixture"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0394EDA6801B90BA"]
+			icon: "gtceu:plagioclase_mixture_bucket"
+			id: "7578704E04F216CF"
+			tasks: [{
+				id: "63581AE544237E7C"
+				title: "Plagioclase Mixture"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7578704E04F216CF"]
+			id: "26B0C65A387A0948"
+			tasks: [{
+				id: "4D0D91B521ED39B6"
+				item: "gtceu:rare_earth_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["672D6676C908CCFB"]
+			id: "16BEB94AA8D4B9D5"
+			tasks: [{
+				id: "32F0745F72B9CA90"
+				item: "gtceu:augite_blend_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["16BEB94AA8D4B9D5"]
+			description: ["Use an electromagnetic separator on your augite blend to get this dust."]
+			id: "473C55E07D4080F5"
+			tasks: [{
+				id: "2808F4C026B910CD"
+				item: "gtceu:titanaugite_dust"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			id: "5A468F9B0EF57EAF"
+			tasks: [
+				{
+					id: "0EDD6BF6DF1EA196"
+					item: "gtceu:carbon_dust"
+					type: "item"
+				}
+				{
+					id: "3A392E2CD9D625B5"
+					item: "gtceu:chlorine_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5A468F9B0EF57EAF"
+				"473C55E07D4080F5"
+			]
+			description: ["Combine your titanium ore dust with carbon and chlorine in a large chemical reactor for this step."]
+			icon: "gtceu:hot_impure_titanium_tetrachloride_bucket"
+			id: "7E0C642B31792B53"
+			tasks: [{
+				id: "7CC6E9571B5CF46C"
+				title: "Hot Impure Titanium Tetrachloride"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E0C642B31792B53"]
+			description: ["The stuff out of the LCR is too hot to put directly in the distillation tower to purify it, so you're going to need to cool it in bulk in a vacuum freezer."]
+			icon: "gtceu:impure_titanium_tetrachloride_bucket"
+			id: "22EB75E1F4028A2E"
+			tasks: [{
+				id: "246E313CE1159E95"
+				title: "Impure Titanium Tetrachloride"
+				type: "checkmark"
+			}]
+			x: 18.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22EB75E1F4028A2E"]
+			description: ["After you've purified it, you'll get Titanium Tetrachloride and carbon dioxide that can get electrolyzed to recycle your carbon."]
+			icon: "gtceu:titanium_tetrachloride_bucket"
+			id: "1530E0F0ACCEE031"
+			tasks: [{
+				id: "3784E73DC5EB2F3F"
+				title: "Titanium Tetrachloride"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1EF37B6525713508"
+				"1530E0F0ACCEE031"
+			]
+			id: "28319B861F905426"
+			tasks: [{
+				id: "1D97180911BC878E"
+				item: "kubejs:titanium_sponge"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28319B861F905426"]
+			description: ["Electrolyze the magnesium chloride to get your magnesium and chlorine back."]
+			id: "60788071582E384E"
+			tasks: [
+				{
+					id: "2AB15ED8CA3951CB"
+					item: "gtceu:titanium_dust"
+					type: "item"
+				}
+				{
+					id: "0354152A07654CEB"
+					item: "gtceu:magnesium_chloride_dust"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60788071582E384E"]
+			icon: "gtceu:hot_titanium_ingot"
+			id: "039958B34F982816"
+			tasks: [{
+				id: "02579376502F1E50"
+				title: "Hot Titanium Ingot"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["039958B34F982816"]
+			id: "284A3AD7414D5849"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1073CC7583C991A8"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F70538514C4C730"]
+			description: ["Combine this with ethanol in a chemical reactor for ethylene."]
+			icon: "gtceu:sulfuric_acid_bucket"
+			id: "041A1F02A55FEA1B"
+			tasks: [{
+				id: "6A6D396329543DF6"
+				title: "Sulfuric Acid"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"6AEE5FE00906F5DB"
+				"041A1F02A55FEA1B"
+			]
+			description: ["Combine this with oxygen in a chemical reactor for polyethylene, your very first synthetic polymer."]
+			icon: "gtceu:ethylene_bucket"
+			id: "111587FD14FBB9EB"
+			tasks: [{
+				id: "4D12BF8FE5CE1D15"
+				title: "Ethylene"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4E68F8D5DF5E3A80"]
+			description: ["Distill biomass, fermented biomass, or wood vinegar for this."]
+			icon: "gtceu:ethanol_bucket"
+			id: "6AEE5FE00906F5DB"
+			tasks: [{
+				id: "7F7A764DE79A797B"
+				title: "Ethanol"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1C0877B197D9AA7F"]
+			description: ["You can ferment your biomass for better results from distilling it."]
+			icon: "gtceu:mv_distillery"
+			id: "4E68F8D5DF5E3A80"
+			tasks: [{
+				id: "543B6F4FCA738B7F"
+				title: "Distillation Step"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["10DA3A51682CF1C4"]
+			description: ["Cook your biochaff with water for biomass."]
+			id: "1C0877B197D9AA7F"
+			tasks: [{
+				id: "54C929CD50A297B1"
+				item: "gtceu:pyrolyse_oven"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["770560663D52F516"]
+			description: ["Macerate your plant balls."]
+			id: "10DA3A51682CF1C4"
+			tasks: [{
+				id: "69DF7B48A87F6337"
+				item: "gtceu:bio_chaff"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			description: ["Compressing saplings is probably the best way to get these once you have a greenhouse."]
+			id: "770560663D52F516"
+			tasks: [{
+				id: "66FB3A2A57B17403"
+				item: "gtceu:plant_ball"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1F3348B8AF050B26"]
+			description: ["Just add water."]
+			icon: "gtceu:sulfur_trioxide_bucket"
+			id: "3F70538514C4C730"
+			tasks: [{
+				id: "195F0ECAFCA58129"
+				title: "Sulfur Trioxide"
+				type: "checkmark"
+			}]
+			title: "Sulfur Trioxide"
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3304A1A10F0615AC"]
+			description: ["Combine oxygen and sulfur in a chemical reactor."]
+			icon: "gtceu:sulfur_dioxide_bucket"
+			id: "1F3348B8AF050B26"
+			tasks: [{
+				id: "26398EDB50D2CFC7"
+				title: "Sulfur Dioxide"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			id: "3304A1A10F0615AC"
+			tasks: [
+				{
+					id: "0E48230060D3E381"
+					item: "gtceu:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "3A4779F15531D913"
+					item: "gtceu:oxygen_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -7.5d
 		}
 	]
 	title: "Chapter 1-2"

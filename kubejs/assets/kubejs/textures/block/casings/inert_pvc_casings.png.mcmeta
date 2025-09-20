@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/casings/inert_pvc_casings_ctm"
+    }
+}
