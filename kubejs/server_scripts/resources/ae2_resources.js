@@ -402,6 +402,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.assembler('assemble_futura_casings')
         .itemInputs('6x gtceu:futura_alloy_plate', 'gtceu:futura_alloy_frame')
         .itemOutputs('2x kubejs:futura_casing')
+        .circuit(6)
         .duration(50)
         .EUt(16)
 
