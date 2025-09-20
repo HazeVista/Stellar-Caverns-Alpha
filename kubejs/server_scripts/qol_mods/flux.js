@@ -73,4 +73,15 @@ ServerEvents.recipes(event => {
         .outputFluids('gtceu:impure_molten_flux 432')
         .duration(80)
         .EUt(240)
+
+    event.shaped('angelring:angel_ring', [
+        'BAB',
+        'ACA',
+        'BAB'      
+    ], {
+        A: 'minecraft:gold_block',
+        B: 'minecraft:blaze_rod',
+        C: 'angelring:diamond_ring'
+    });
+    
     });

@@ -65,4 +65,16 @@ ServerEvents.recipes(event => {
         C: 'gtceu:mv_conveyor_module',
         D: 'gtceu:mv_machine_casing'
     })
+
+    event.shaped('gtceu:crystalarium', [
+        'ABA',
+        'CDC',
+        'ACA'
+    ], {
+        A: '#gtceu:circuits/iv',
+        B: 'gtceu:ev_emitter',
+        C: 'gtceu:ev_electric_pump',
+        D: 'gtceu:ev_machine_hull'
+    });
+    
 });

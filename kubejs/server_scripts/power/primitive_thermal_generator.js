@@ -10,17 +10,21 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.thermal_generator('primitive_light_calcareous_slurry_burning')
         .inputFluids(Fluid.of('gtceu:light_calcareous_slurry', 2000))
         .itemInputs('2x gtceu:dense_low_grade_terralite_dust')
-        .outputFluids(Fluid.of('gtceu:light_calcareous_slurry_waste', 2000))
+        .outputFluids(Fluid.of('minecraft:water', 1000))
         .duration(4800)
         .EUt(-8);
 
-    // Recycling slurry waste
-    event.recipes.gtceu.primitive_extractor('primitive_light_calcareous_slurry_recycling')
-        .inputFluids(Fluid.of('gtceu:light_calcareous_slurry_waste', 1000))
-        .outputFluids(Fluid.of('minecraft:water', 500))
-        .duration(160)
-        .EUt(1);
+    event.recipes.gtceu.thermal_generator('primitive_light_tuffaceous_slurry_burning')
+        .inputFluids(Fluid.of('gtceu:light_tuffaceous_slurry', 2000))
+        .itemInputs('2x gtceu:dense_low_grade_terralite_dust')
+        .outputFluids(Fluid.of('minecraft:water', 1000))
+        .duration(4800)
+        .EUt(-8);
 
-    
-    
+    event.recipes.gtceu.thermal_generator('primitive_light_granitic_slurry_burning')
+        .inputFluids(Fluid.of('gtceu:light_granitic_slurry', 2000))
+        .itemInputs('2x gtceu:dense_low_grade_terralite_dust')
+        .outputFluids(Fluid.of('minecraft:water', 1000))
+        .duration(4800)
+        .EUt(-8);
 });

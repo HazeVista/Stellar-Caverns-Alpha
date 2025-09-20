@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
         
     event.recipes.gtceu.sifter('plant_balls_to_fiber')
         .itemInputs('gtceu:plant_ball')
-        .itemOutputs('4x kubejs:plant_fiber')
+        .itemOutputs('4x kubejs:plant_fibers')
         .duration(200)
         .EUt(7)
 });

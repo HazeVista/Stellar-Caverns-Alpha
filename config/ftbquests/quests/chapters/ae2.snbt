@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"AE2 isn't accessible in Stellar Cavern's current state, so this tab is just a placeholder for now."
+			"AE2 was just added to 1.6, but theres a lot to add for it as far as the questbook goes, so this tab is just a placeholder for now."
 			""
 			"Thanks for checking it out though :)"
 		]

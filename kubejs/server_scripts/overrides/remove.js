@@ -4,6 +4,9 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:alloy_smelter/alloy_smelt_dense_low_grade_terralite_superconductor_dust_to_block'})
     event.remove({id: 'gtceu:autoclave/silicon_dioxide_to_quartzite_gem'})
     event.remove({id: 'gtceu:assembler/end_crystal'})
+    event.remove({id: 'gtceu:electric_blast_furnace/titanium_from_tetrachloride'})
+    event.remove({id: 'gtceu:large_chemical_reactor/titanium_tetrachloride'})
+    event.remove({id: 'gtceu:chemical_reactor/titanium_tetrachloride'})
 
     event.remove({id: 'gtceu:shaped/mv_lathe'})
     event.remove({id: 'gtceu:shaped/mv_macerator'})
@@ -85,6 +88,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'ae2:network/cells/item_storage_components_cell_16k_part'})
     event.remove({id: 'ae2:network/cells/item_storage_components_cell_64k_part'})
     event.remove({id: 'ae2:network/cells/item_storage_components_cell_256k_part'})
+    event.remove({id: 'ae2:network/blocks/io_condenser'})
     
     event.remove({id: 'expatternprovider:caner'})
     event.remove({id: 'expatternprovider:crystal_fixer'})
@@ -118,6 +122,7 @@ ServerEvents.recipes(event => {
 
     event.remove({id: 'travelanchors:travel_staff'})
     event.remove({id: 'travelanchors:travel_anchor'})
+    event.remove({id: 'angelring:angel_ring'})
 
     event.remove({id: 'functionalstorage:netherite_upgrade'})
     event.remove({id: 'functionalstorage:diamond_upgrade'})

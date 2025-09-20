@@ -18,4 +18,8 @@ StartupEvents.registry('item', event => {
     event.create('plant_fabric')
         .displayName('Plant Fabric')
         .texture('kubejs:item/materials/plant_fabric')
+
+    event.create('titanium_sponge')
+        .displayName('Titanium Sponge')
+        .texture('kubejs:item/materials/titanium_sponge')
 });

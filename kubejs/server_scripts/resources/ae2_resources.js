@@ -427,4 +427,35 @@ ServerEvents.recipes(event => {
         D: '#ae2:interface',
         E: 'ae2:crafting_accelerator'
     });
+
+    event.shaped('gtceu:inscription_matrix', [
+        'ADA',
+        'CBC',
+        'AEA'
+    ], {
+        A: 'gtceu:futura_alloy_plate',
+        B: 'gtceu:hv_laser_engraver',
+        C: 'gtceu:hv_emitter',
+        D: 'gtceu:glass_lens',
+        E: '#gtceu:circuits/iv'
+    });
+
+    event.recipes.gtceu.assembler('assemble_portal_frame')
+        .itemInputs('8x gtceu:ender_eye_plate', 'minecraft:stone_bricks')
+        .inputFluids('minecraft:lava 16000')
+        .itemOutputs('minecraft:end_portal_frame')
+        .cleanroom(CleanroomType.CLEANROOM)
+        .duration(600)
+        .EUt(1920)
+
+    event.shaped('ae2:condenser', [
+        'ABA',
+        'BCB',
+        'ABA'
+    ], {
+        A: 'gtceu:dense_futura_alloy_plate',
+        B: 'ae2:quartz_glass',
+        C: 'ae2:fluix_dust'
+    });
+
 });

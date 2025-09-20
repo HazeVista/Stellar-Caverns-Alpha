@@ -93,6 +93,45 @@
 			x: -2.0d
 			y: -0.5d
 		}
+		{
+			description: [
+				"These make getting around a large base easier. "
+				""
+				"You can use them like elevators by placing them over each other."
+			]
+			icon: "travelanchors:travel_staff"
+			id: "5A36CEC5B2AA7FCD"
+			rewards: [{
+				id: "794A448F24A3C70F"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "travelanchors:range"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.75d
+			tasks: [
+				{
+					id: "2CDD3A3892DC2AD1"
+					item: "travelanchors:travel_staff"
+					type: "item"
+				}
+				{
+					id: "46B18A27B903B955"
+					item: "travelanchors:travel_anchor"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -1.5d
+		}
 	]
 	title: "Quality of Life"
 }

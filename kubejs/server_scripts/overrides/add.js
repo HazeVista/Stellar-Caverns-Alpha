@@ -431,7 +431,7 @@
     ], {
         A: 'minecraft:furnace',
         B: '#gtceu:circuits/mv',
-        C: 'gtceu:heat_proof_machine_casing',
+        C: 'gtceu:heatproof_machine_casing',
         D: 'gtceu:copper_single_cable'
     });
 });

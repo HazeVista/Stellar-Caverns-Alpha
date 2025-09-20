@@ -26,7 +26,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                     .or(Predicates.abilities(PartAbility.INPUT_ENERGY).setExactLimit(1)))
                 .where('#', Predicates.any())
                 .where('B', Predicates.blocks('gtceu:steel_frame'))
-                .where('C', Predicates.blocks('gtceu:steel_pipe_casing'))
+                .where('C', Predicates.blocks('gtceu:bronze_pipe_casing'))
                 .where('D', Predicates.blocks('gtceu:tempered_glass'))
                 .where('@', Predicates.controller(Predicates.blocks(definition.get())))
                 .build())

@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
         .EUt(400)
 
     event.recipes.gtceu.assembler('assembler_stack_3')
-        .itemInputs('sophisticatedbackpacks:stack_upgrade_tier_2', '#gtceu:circuits/ev', 'gtceu:netherite_plate')
+        .itemInputs('sophisticatedbackpacks:stack_upgrade_tier_2', '#gtceu:circuits/ev', 'gtceu:diamond_plate')
         .itemOutputs('sophisticatedbackpacks:stack_upgrade_tier_3')
         .duration(400)
         .EUt(1600)
