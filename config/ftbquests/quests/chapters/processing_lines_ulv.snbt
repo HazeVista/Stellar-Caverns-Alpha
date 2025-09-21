@@ -383,19 +383,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["430190557F3362AB"]
-			id: "07947FDE2083BB82"
-			shape: "octagon"
-			size: 1.25d
-			tasks: [{
-				id: "1322A663CD153DFE"
-				item: "gtceu:ulv_thermal_generator"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -5.5d
-		}
-		{
 			dependencies: [
 				"5BF9E50B012DFD2F"
 				"3BE90BC2520E1AA6"
@@ -628,11 +615,12 @@
 				"736C0F093F84AE0E"
 			]
 			description: ["Your generators will output water as a \"waste product\""]
+			icon: "minecraft:water_bucket"
 			id: "1D869C87485EC5EE"
 			tasks: [{
-				id: "2416DDF01467C03B"
-				item: "minecraft:water_bucket"
-				type: "item"
+				id: "33BDF730CFA190F4"
+				title: "Water Byproduct"
+				type: "checkmark"
 			}]
 			x: -2.0d
 			y: -7.5d
@@ -1199,6 +1187,19 @@
 			]
 			x: 3.5d
 			y: -7.5d
+		}
+		{
+			dependencies: ["39F8A9B06282651F"]
+			id: "07947FDE2083BB82"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "1322A663CD153DFE"
+				item: "gtceu:ulv_thermal_generator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
 		}
 	]
 	title: "Chapter 1-2"
