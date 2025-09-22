@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
     // event.recipes.gtceu.autoclave('lavaclave_raw_')
     //     .inputFluids('minecraft:lava 1000')
     //     .itemInputs('gtceu:_dust')
-    //     .itemOutputs('gtceu:raw_')
+    //     .chancedOutput('gtceu:raw_', 2500, 250)
     //     .duration(600)
     //     .EUt(384)
 });
