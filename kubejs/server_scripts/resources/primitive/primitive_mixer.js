@@ -24,4 +24,18 @@ ServerEvents.recipes(event => {
         .itemOutputs('4x gtceu:bronze_dust')
         .duration(400)
         .EUt(7)
+
+    event.recipes.gtceu.primitive_mixer('prim_clay_mix')
+        .itemInputs('gtceu:dirt_dust')
+        .inputFluids('minecraft:water 250')
+        .itemOutputs('minecraft:clay_ball')
+        .duration(20)
+        .EUt(2)
+
+    event.recipes.gtceu.mixer('clay_mix')
+        .itemInputs('gtceu:dirt_dust')
+        .inputFluids('minecraft:water 144')
+        .itemOutputs('minecraft:clay_ball')
+        .duration(20)
+        .EUt(2)
 });
