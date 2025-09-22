@@ -7,6 +7,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:electric_blast_furnace/titanium_from_tetrachloride'})
     event.remove({id: 'gtceu:large_chemical_reactor/titanium_tetrachloride'})
     event.remove({id: 'gtceu:chemical_reactor/titanium_tetrachloride'})
+    event.remove({id: 'gtceu:coke_oven/log_to_charcoal'})
 
     event.remove({id: 'gtceu:shaped/mv_lathe'})
     event.remove({id: 'gtceu:shaped/mv_macerator'})

@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.primitive_maceration('tuffaceous_slurry_residue_dust')
         .itemInputs('kubejs:tuffaceous_slurry_residue_cake')
         .itemOutputs(Item.of('20x gtceu:concentrated_tuffaceous_slurry_residue_dust'))
-        .duration(100)
+        .duration(200)
         .EUt(2)
 
     event.recipes.gtceu.primitive_sifter('tuffaceous_residue_sifting')
